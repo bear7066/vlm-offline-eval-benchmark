@@ -1,0 +1,170 @@
+開始解析紀錄檔: gemma-3-4b-8frames/falling_off_bike.log
+成功解析出 20 筆待評估紀錄。
+
+🚀 開始執行 LLM-as-a-Judge 評估...
+
+[1/20] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_F5rWXJiw4Z4.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Mountain biker navigating a challenging, wooded trail.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Incorrect action; says navigating instead of falling. Concise but adds unrelated trail details.
+--------------------------------------------------
+[2/20] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_RluniDxJ-io.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Person riding a scooter falls into a muddy pit.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 4
+Reason: Captures falling, but wrong vehicle (scooter vs bike) and hallucinates muddy pit; concise though.
+--------------------------------------------------
+[3/20] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_SocGMDzqthw.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Cyclist crashes into a car in a street accident.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Misidentifies action; adds car accident detail; concise but incorrect.
+--------------------------------------------------
+[4/20] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_qKScacoGAwE.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: A man and child fall off a bicycle.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 10
+Reason: Correctly captures falling off bike; concise and relevant; no clear hallucinations.
+--------------------------------------------------
+[5/20] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_ggi3XwH4vPo.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Man falls off bike in muddy, chaotic situation.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 8
+Reason: Correct core action and concise, but adds speculative subject and extra scene details.
+--------------------------------------------------
+[6/20] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_W6M1Y_RYQIY.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Child attempts a bike stunt, resulting in a fall.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 7
+Reason: Captures falling, concise, but adds 'child' and 'stunt'; doesn't specify falling off bike.
+--------------------------------------------------
+[7/20] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_AxMf6X5_A3A.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Person riding a bike on a paved path.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Misses core action (falling), says riding instead; concise but adds possibly irrelevant “paved path” detail.
+--------------------------------------------------
+[8/20] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_KZZ2ySZ2oC8.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Man falls off a small bicycle on the road.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 9
+Reason: Correct core action and under 10 words; minor extra details.
+--------------------------------------------------
+[9/20] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_4VpUtUGcJzE.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Kids performing tricks on bicycles in a park.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Misses falling action; mentions tricks, kids, park—hallucinated. Concise but not relevant to core action.
+--------------------------------------------------
+[10/20] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_7qZvo1A3MRQ.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Person riding a bike through a cluttered yard.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Misses falling action; says riding. Adds unnecessary scene detail; though concise.
+--------------------------------------------------
+[11/20] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_I10wpW-lYPM.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Child falls off bike in a grassy park.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 9
+Reason: Correct core action and concise; includes extra scene detail not required and potentially unnecessary.
+--------------------------------------------------
+[12/20] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_vg4T4Ts3KdU.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Man riding a bike through dusty, challenging terrain.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Misidentifies action; says riding, not falling. Adds unverified details despite brevity.
+--------------------------------------------------
+[13/20] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_GNjsTEp_J8E.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Person riding a bike across various wooden structures.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Misidentifies action; says riding instead of falling. Adds possibly irrelevant wooden structures despite concision.
+--------------------------------------------------
+[14/20] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_u386WjrxTuM.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Boy jumps into a pond on a bicycle.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Incorrect action; adds pond and boy details. Concise but not matching "falling off bike."
+--------------------------------------------------
+[15/20] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_0US_tIy2xAg.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Boy riding a bike over a ramp.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Incorrect action; states riding not falling; hallucinates boy and ramp.
+--------------------------------------------------
+[16/20] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_AVLCPu4UaPE.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Child attempts to ride bike, then falls over.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 9
+Reason: Correctly captures falling off bike, concise; minor extra detail about child.
+--------------------------------------------------
+[17/20] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_puUZXLmpJKI.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Person sliding across grass, wearing a helmet.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 3
+Reason: Misses “falling off bike”; describes sliding instead. Concise but adds possibly hallucinated helmet and grass.
+--------------------------------------------------
+[18/20] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_0uf2P7BX1vs.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Man falls off a trampoline while riding a bike.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 5
+Reason: Captures falling and bike, but misidentifies object and hallucinates trampoline.
+--------------------------------------------------
+[19/20] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_wWEnYiHzorg.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Child falls off bike in a muddy alley.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 9
+Reason: Correct action, concise under 10 words; minor extra details (child, muddy alley) but still relevant.
+--------------------------------------------------
+[20/20] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_G_w2dLWeQfY.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: A bike crash results in a fall on grass.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 9
+Reason: Accurately conveys falling off a bike; concise. Minor unnecessary detail (“on grass”).
+--------------------------------------------------
+
+📊 評估總結
+總分: 100
+平均分: 5.00
+有效樣本數: 20

@@ -1,0 +1,211 @@
+載入模型與處理器: google/gemma-3-4b-it ... 
+
+
+從 ./dataset/face_planting 尋找，共找到 46 支影片。
+
+開始測試，隨機抽取 20 支影片進行推論...
+
+Hardware Name: Tesla V100-SXM2-32GB
+Fixed Frames : 8
+
+============================================================
+[1/20] 處理影片: ./dataset/face_planting/faceplanting_RhL1gAwe9K4.mp4
+影片長度: 6.03 sec
+Average Query Latency: 8.56 sec
+Frames Per Second: 0.93
+Throughput: 1.05 tokens/sec
+模型回答: People attempting to repair a broken trampoline.
+============================================================
+
+============================================================
+[2/20] 處理影片: ./dataset/face_planting/faceplanting_Us1OJs0UxE0.mp4
+影片長度: 11.03 sec
+Average Query Latency: 8.48 sec
+Frames Per Second: 0.94
+Throughput: 1.18 tokens/sec
+模型回答: Child slides down stairs in a laundry basket.
+============================================================
+
+============================================================
+[3/20] 處理影片: ./dataset/face_planting/faceplanting_DnxygkTssDc.mp4
+影片長度: 14.04 sec
+Average Query Latency: 8.50 sec
+Frames Per Second: 0.94
+Throughput: 1.18 tokens/sec
+模型回答: Baby doll nestled amongst toys and wrapping paper.
+============================================================
+
+============================================================
+[4/20] 處理影片: ./dataset/face_planting/faceplanting_e7AnmQTKegM.mp4
+影片長度: 11.04 sec
+Average Query Latency: 8.62 sec
+Frames Per Second: 0.93
+Throughput: 1.39 tokens/sec
+模型回答: Snowboarder enjoying a snowy, icy mountain run.
+============================================================
+
+============================================================
+[5/20] 處理影片: ./dataset/face_planting/faceplanting_gfO5b9MkeYw.mp4
+影片長度: 12.57 sec
+Average Query Latency: 8.56 sec
+Frames Per Second: 0.93
+Throughput: 1.28 tokens/sec
+模型回答: Cheerleader falls during a tumbling stunt routine.
+============================================================
+
+============================================================
+[6/20] 處理影片: ./dataset/face_planting/faceplanting_X7ztDnayQAo.mp4
+影片長度: 10.04 sec
+Average Query Latency: 8.76 sec
+Frames Per Second: 0.91
+Throughput: 1.60 tokens/sec
+模型回答: People are playfully, and somewhat aggressively, jumping on a child.
+============================================================
+
+============================================================
+[7/20] 處理影片: ./dataset/face_planting/faceplanting_Z-beIVl_wPs.mp4
+影片長度: 14.92 sec
+Average Query Latency: 8.51 sec
+Frames Per Second: 0.94
+Throughput: 1.18 tokens/sec
+模型回答: People repeatedly failing to execute a beach jump.
+============================================================
+
+============================================================
+[8/20] 處理影片: ./dataset/face_planting/faceplanting_T4wf6w_HqUs.mp4
+影片長度: 9.10 sec
+Average Query Latency: 8.51 sec
+Frames Per Second: 0.94
+Throughput: 1.18 tokens/sec
+模型回答: Person falls and lies injured in the snow.
+============================================================
+
+============================================================
+[9/20] 處理影片: ./dataset/face_planting/faceplanting_11YmgupLXYE.mp4
+影片長度: 12.04 sec
+Average Query Latency: 8.52 sec
+Frames Per Second: 0.94
+Throughput: 1.17 tokens/sec
+模型回答: A person performs a complex acrobatic flip.
+============================================================
+
+============================================================
+[10/20] 處理影片: ./dataset/face_planting/faceplanting_mk9eyW1bzAU.mp4
+影片長度: 12.05 sec
+Average Query Latency: 8.53 sec
+Frames Per Second: 0.94
+Throughput: 1.17 tokens/sec
+模型回答: Beachgoers playfully wrestle in the crashing waves.
+============================================================
+
+============================================================
+[11/20] 處理影片: ./dataset/face_planting/faceplanting_o5FiLY-wObk.mp4
+影片長度: 10.07 sec
+Average Query Latency: 8.61 sec
+Frames Per Second: 0.93
+Throughput: 1.39 tokens/sec
+模型回答: Young man falls into muddy water, struggling to escape.
+============================================================
+
+============================================================
+[12/20] 處理影片: ./dataset/face_planting/faceplanting_-dLXIIjWS-c.mp4
+影片長度: 8.03 sec
+Average Query Latency: 8.69 sec
+Frames Per Second: 0.92
+Throughput: 1.50 tokens/sec
+模型回答: Child sledding down a snow-filled, carved path.
+============================================================
+
+============================================================
+[13/20] 處理影片: ./dataset/face_planting/faceplanting_SBWpjWPvFho.mp4
+影片長度: 12.91 sec
+Average Query Latency: 8.44 sec
+Frames Per Second: 0.95
+Throughput: 1.07 tokens/sec
+模型回答: Students appear to be restraining a classmate.
+============================================================
+
+============================================================
+[14/20] 處理影片: ./dataset/face_planting/faceplanting_m84Zlf4UxK0.mp4
+影片長度: 13.38 sec
+Average Query Latency: 8.51 sec
+Frames Per Second: 0.94
+Throughput: 1.18 tokens/sec
+模型回答: Child struggles to navigate a muddy obstacle course.
+============================================================
+
+============================================================
+[15/20] 處理影片: ./dataset/face_planting/faceplanting_neeVaqbf7wI.mp4
+影片長度: 10.80 sec
+Average Query Latency: 8.52 sec
+Frames Per Second: 0.94
+Throughput: 1.17 tokens/sec
+模型回答: People are destroying a table full of pills.
+============================================================
+
+============================================================
+[16/20] 處理影片: ./dataset/face_planting/faceplanting_4FgYoZSabV0.mp4
+影片長度: 12.40 sec
+Average Query Latency: 8.51 sec
+Frames Per Second: 0.94
+Throughput: 1.18 tokens/sec
+模型回答: Mountain biker repeatedly falls while attempting a trick.
+============================================================
+
+============================================================
+[17/20] 處理影片: ./dataset/face_planting/faceplanting_7IWBLXPrxoQ.mp4
+影片長度: 9.60 sec
+Average Query Latency: 8.57 sec
+Frames Per Second: 0.93
+Throughput: 1.28 tokens/sec
+模型回答: People skiing or sledding down a snowy hillside.
+============================================================
+
+============================================================
+[18/20] 處理影片: ./dataset/face_planting/faceplanting_JR9LTG9F4j0.mp4
+影片長度: 12.67 sec
+Average Query Latency: 8.45 sec
+Frames Per Second: 0.95
+Throughput: 1.07 tokens/sec
+模型回答: Person snowboarding on a snowy mountain slope.
+============================================================
+
+============================================================
+[19/20] 處理影片: ./dataset/face_planting/faceplanting_wjmyNaK6TRc.mp4
+影片長度: 10.03 sec
+Average Query Latency: 8.63 sec
+Frames Per Second: 0.93
+Throughput: 1.39 tokens/sec
+模型回答: Boat wakes up a waterskier on a lake.
+============================================================
+
+============================================================
+[20/20] 處理影片: ./dataset/face_planting/faceplanting_XmpAlvVJyfQ.mp4
+影片長度: 12.96 sec
+Average Query Latency: 8.50 sec
+Frames Per Second: 0.94
+Throughput: 1.18 tokens/sec
+模型回答: Person sliding on a snowboard in the snow.
+============================================================
+
+==================== Benchmark Summary ====================
+
+Input
+	Model: google/gemma-3-4b-it
+	Hardware Name  : Tesla V100-SXM2-32GB
+	Video Dir      : ./dataset/face_planting
+	Fixed Frames   : 8
+
+
+Output
+	Average Query Latency: 8.5484 sec
+	Frames Per Second: 0.9358
+	Equivalent Real-time Latency (RTF): 0.7574
+	Peak VRAM Usage: 27.0484 GB
+	Throughput: 1.2400 tokens/sec
+	Power Consumption: 71.67 W
+
+
+成功處理影片數: 20 / 20
+平均影片長度: 11.2859 sec
+詳細測試結果已記錄於: gemma-3-4b-8frames/face_planting.log

@@ -71,7 +71,7 @@ def get_video_duration(video_reader):
 	return None
 
 
-def sample_frames(video_path, num_frames=8):
+def sample_frames(video_path, num_frames=16):
 	"""
 	使用 decord 讀取影片並均勻抽幀
 	回傳:
@@ -110,9 +110,9 @@ def main():
 					 help="Directory containing mp4/mkv files")
 	parser.add_argument("--model_id", type=str, default="google/gemma-3-4b-it",
 					 help="Hugging Face model ID")
-	parser.add_argument("--num_frames", type=int, default=8,
+	parser.add_argument("--num_frames", type=int, default=16,
 					 help="Fixed number of sampled frames per video")
-	parser.add_argument("--sample_size", type=int, default=10,
+	parser.add_argument("--sample_size", type=int, default=20,
 					 help="Number of videos to randomly sample")
 	args = parser.parse_args()
 
@@ -124,7 +124,7 @@ def main():
 	model_id = args.model_id
 	model_name = model_id.split("/")[-1].replace("-it", "")
 
-	log_dir = f"{model_name}_{args.num_frames}frames"
+	log_dir = f"{model_name}-{args.num_frames}frames"
 	os.makedirs(log_dir, exist_ok=True)
 	main_log_file = os.path.join(log_dir, f"{ground_truth_name}.log")
 
@@ -258,7 +258,7 @@ def main():
 			logging.info(f"Frames Per Second: {sampled_fps:.2f}")
 			logging.info(f"Throughput: {tps:.2f} tokens/sec")
 			logging.info(f"模型回答: {response.strip()}")
-			logging.info("-" * 40)
+			logging.info("=" * 60)
 
 			results.append({
 				"video": v_path,

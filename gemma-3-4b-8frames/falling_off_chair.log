@@ -1,0 +1,211 @@
+載入模型與處理器: google/gemma-3-4b-it ... 
+
+
+從 ./dataset/falling_off_chair 尋找，共找到 43 支影片。
+
+開始測試，隨機抽取 20 支影片進行推論...
+
+Hardware Name: Tesla V100-SXM2-32GB
+Fixed Frames : 8
+
+============================================================
+[1/20] 處理影片: ./dataset/falling_off_chair/falling_off_chair_WD87x58wRsE.mp4
+影片長度: 10.03 sec
+Average Query Latency: 8.61 sec
+Frames Per Second: 0.93
+Throughput: 1.16 tokens/sec
+模型回答: Person attempting a precarious, unbalanced chair stunt.
+============================================================
+
+============================================================
+[2/20] 處理影片: ./dataset/falling_off_chair/falling_off_chair_GotjwB_SgI0.mp4
+影片長度: 11.05 sec
+Average Query Latency: 8.43 sec
+Frames Per Second: 0.95
+Throughput: 1.07 tokens/sec
+模型回答: Person sitting in a dimly lit room.
+============================================================
+
+============================================================
+[3/20] 處理影片: ./dataset/falling_off_chair/falling_off_chair_t3N44ZENWIQ.mp4
+影片長度: 11.71 sec
+Average Query Latency: 8.53 sec
+Frames Per Second: 0.94
+Throughput: 1.29 tokens/sec
+模型回答: A person falls through a hole in the ceiling.
+============================================================
+
+============================================================
+[4/20] 處理影片: ./dataset/falling_off_chair/falling_off_chair_tCZvKt-dKdY.mp4
+影片長度: 5.86 sec
+Average Query Latency: 8.50 sec
+Frames Per Second: 0.94
+Throughput: 1.18 tokens/sec
+模型回答: Student is crawling under a table in class.
+============================================================
+
+============================================================
+[5/20] 處理影片: ./dataset/falling_off_chair/falling_off_chair_uG1ZPoaMync.mp4
+影片長度: 9.54 sec
+Average Query Latency: 8.56 sec
+Frames Per Second: 0.93
+Throughput: 1.29 tokens/sec
+模型回答: Man falls from deck after wearing a Viking hat.
+============================================================
+
+============================================================
+[6/20] 處理影片: ./dataset/falling_off_chair/falling_off_chair_IuWPZJHWVYA.mp4
+影片長度: 9.83 sec
+Average Query Latency: 8.64 sec
+Frames Per Second: 0.93
+Throughput: 1.39 tokens/sec
+模型回答: People are playfully suspended on a large, blue surface.
+============================================================
+
+============================================================
+[7/20] 處理影片: ./dataset/falling_off_chair/falling_off_chair_Zi0fm17UBZE.mp4
+影片長度: 10.06 sec
+Average Query Latency: 8.51 sec
+Frames Per Second: 0.94
+Throughput: 1.18 tokens/sec
+模型回答: Multiple people attacked a man in a bar.
+============================================================
+
+============================================================
+[8/20] 處理影片: ./dataset/falling_off_chair/falling_off_chair_fxKsubHkXMc.mp4
+影片長度: 2.63 sec
+Average Query Latency: 8.57 sec
+Frames Per Second: 0.93
+Throughput: 1.28 tokens/sec
+模型回答: Man balancing on stacked folding chairs in a hall.
+============================================================
+
+============================================================
+[9/20] 處理影片: ./dataset/falling_off_chair/falling_off_chair_y1OlPGzMbNA.mp4
+影片長度: 13.43 sec
+Average Query Latency: 8.63 sec
+Frames Per Second: 0.93
+Throughput: 1.39 tokens/sec
+模型回答: Girl playfully topples chair, causing a chaotic scene.
+============================================================
+
+============================================================
+[10/20] 處理影片: ./dataset/falling_off_chair/falling_off_chair_8LsomoWHlK0.mp4
+影片長度: 13.40 sec
+Average Query Latency: 8.45 sec
+Frames Per Second: 0.95
+Throughput: 1.07 tokens/sec
+模型回答: Woman falls and rolls on the floor.
+============================================================
+
+============================================================
+[11/20] 處理影片: ./dataset/falling_off_chair/falling_off_chair_vSyIph8s85U.mp4
+影片長度: 12.92 sec
+Average Query Latency: 8.50 sec
+Frames Per Second: 0.94
+Throughput: 1.18 tokens/sec
+模型回答: Person falls awkwardly against a wall and curtains.
+============================================================
+
+============================================================
+[12/20] 處理影片: ./dataset/falling_off_chair/falling_off_chair_QQmQnfEXdOE.mp4
+影片長度: 13.71 sec
+Average Query Latency: 8.47 sec
+Frames Per Second: 0.94
+Throughput: 1.06 tokens/sec
+模型回答: Person collapses amidst furniture and computer equipment.
+============================================================
+
+============================================================
+[13/20] 處理影片: ./dataset/falling_off_chair/falling_off_chair_-5hw88bD4mE.mp4
+影片長度: 13.04 sec
+Average Query Latency: 8.51 sec
+Frames Per Second: 0.94
+Throughput: 1.17 tokens/sec
+模型回答: A physical altercation occurs in a classroom setting.
+============================================================
+
+============================================================
+[14/20] 處理影片: ./dataset/falling_off_chair/falling_off_chair_3Jd_MXqwIKc.mp4
+影片長度: 6.07 sec
+Average Query Latency: 8.57 sec
+Frames Per Second: 0.93
+Throughput: 1.28 tokens/sec
+模型回答: Man appears to be causing disruption in an office.
+============================================================
+
+============================================================
+[15/20] 處理影片: ./dataset/falling_off_chair/falling_off_chair_f6ZwvW_FD7U.mp4
+影片長度: 14.71 sec
+Average Query Latency: 8.45 sec
+Frames Per Second: 0.95
+Throughput: 1.06 tokens/sec
+模型回答: A person is violently striking a chair.
+============================================================
+
+============================================================
+[16/20] 處理影片: ./dataset/falling_off_chair/falling_off_chair_p8o6EkXONhc.mp4
+影片長度: 14.53 sec
+Average Query Latency: 8.44 sec
+Frames Per Second: 0.95
+Throughput: 1.07 tokens/sec
+模型回答: Physical altercation occurring indoors, unclear context.
+============================================================
+
+============================================================
+[17/20] 處理影片: ./dataset/falling_off_chair/falling_off_chair_f2nOuIPchP8.mp4
+影片長度: 14.44 sec
+Average Query Latency: 8.51 sec
+Frames Per Second: 0.94
+Throughput: 1.18 tokens/sec
+模型回答: Girl smiles and waves in a home setting.
+============================================================
+
+============================================================
+[18/20] 處理影片: ./dataset/falling_off_chair/falling_off_chair_6Bkk_IljKP4.mp4
+影片長度: 10.04 sec
+Average Query Latency: 8.58 sec
+Frames Per Second: 0.93
+Throughput: 1.28 tokens/sec
+模型回答: Men engage in a violent, physical altercation outdoors.
+============================================================
+
+============================================================
+[19/20] 處理影片: ./dataset/falling_off_chair/falling_off_chair_XXN3CgCyEx4.mp4
+影片長度: 10.08 sec
+Average Query Latency: 8.58 sec
+Frames Per Second: 0.93
+Throughput: 1.28 tokens/sec
+模型回答: Girl repeatedly falls while attempting to flip a chair.
+============================================================
+
+============================================================
+[20/20] 處理影片: ./dataset/falling_off_chair/falling_off_chair_qkCEuMm9vnY.mp4
+影片長度: 10.73 sec
+Average Query Latency: 8.45 sec
+Frames Per Second: 0.95
+Throughput: 1.07 tokens/sec
+模型回答: A person violently attacks a parked car.
+============================================================
+
+==================== Benchmark Summary ====================
+
+Input
+	Model: google/gemma-3-4b-it
+	Hardware Name  : Tesla V100-SXM2-32GB
+	Video Dir      : ./dataset/falling_off_chair
+	Fixed Frames   : 8
+
+
+Output
+	Average Query Latency: 8.5251 sec
+	Frames Per Second: 0.9384
+	Equivalent Real-time Latency (RTF): 0.7828
+	Peak VRAM Usage: 27.0484 GB
+	Throughput: 1.1965 tokens/sec
+	Power Consumption: 71.04 W
+
+
+成功處理影片數: 20 / 20
+平均影片長度: 10.8911 sec
+詳細測試結果已記錄於: gemma-3-4b-8frames/falling_off_chair.log
