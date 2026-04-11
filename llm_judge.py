@@ -98,7 +98,7 @@ Reason: [brief explanation in under 20 words]
 def main():
 	parser = argparse.ArgumentParser(description="Use GPT to judge VLM results from a log file.")
 	parser.add_argument("--video_dir", type=str, default="./dataset/climbing_stair")
-	parser.add_argument("--model_id", type=str, default="google/gemma-3-4b-it")
+	parser.add_argument("--model_id", type=str, default="google/gemma-4-E4B-it")
 	parser.add_argument("--num_frames", type=int, default=16, help="Number of sampled frames used in benchmark")
 	args = parser.parse_args()
 

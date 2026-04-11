@@ -7,7 +7,8 @@ import argparse
 import subprocess
 
 import torch
-from transformers import AutoProcessor, AutoModelForCausalLM
+from threading import Thread
+from transformers import AutoProcessor, AutoModelForCausalLM, TextIteratorStreamer
 from transformers.utils import logging as transformers_logging
 import decord
 import numpy as np
@@ -71,7 +72,7 @@ def get_video_duration(video_reader):
 	return None
 
 
-def sample_frames(video_path, num_frames=16):
+def sample_frames(video_path, num_frames=8):
 	"""
 	使用 decord 讀取影片並均勻抽幀
 	回傳:
@@ -108,9 +109,9 @@ def main():
 	parser = argparse.ArgumentParser(description="Run VLM inference benchmark on videos")
 	parser.add_argument("--video_dir", type=str, default="./dataset/climbing_stair",
 					 help="Directory containing mp4/mkv files")
-	parser.add_argument("--model_id", type=str, default="google/gemma-3-4b-it",
+	parser.add_argument("--model_id", type=str, default="google/gemma-4-E4B-it",
 					 help="Hugging Face model ID")
-	parser.add_argument("--num_frames", type=int, default=16,
+	parser.add_argument("--num_frames", type=int, default=8,
 					 help="Fixed number of sampled frames per video")
 	parser.add_argument("--sample_size", type=int, default=20,
 					 help="Number of videos to randomly sample")
@@ -182,6 +183,7 @@ def main():
 	total_video_duration = 0.0
 	valid_duration_count = 0
 	power_readings = []
+	ttft_values_sec = []
 
 	for i, v_path in enumerate(sampled_videos):
 		logging.info(f"\n{'=' * 60}")
@@ -219,28 +221,61 @@ def main():
 			if "pixel_values" in inputs:
 				inputs["pixel_values"] = inputs["pixel_values"].to(torch.bfloat16)
 
-			start_power = get_gpu_power_watts()
+			streamer = TextIteratorStreamer(
+					processor.tokenizer,
+					skip_prompt=True,
+					skip_special_tokens=True
+					)
+
+			generation_kwargs = dict(
+					**inputs,
+					max_new_tokens=150,
+					do_sample=False,
+					streamer=streamer
+					)
+
+			start_power = get_gpu_power_watts()						
 			start_time = time.time()
 
-			with torch.no_grad():
-				output_ids = model.generate(
-						**inputs,
-						max_new_tokens=150,
-						do_sample=False,
-						temperature=None,
-						top_p=None
-						)
+			thread = Thread(
+					target=model.generate,
+					kwargs=generation_kwargs
+					)
+			thread.start()
+
+			first_chunk_time = None
+			response_chunks = []
+
+			for new_text in streamer:
+				now = time.time()
+				if first_chunk_time is None and new_text:
+					first_chunk_time = now
+				response_chunks.append(new_text)
+
+			thread.join()
 
 			end_time = time.time()
-			end_power = get_gpu_power_watts()
+			end_power = get_gpu_power_watts()						
 
-			generated_ids = output_ids[0][inputs["input_ids"].shape[1]:]
-			response = processor.decode(generated_ids, skip_special_tokens=True)
+			response = "".join(response_chunks).strip()
 
-			elapsed = end_time - start_time
+			elapsed_sec = end_time - start_time
+			elapsed_ms = elapsed_sec * 1000.0
+
+			ttft_sec = (
+					first_chunk_time - start_time
+					if first_chunk_time is not None else None
+					)
+			ttft_ms = ttft_sec * 1000.0 if ttft_sec is not None else None
+
+			generated_ids = processor.tokenizer.encode(
+					response,
+					add_special_tokens=False
+					)
 			num_generated_tokens = len(generated_ids)
-			tps = num_generated_tokens / elapsed if elapsed > 0 else 0.0
-			sampled_fps = len(frames) / elapsed if elapsed > 0 else 0.0
+
+			tps = num_generated_tokens / elapsed_sec if elapsed_sec > 0 else 0.0
+			sampled_fps = len(frames) / elapsed_sec if elapsed_sec > 0 else 0.0
 
 			if start_power is not None and end_power is not None:
 				power_readings.append((start_power + end_power) / 2.0)
@@ -254,31 +289,38 @@ def main():
 				valid_duration_count += 1
 
 			logging.info(f"影片長度: {video_duration_sec:.2f} sec" if video_duration_sec is not None else "影片長度: N/A")
-			logging.info(f"Average Query Latency: {elapsed:.2f} sec")
+			logging.info(f"Average Query Latency: {elapsed_ms:.2f} ms")
+			logging.info(f"TTFT: {ttft_ms:.2f} ms" if ttft_ms is not None else "TTFT: N/A")
 			logging.info(f"Frames Per Second: {sampled_fps:.2f}")
 			logging.info(f"Throughput: {tps:.2f} tokens/sec")
-			logging.info(f"模型回答: {response.strip()}")
+			logging.info(f"模型回答: {response}")
 			logging.info("=" * 60)
 
 			results.append({
 				"video": v_path,
-				"query_latency_sec": elapsed,
+				"query_latency_sec": elapsed_sec,
+				"query_latency_ms": elapsed_ms,
+				"ttft_ms": ttft_ms,
 				"video_duration_sec": video_duration_sec,
 				"tokens": num_generated_tokens,
 				"throughput_tps": tps,
 				"frames_per_second": sampled_fps,
-				"response": response.strip()
+				"response": response
 				})
 
-			total_time += elapsed
+			total_time += elapsed_sec
 			total_generated_tokens += num_generated_tokens
 			successful_runs += 1
+
+			if ttft_sec is not None:
+				ttft_values_sec.append(ttft_sec)
 
 		except Exception as e:
 			logging.error(f"❌ 推論過程中發生錯誤: {e}")
 
 	if successful_runs > 0:
-		avg_query_latency = total_time / successful_runs
+		avg_query_latency_sec = total_time / successful_runs
+		avg_query_latency_ms = avg_query_latency_sec * 1000.0
 		avg_throughput = total_generated_tokens / total_time if total_time > 0 else 0.0
 		avg_frames_per_second = (args.num_frames * successful_runs) / total_time if total_time > 0 else 0.0
 
@@ -290,7 +332,7 @@ def main():
 		# Equivalent Real-time Latency = 平均推論時間 / 平均影片長度
 		# < 1 代表 faster than real-time
 		equivalent_real_time_latency = (
-				avg_query_latency / avg_video_duration
+				avg_query_latency_sec / avg_video_duration
 				if avg_video_duration and avg_video_duration > 0 else None
 				)
 
@@ -303,20 +345,24 @@ def main():
 				if len(power_readings) > 0 else None
 				)
 
+		avg_ttft_ms = (
+				(sum(ttft_values_sec) / len(ttft_values_sec)) * 1000.0
+				if len(ttft_values_sec) > 0 else None
+				)
+
 		logging.info(f"\n{'=' * 20} Benchmark Summary {'=' * 20}\n")
 		logging.info(f"Input")
 		logging.info(f"	Model: {model_id}")
 		logging.info(f"	Hardware Name  : {hardware_name}")
 		logging.info(f"	Video Dir      : {video_dir}")
 		logging.info(f"	Fixed Frames   : {args.num_frames}")
-		logging.info("\n")
-		logging.info("Output")
-		logging.info(f"	Average Query Latency: {avg_query_latency:.4f} sec")
+		logging.info("\nOutput")
+		logging.info(f"	Average Query Latency: {avg_query_latency_ms:.2f} ms")
 		logging.info(f"	Frames Per Second: {avg_frames_per_second:.4f}")
 		if equivalent_real_time_latency is not None:
-			logging.info(f"	Equivalent Real-time Latency (RTF): {equivalent_real_time_latency:.4f}")
+			logging.info(f"	Equivalent Real-time Latency: {equivalent_real_time_latency:.4f}")
 		else:
-			logging.info(f"	Equivalent Real-time Latency (RTF): N/A")
+			logging.info(f"	Equivalent Real-time Latency: N/A")
 		if peak_vram is not None:
 			logging.info(f"	Peak VRAM Usage: {peak_vram:.4f} GB")
 		else:
@@ -326,6 +372,10 @@ def main():
 			logging.info(f"	Power Consumption: {avg_power:.2f} W")
 		else:
 			logging.info(f"Power Consumption: N/A")
+		if avg_ttft_ms is not None:
+			logging.info(f" TTFT: {avg_ttft_ms:.2f} ms")
+		else:
+			logging.info(f" TTFT: N/A")
 
 		logging.info("\n")
 		logging.info(f"成功處理影片數: {successful_runs} / {sample_size}")
