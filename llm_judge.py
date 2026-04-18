@@ -96,7 +96,14 @@ def main():
 	parser.add_argument("--video_dir", type=str, default="./dataset/climbing_stair")
 	parser.add_argument("--model_id", type=str, default="google/gemma-3-4b-it")
 	parser.add_argument("--num_frames", type=int, default=8, help="Number of sampled frames used in benchmark")
-	parser.add_argument("--judge_model", type=str, default="gpt-5", help="Judge model to use (e.g. gpt-5, gpt-4o, gpt-oss-120b)")
+	parser.add_argument("--judge_model", type=str, default="gpt-4o", help="Judge model to use (e.g. gpt-4o, gpt-oss-120b)")
+	parser.add_argument(
+		"--backend",
+		type=str,
+		choices=["openai", "medusa"],
+		default=None,
+		help="LLM backend to use. 'openai' or 'medusa'. Auto-detected from model name if omitted.",
+	)
 	args = parser.parse_args()
 
 	clean_video_dir = os.path.normpath(args.video_dir)
@@ -113,7 +120,7 @@ def main():
 	setup_logging(output_log_file)
 
 	try:
-		llm = get_llm_instance(args.judge_model)
+		llm = get_llm_instance(args.judge_model, backend=args.backend)
 	except Exception as e:
 		logging.error(f"❌ 無法初始化 Judge 模型 '{args.judge_model}': {e}")
 		return

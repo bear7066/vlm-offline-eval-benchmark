@@ -20,16 +20,30 @@ class LLM:
         pass
     
 
-def get_llm_instance(model: str):
-    match model:
-        case "gpt-oss-20b" | "gpt-oss-120b" | "Google-Gemma-3-27B" | "Llama-3.1-70B" | "Llama-3.1-405B-Instruct-FP8":
-            return OuterMedusaLLM(model=model)
+_MEDUSA_MODELS = {"gpt-oss-20b", "gpt-oss-120b", "Google-Gemma-3-27B", "Llama-3.1-70B", "Llama-3.1-405B-Instruct-FP8"}
+_OPENAI_MODELS = {"gpt-4o-mini", "gpt-4o", "gpt-3.5-turbo", "gpt-5"}
 
-        case "gpt-4o-mini" | "gpt-4o" | "gpt-3.5-turbo" | "gpt-5" | "gpt-4o":
-            return OpenAILLM(model=model)
 
-        case _:
-            raise ValueError(f"Unknown model or not supported: {model}")
+def get_llm_instance(model: str, backend: str | None = None):
+    """Return an LLM instance.
+
+    backend: "openai" | "medusa" | None (auto-detect from model name)
+    """
+    resolved = backend
+    if resolved is None:
+        if model in _MEDUSA_MODELS:
+            resolved = "medusa"
+        elif model in _OPENAI_MODELS:
+            resolved = "openai"
+        else:
+            raise ValueError(f"Unknown model '{model}'. Specify --backend explicitly.")
+
+    if resolved == "medusa":
+        return OuterMedusaLLM(model=model)
+    elif resolved == "openai":
+        return OpenAILLM(model=model)
+    else:
+        raise ValueError(f"Unknown backend: {resolved}. Choose 'openai' or 'medusa'.")
 
 
 class OuterMedusaLLM:
