@@ -22,7 +22,7 @@ class LLM:
 
 def get_llm_instance(model: str):
     match model:
-        case "gpt-oss-20b" | "gpt-oss-120b" | "Google-Gemma-3-27B" | "Llama-3.1-70B":
+        case "gpt-oss-20b" | "gpt-oss-120b" | "Google-Gemma-3-27B" | "Llama-3.1-70B" | "Llama-3.1-405B-Instruct-FP8":
             return OuterMedusaLLM(model=model)
 
         case "gpt-4o-mini" | "gpt-4o" | "gpt-3.5-turbo" | "gpt-5" | "gpt-4o":

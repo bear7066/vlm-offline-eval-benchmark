@@ -2,8 +2,7 @@ import os
 import re
 import logging
 import argparse
-from dotenv import load_dotenv
-from openai import OpenAI
+from utils.llm import get_llm_instance
 
 
 def setup_logging(output_filename):
@@ -62,7 +61,7 @@ def extract_score(judge_text):
 	return None
 
 
-def evaluate_with_gpt5(client, answer, label):
+def evaluate_with_llm(llm, answer, label):
 	judge_prompt = f"""
 You are an expert and impartial evaluator for Vision-Language Models (VLMs).
 
@@ -86,20 +85,18 @@ Reason: [brief explanation in under 20 words]
 """
 
 	try:
-		response = client.chat.completions.create(
-				model="gpt-5",
-				messages=[{"role": "user", "content": judge_prompt}],
-				)
-		return response.choices[0].message.content.strip()
+		content, _, _ = llm.generate(judge_prompt)
+		return content.strip()
 	except Exception as e:
 		return f"Judge 評估失敗: {e}"
 
 
 def main():
-	parser = argparse.ArgumentParser(description="Use GPT to judge VLM results from a log file.")
+	parser = argparse.ArgumentParser(description="Use LLM to judge VLM results from a log file.")
 	parser.add_argument("--video_dir", type=str, default="./dataset/climbing_stair")
 	parser.add_argument("--model_id", type=str, default="google/gemma-3-4b-it")
 	parser.add_argument("--num_frames", type=int, default=8, help="Number of sampled frames used in benchmark")
+	parser.add_argument("--judge_model", type=str, default="gpt-5", help="Judge model to use (e.g. gpt-5, gpt-4o, gpt-oss-120b)")
 	args = parser.parse_args()
 
 	clean_video_dir = os.path.normpath(args.video_dir)
@@ -115,14 +112,11 @@ def main():
 
 	setup_logging(output_log_file)
 
-	load_dotenv(override=True)
-	api_key = os.environ.get("OPENAI_API_KEY")
-
-	if not api_key:
-		logging.error("❌ 找不到 OPENAI_API_KEY！")
+	try:
+		llm = get_llm_instance(args.judge_model)
+	except Exception as e:
+		logging.error(f"❌ 無法初始化 Judge 模型 '{args.judge_model}': {e}")
 		return
-
-	client = OpenAI(api_key=api_key)
 
 	logging.info(f"開始解析紀錄檔: {log_file_path}")
 	items_to_judge = parse_log_file(log_file_path)
@@ -146,7 +140,7 @@ def main():
 		logging.info(f"Ground Truth: {label}")
 		logging.info(f"🤖 VLM 回答內容: {answer}")
 
-		judge_result = evaluate_with_gpt5(client, answer, label)
+		judge_result = evaluate_with_llm(llm, answer, label)
 
 		score = extract_score(judge_result)
 		if score is not None:
