@@ -1,0 +1,988 @@
+載入模型與處理器: google/gemma-3-4b-it ... 
+
+
+從 ./dataset/face_planting 尋找，共找到 46 支影片。
+
+開始測試，隨機抽取 46 支影片進行推論...
+
+Hardware Name: Tesla V100-SXM2-32GB
+Fixed Frames : 8
+
+============================================================
+[1/46] 處理影片: ./dataset/face_planting/faceplanting_Te8kzu0-N7I.mp4
+影片長度: 10.03 sec
+Average Query Latency: 17337.15 ms
+TTFT: 8417.50 ms
+Frames Per Second: 0.46
+Throughput: 8.65 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video depicts a group of children and an adult engaged in a playful activity on a driveway. It appears to be a spontaneous, joyful moment of running and playing.
+
+**Specific Observations:**
+
+*   **Initial Setup:** The first few frames show a man in a yellow shirt standing on the driveway, watching a group of children running and playing with a tricycle.
+*   **Child on Tricycle:** A young child is riding a blue tricycle down the driveway.
+*   **Running and Play:** The children are running around the driveway, seemingly chasing or playing a game.
+*   **Moment of Fall:** The last few frames show
+============================================================
+
+============================================================
+[2/46] 處理影片: ./dataset/face_planting/faceplanting_11YmgupLXYE.mp4
+影片長度: 12.04 sec
+Average Query Latency: 17046.39 ms
+TTFT: 8112.80 ms
+Frames Per Second: 0.47
+Throughput: 8.80 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**The central action is a person performing a complex acrobatic maneuver – a handstand with a partner.** 
+
+Here's a breakdown of what's happening in the sequence:
+
+*   **Initial Setup:** The first images show the person preparing for the stunt, likely adjusting their position and getting ready to lift their partner.
+*   **The Flip:** The subsequent images capture the moment of the flip, where the person successfully lifts their partner into a handstand position.
+*   **Maintaining the Position:** The final images show the person and their partner maintaining the handstand, with the person supporting them.
+
+**Context:**
+
+*   The setting appears to
+============================================================
+
+============================================================
+[3/46] 處理影片: ./dataset/face_planting/faceplanting_phVppFzTgkA.mp4
+影片長度: 12.04 sec
+Average Query Latency: 17091.53 ms
+TTFT: 8127.14 ms
+Frames Per Second: 0.47
+Throughput: 8.78 tokens/sec
+模型回答: Here's an analysis of the video based on the frames provided:
+
+**Overall Action:**
+
+The video depicts a dangerous and reckless stunt involving a person attempting to slide down a narrow, concrete channel or trough. The individual repeatedly attempts to slide down, and in several frames, they fall and crash to the ground.
+
+**Specific Observations from the Frames:**
+
+*   **Initial Attempt (Frame 1):** A person is precariously balanced on top of a stack of boxes, seemingly preparing to slide down.
+*   **Falling (Frame 2):** The person is in mid-air, falling downwards.
+*   **Impact (Frame 3 & 4):** The person crashes to the ground, likely with significant
+============================================================
+
+============================================================
+[4/46] 處理影片: ./dataset/face_planting/faceplanting_Oinr3wRnArM.mp4
+影片長度: 4.47 sec
+Average Query Latency: 16970.32 ms
+TTFT: 8132.05 ms
+Frames Per Second: 0.47
+Throughput: 8.84 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video depicts a child joyfully and repeatedly attempting to cross a large, muddy puddle on a golf course. It's clear they are having a lot of fun, despite the messy outcome.
+
+**Detailed Breakdown of the Action:**
+
+*   **Initial Attempts:** The first few frames show the child confidently stepping into the puddle, trying to make it across.
+*   **Falling In:**  As the video progresses, the child repeatedly falls into the mud, often ending up completely submerged.
+*   **Re-Emerging:**  They then pop back up, seemingly undeterred, and try again.
+*   **Final
+============================================================
+
+============================================================
+[5/46] 處理影片: ./dataset/face_planting/faceplanting_4FgYoZSabV0.mp4
+影片長度: 12.40 sec
+Average Query Latency: 17077.85 ms
+TTFT: 8126.56 ms
+Frames Per Second: 0.47
+Throughput: 8.78 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a person attempting a complex and ultimately unsuccessful maneuver on a mountain bike. The rider is attempting to perform a "wheelie flip" or a similar trick, but it goes horribly wrong.
+
+**Sequence of Events (as shown in the images):**
+
+1. **Initial Attempt (Image 1):** The rider is in the middle of a wheelie, leaning way back, preparing for a flip.
+2. **Crash (Images 2-4):** The rider loses control and crashes, tumbling down a steep, sandy embankment. The bike is also involved in the fall.
+3. **Recovery (Image 5
+============================================================
+
+============================================================
+[6/46] 處理影片: ./dataset/face_planting/faceplanting_D9x20LIhb9Y.mp4
+影片長度: 5.47 sec
+Average Query Latency: 16976.64 ms
+TTFT: 8126.61 ms
+Frames Per Second: 0.47
+Throughput: 8.84 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:** The video depicts a child learning to ride a bicycle on a rough, uneven trail. 
+
+**Sequence of Events:**
+
+1.  **Initial Ride (Frames 1-3):** The child is riding the bike, appearing to be gaining some confidence and control.
+2.  **Loss of Control (Frames 4-5):** The child loses balance and falls off the bike.
+3.  **Rolling (Frames 6-7):** The child is rolling along the ground after the fall.
+4.  **Recovery (Frames 8-9):** The child is attempting to get back on the bike,
+============================================================
+
+============================================================
+[7/46] 處理影片: ./dataset/face_planting/faceplanting_Us1OJs0UxE0.mp4
+影片長度: 11.03 sec
+Average Query Latency: 17085.05 ms
+TTFT: 8134.43 ms
+Frames Per Second: 0.47
+Throughput: 8.78 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a young boy attempting to climb a staircase while sitting in a laundry basket. It's a rather unusual and precarious method of ascending the stairs.
+
+**Sequence of Events (as seen in the frames):**
+
+1.  **Initial Climb:** The boy starts climbing the stairs, seated in the laundry basket.
+2.  **Falling:** He loses his balance and falls down the stairs.
+3.  **Pile-Up:** He ends up in a pile with other children (likely siblings or friends) who appear to be trying to help him. 
+
+**Observations:**
+
+*   The boy's choice of transportation
+============================================================
+
+============================================================
+[8/46] 處理影片: ./dataset/face_planting/faceplanting_piCD8qYAMVI.mp4
+影片長度: 14.07 sec
+Average Query Latency: 17010.62 ms
+TTFT: 8129.83 ms
+Frames Per Second: 0.47
+Throughput: 8.82 tokens/sec
+模型回答: Here's an analysis of the video frames:
+
+**Overall Action:**
+
+The video depicts a person attempting to slide or roll across a snow-covered field. It appears they are trying to create a "snow snake" or similar effect.
+
+**Sequence of Events (Based on the Frames):**
+
+1.  **Frame 1 & 2:** The person is running across the snow, likely preparing for the slide.
+2.  **Frame 3 & 4:** The person is sliding, leaving a visible trail in the snow.
+3.  **Frame 5:** The person is standing up, possibly after the slide.
+4.  **Frame 6:** The person is standing with their arms outstretched,
+============================================================
+
+============================================================
+[9/46] 處理影片: ./dataset/face_planting/faceplanting_T4wf6w_HqUs.mp4
+影片長度: 9.10 sec
+Average Query Latency: 17101.79 ms
+TTFT: 8131.25 ms
+Frames Per Second: 0.47
+Throughput: 8.77 tokens/sec
+模型回答: Here's an analysis of the action depicted in the frames:
+
+**Overall Scenario:**
+
+The video shows a person falling and landing in the snow. It appears to be a somewhat uncontrolled fall, likely while attempting to use a sled or some kind of snow-related equipment.
+
+**Frame-by-Frame Breakdown:**
+
+*   **Frames 1-3:** A person is standing in a snowy area, examining a sled and some wooden structures. They seem to be preparing for some activity.
+*   **Frames 4-7:** The person falls, tumbling through the snow. The motion is blurred, indicating speed.
+*   **Frames 8-10:** The person is lying on the snow, surrounded by the
+============================================================
+
+============================================================
+[10/46] 處理影片: ./dataset/face_planting/faceplanting_o5FiLY-wObk.mp4
+影片長度: 10.07 sec
+Average Query Latency: 17018.28 ms
+TTFT: 8130.94 ms
+Frames Per Second: 0.47
+Throughput: 8.81 tokens/sec
+模型回答: Here's an analysis of the video frames:
+
+**Overall Situation:**
+
+The video depicts a young man in a muddy area, likely near a river or stream. He appears to have fallen or been swept away by the water. 
+
+**Sequence of Events (Based on the frames):**
+
+1. **Frame 1 & 2:** The man is running, possibly attempting to cross a muddy area. He's clearly struggling to maintain his balance.
+2. **Frame 3:** He falls into the mud, likely due to the unstable ground.
+3. **Frame 4, 5, 6 & 7:** The man is attempting to get out of the mud, struggling to free himself. He'
+============================================================
+
+============================================================
+[11/46] 處理影片: ./dataset/face_planting/faceplanting_m84Zlf4UxK0.mp4
+影片長度: 13.38 sec
+Average Query Latency: 17104.90 ms
+TTFT: 8134.39 ms
+Frames Per Second: 0.47
+Throughput: 8.77 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video depicts a boy attempting to navigate a challenging obstacle course in a wooded area. It appears to be a sort of "mud run" or obstacle course event.
+
+**Specific Actions & Sequence:**
+
+1. **Frame 1 & 2:** The boy is using a rope net to pull himself across a gap. He's actively using his strength and momentum.
+2. **Frame 3 & 4:** The boy falls and slides down a wooden plank, likely due to losing his grip or misjudging the surface.
+3. **Frame 5:** The boy is crawling on his hands and knees, attempting to get
+============================================================
+
+============================================================
+[12/46] 處理影片: ./dataset/face_planting/faceplanting_DnxygkTssDc.mp4
+影片長度: 14.04 sec
+Average Query Latency: 17057.03 ms
+TTFT: 8128.11 ms
+Frames Per Second: 0.47
+Throughput: 8.79 tokens/sec
+模型回答: Here's an analysis of the video frames, focusing on the action:
+
+**Overall Action:** The video appears to show a baby doll being placed into a storage container or bin. 
+
+**Frame-by-Frame Breakdown:**
+
+*   **Frames 1-4:** The doll is being carefully placed into the container, nestled amongst various baby items (blankets, toys, diapers). The person taking the video is likely observing this process.
+*   **Frames 5-6:** The doll is settled within the container, surrounded by the other items.
+*   **Frame 7:** A close-up view of the doll and a light source (likely a nightlight) within the container.
+*   **Frame
+============================================================
+
+============================================================
+[13/46] 處理影片: ./dataset/face_planting/faceplanting_ng_6Awo2Luo.mp4
+影片長度: 5.83 sec
+Average Query Latency: 16968.77 ms
+TTFT: 8131.61 ms
+Frames Per Second: 0.47
+Throughput: 8.84 tokens/sec
+模型回答: Here's an analysis of the video frames:
+
+**Overall Situation:**
+
+The video depicts a distressing situation involving a young child (likely around 2-3 years old) who has become entangled in a blue plastic sheet or tarp. He is struggling to free himself and appears to be in distress.
+
+**Sequence of Events (as shown in the frames):**
+
+1.  **Initial Play:** The first frames show the child playing with the blue sheet, pulling on it and attempting to move around with it.
+2.  **Entanglement:** The child becomes tangled in the sheet, pulling it over himself.
+3.  **Struggle:** The subsequent frames show the child struggling to free himself, attempting to roll and
+============================================================
+
+============================================================
+[14/46] 處理影片: ./dataset/face_planting/faceplanting_ZObLHal3oPg.mp4
+影片長度: 10.30 sec
+Average Query Latency: 17012.98 ms
+TTFT: 8126.23 ms
+Frames Per Second: 0.47
+Throughput: 8.82 tokens/sec
+模型回答: Here's an analysis of the video based on the frames:
+
+**Overall Action:**
+
+The video depicts a person attempting a series of jumps over blue barrels placed on a grassy field. It appears to be a playful, possibly competitive, activity.
+
+**Sequence of Events (as shown in the frames):**
+
+1.  **Initial Jump:** The first frame shows the person in mid-air, attempting to jump over a barrel.
+2.  **Fall:** Subsequent frames show the person falling after failing to clear the barrel.
+3.  **Repeated Falls:** The person continues to fall repeatedly over the barrels.
+4.  **Exclamations:** The final frames show the word "Damnnn!" repeated several
+============================================================
+
+============================================================
+[15/46] 處理影片: ./dataset/face_planting/faceplanting_Z-beIVl_wPs.mp4
+影片長度: 14.92 sec
+Average Query Latency: 17118.61 ms
+TTFT: 8130.82 ms
+Frames Per Second: 0.47
+Throughput: 8.76 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a series of failed attempts at a handstand flip on a beach. It appears to be a group of people attempting a synchronized stunt, but they consistently fail to execute it successfully.
+
+**Specific Details:**
+
+*   **Initial Attempt (Image 1):** A group of people are attempting to jump and flip over, but they land awkwardly on the sand.
+*   **Mid-Fail (Image 2):** One person is in mid-air, clearly failing to complete the flip and landing with a significant impact.
+*   **Subsequent Falls (Images 3-6):** Multiple individuals are shown falling onto
+============================================================
+
+============================================================
+[16/46] 處理影片: ./dataset/face_planting/faceplanting_gfO5b9MkeYw.mp4
+影片長度: 12.57 sec
+Average Query Latency: 16990.55 ms
+TTFT: 8128.07 ms
+Frames Per Second: 0.47
+Throughput: 8.83 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Situation:**
+
+The images show a cheerleading stunt gone wrong. It appears a cheerleader has fallen during a complex tumbling element. 
+
+**Sequence of Events (as seen in the frames):**
+
+1.  **Initial Attempt:** The first image shows a cheerleader in mid-air, likely attempting a flip or twist as part of a stunt.
+2.  **Loss of Control:** The second and third images show the cheerleader losing control and falling to the mat.
+3.  **Impact and Recovery:** The fourth image shows the cheerleader lying on the mat, likely stunned.
+4.  **Support and Assistance:** The fifth and sixth images show other
+============================================================
+
+============================================================
+[17/46] 處理影片: ./dataset/face_planting/faceplanting_Kj725DEceik.mp4
+影片長度: 6.03 sec
+Average Query Latency: 17154.94 ms
+TTFT: 8135.30 ms
+Frames Per Second: 0.47
+Throughput: 8.74 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video appears to show a young man (likely a teenager) attempting to perform a trick or maneuver involving a long, thin object (possibly a broom or pole) while standing in a doorway. He's clearly struggling to maintain balance and control the object.
+
+**Specific Observations from the Frames:**
+
+*   **Frames 1-3:** The man is standing in the doorway, holding the object horizontally. He's leaning forward and appears to be trying to lift the object vertically.
+*   **Frame 4:** The image is blurry, but it seems he's losing his balance and possibly falling.
+*   **Frames
+============================================================
+
+============================================================
+[18/46] 處理影片: ./dataset/face_planting/faceplanting__3Sd76OyNxo.mp4
+影片長度: 16.15 sec
+Average Query Latency: 16989.82 ms
+TTFT: 8129.10 ms
+Frames Per Second: 0.47
+Throughput: 8.83 tokens/sec
+模型回答: Here's an analysis of the action happening in the images:
+
+**Overall Activity:**
+
+The images depict a group of people engaging in sledding down a snow-covered hill. It appears to be a recreational activity, likely enjoyed by children and adults.
+
+**Specific Actions & Observations:**
+
+*   **Sledding:** Most of the images show people riding sleds down the slope.
+*   **Falls:** Several individuals are shown falling or tumbling down the hill. This is a common occurrence during sledding, especially on steeper slopes.
+*   **Varied Positions:** People are in various positions while sledding – some are sitting, some are lying down, and some are tumbling.
+*   **Equipment:** They are
+============================================================
+
+============================================================
+[19/46] 處理影片: ./dataset/face_planting/faceplanting_-dLXIIjWS-c.mp4
+影片長度: 8.03 sec
+Average Query Latency: 17254.25 ms
+TTFT: 8141.60 ms
+Frames Per Second: 0.46
+Throughput: 8.69 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:** The video depicts a child sledding down a large snowdrift.
+
+**Detailed Breakdown:**
+
+*   **Frames 1-4:** The initial frames show the formation of a large snowdrift, likely created by someone sledding. A child is preparing to slide down it.
+*   **Frames 5-7:** The child is actively sledding down the drift, with visible snow spray and the sled in motion.
+*   **Frames 8-9:** The child is sitting on the sled after coming to a stop, likely having fallen or slowed down.
+
+**Key Observations:**
+
+*   The snowdrift is a significant feature
+============================================================
+
+============================================================
+[20/46] 處理影片: ./dataset/face_planting/faceplanting_QbyBACtRcz8.mp4
+影片長度: 4.03 sec
+Average Query Latency: 16976.26 ms
+TTFT: 8129.48 ms
+Frames Per Second: 0.47
+Throughput: 8.78 tokens/sec
+模型回答: Here's an analysis of the actions happening in the images:
+
+**Overall Scene:**
+
+The images show two babies playing on a rumpled bed. It appears to be a playful, possibly slightly chaotic, interaction between them.
+
+**Specific Actions:**
+
+*   **Baby 1 (Blue Shirt & Snoopy Plush):**
+    *   **Standing and Reaching:** In several frames, the baby is standing and reaching out with one hand.
+    *   **Looking:** The baby is frequently looking at the other baby.
+    *   **Crying/Expressing Frustration:** In some frames, the baby is crying or appears frustrated, possibly due to the other baby's actions.
+*   **Baby
+============================================================
+
+============================================================
+[21/46] 處理影片: ./dataset/face_planting/faceplanting_koMIvXhfe9c.mp4
+影片長度: 5.47 sec
+Average Query Latency: 17109.43 ms
+TTFT: 8132.72 ms
+Frames Per Second: 0.47
+Throughput: 8.77 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Scenario:**
+
+The video shows a young man attempting to jump over a sand dune near a group of parked vans and RVs. 
+
+**Sequence of Events:**
+
+1. **Initial Attempt:** The first image shows the man preparing to jump. He's leaning forward, with his bike positioned for the jump.
+2. **Fall:** The subsequent images show the man falling over the dune, landing awkwardly on the sand.
+3. **Recovery:** The final images show the man sitting up, seemingly shaken but okay, with his bike lying on the sand.
+
+**In short, the man attempted a jump over a sand dune and failed, resulting in
+============================================================
+
+============================================================
+[22/46] 處理影片: ./dataset/face_planting/faceplanting_RhL1gAwe9K4.mp4
+影片長度: 6.03 sec
+Average Query Latency: 17057.15 ms
+TTFT: 8130.74 ms
+Frames Per Second: 0.47
+Throughput: 8.74 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video depicts a somewhat chaotic and precarious situation involving two young men attempting to repair or reinforce a trampoline. It appears they are trying to fix a broken support beam or section of the trampoline frame.
+
+**Frame-by-Frame Breakdown:**
+
+*   **Frame 1 & 2:** One man is attempting to climb onto the trampoline frame, likely to access the damaged area.
+*   **Frame 3:** The man is now on the frame, trying to secure something with his hands.
+*   **Frame 4:** A second man is working on the base of the trampoline, possibly trying to stabilize it.
+*
+============================================================
+
+============================================================
+[23/46] 處理影片: ./dataset/face_planting/faceplanting_MaYeShN2k8I.mp4
+影片長度: 10.08 sec
+Average Query Latency: 17251.54 ms
+TTFT: 8128.39 ms
+Frames Per Second: 0.46
+Throughput: 8.69 tokens/sec
+模型回答: Here's an analysis of the video based on the frames provided:
+
+**Overall Action:**
+
+The video depicts a group of young boys attempting a stunt involving jumping over a fence and landing on a grassy area. However, the stunt goes horribly wrong, resulting in one boy falling and sustaining a serious injury.
+
+**Sequence of Events (as shown in the frames):**
+
+1.  **Initial Attempt:** The first few frames show the boys running towards a fence and attempting to jump over it. They are holding onto the fence for support.
+2.  **The Fall:** In the subsequent frames, one boy loses his grip and falls dramatically, landing awkwardly on the grass.
+3.  **Impact and Injury:** The final frames
+============================================================
+
+============================================================
+[24/46] 處理影片: ./dataset/face_planting/faceplanting_kr4B88Ldgso.mp4
+影片長度: 6.93 sec
+Average Query Latency: 17086.98 ms
+TTFT: 8135.92 ms
+Frames Per Second: 0.47
+Throughput: 8.78 tokens/sec
+模型回答: Here's an analysis of the actions depicted in the frames:
+
+**Overall Action:** The video shows a young child playing on a playground slide.
+
+**Sequence of Events:**
+
+1.  **Initial Position (Frames 1-3):** The child is sitting on the top of the slide, looking up and seemingly enjoying the view.
+2.  **Starting to Slide (Frame 4):** The child begins to slide down the slide.
+3.  **Falling (Frames 5-7):** The child loses control and falls off the slide, landing on the ground.
+4.  **Recovering (Frame 8):** The child is seen crawling on the ground, likely trying to get back up
+============================================================
+
+============================================================
+[25/46] 處理影片: ./dataset/face_planting/faceplanting_7IWBLXPrxoQ.mp4
+影片長度: 9.60 sec
+Average Query Latency: 17077.00 ms
+TTFT: 8136.43 ms
+Frames Per Second: 0.47
+Throughput: 8.78 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video depicts a group of people (likely multiple individuals) engaging in winter activities on a snowy hillside. They appear to be sledding or possibly snowshoeing, creating distinct tracks in the snow.
+
+**Specific Observations from the Frames:**
+
+*   **Tracks:** The most prominent feature is the series of deep tracks in the snow, indicating the passage of sleds or snowshoes.
+*   **People:** Several figures are visible in the frames, moving down the slope. Some are clearly sledding, while others might be snowshoeing or walking.
+*   **Movement:** The figures are moving down the slope, suggesting they are
+============================================================
+
+============================================================
+[26/46] 處理影片: ./dataset/face_planting/faceplanting_wF-7CEJZ4w8.mp4
+影片長度: 13.70 sec
+Average Query Latency: 17146.42 ms
+TTFT: 8143.89 ms
+Frames Per Second: 0.47
+Throughput: 8.75 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a person performing a series of acrobatic maneuvers on a gymnastics floor or similar padded surface. The individual is attempting to do a handstand and a backward roll. 
+
+**Specific Details:**
+
+*   **Handstand:** In the first few images, the person is in a handstand position, balancing on their hands with their legs extended upwards.
+*   **Backward Roll:** In the later images, the person is attempting a backward roll, transitioning from a handstand to a rolling position.
+
+**Environment:**
+
+The setting appears to be a gymnastics facility or a similar space with padded flooring and high ceilings. There are other people
+============================================================
+
+============================================================
+[27/46] 處理影片: ./dataset/face_planting/faceplanting_JR9LTG9F4j0.mp4
+影片長度: 12.67 sec
+Average Query Latency: 16269.76 ms
+TTFT: 8148.42 ms
+Frames Per Second: 0.49
+Throughput: 8.36 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Action:** The video shows a person snowboarding on a snowy mountain slope. 
+
+**Details:**
+
+*   **Snowboarding:** The primary action is a person riding a snowboard.
+*   **Location:** The setting is a snowy mountain resort with a wide, groomed run.
+*   **Environment:** There are evergreen trees, distant mountains, and other skiers/snowboarders in the background.
+*   **Movement:** The person is moving across the snow, indicating they are actively snowboarding.
+
+Let me know if you'd like me to elaborate on any aspect of the scene!
+============================================================
+
+============================================================
+[28/46] 處理影片: ./dataset/face_planting/faceplanting_ZLFkNSl-XPw.mp4
+影片長度: 13.04 sec
+Average Query Latency: 17131.27 ms
+TTFT: 8132.82 ms
+Frames Per Second: 0.47
+Throughput: 8.76 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a student (likely a schoolboy) intentionally falling onto his face on a playground surface. It's a prank or a deliberate attempt to create a "faceplant" moment.
+
+**Sequence of Events (as shown in the frames):**
+
+1.  **Initial Fall:** The first image shows the student in the process of falling, likely attempting to execute the stunt.
+2.  **Mid-Fall:** The second image captures the student in a more dramatic, upside-down position, with his legs extended and his body contorted.
+3.  **Contact:** The subsequent images show the student landing on his face
+============================================================
+
+============================================================
+[29/46] 處理影片: ./dataset/face_planting/faceplanting_wEW0geZNjF4.mp4
+影片長度: 8.12 sec
+Average Query Latency: 17135.61 ms
+TTFT: 8150.91 ms
+Frames Per Second: 0.47
+Throughput: 8.75 tokens/sec
+模型回答: Here's an analysis of the events depicted in the images:
+
+**Overall Scenario:**
+
+The video shows a cyclist being struck by a vehicle while riding on a sidewalk. It appears to be a sudden and unfortunate accident.
+
+**Sequence of Events (as shown in the frames):**
+
+1.  **Initial Ride:** A cyclist is seen riding on the sidewalk.
+2.  **Approaching Vehicle:** A red pickup truck is approaching from the right.
+3.  **Collision:** The truck hits the cyclist, causing the bike to flip over.
+4.  **Impact and Fall:** The cyclist falls to the ground, landing awkwardly.
+5.  **Vehicle Remains:** The truck continues to move past the scene.
+============================================================
+
+============================================================
+[30/46] 處理影片: ./dataset/face_planting/faceplanting_2zHDlGlWTG8.mp4
+影片長度: 10.93 sec
+Average Query Latency: 17030.94 ms
+TTFT: 8134.70 ms
+Frames Per Second: 0.47
+Throughput: 8.81 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**The core event:** The video shows a man attempting to skateboard and subsequently falling to the ground. 
+
+**Sequence of events:**
+
+1.  **Initial Skateboarding:** The man is initially riding a scooter down the pavement.
+2.  **Loss of Control:** He loses control of the scooter.
+3.  **Fall:** He falls to the ground, landing awkwardly.
+4.  **Post-Fall:** He remains lying on the ground after the fall.
+
+**Overall Impression:** It appears to be a somewhat clumsy or unsuccessful attempt at skateboarding. 
+
+**Important Note:**  It's crucial to remember that this is just an interpretation based
+============================================================
+
+============================================================
+[31/46] 處理影片: ./dataset/face_planting/faceplanting_kIhT0fUUPK0.mp4
+影片長度: 12.00 sec
+Average Query Latency: 17168.58 ms
+TTFT: 8134.71 ms
+Frames Per Second: 0.47
+Throughput: 8.74 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Activity:** The video depicts a waterskiing or wakeboarding event, specifically with a unique setup.
+
+**Key Observations:**
+
+*   **Wakeboarder:** A woman is consistently seen riding a homemade wakeboard. This board appears to be constructed from wood and is floating on the water.
+*   **Tow Boat:** A boat is consistently pulling the wakeboarder with a tow rope.
+*   **Spectator:** A man is standing on the shore, watching the wakeboarder.
+*   **Varied Stages:** The frames show the wakeboarder in various stages of the activity:
+    *   Successfully riding and performing tricks.
+============================================================
+
+============================================================
+[32/46] 處理影片: ./dataset/face_planting/faceplanting_XmpAlvVJyfQ.mp4
+影片長度: 12.96 sec
+Average Query Latency: 17148.51 ms
+TTFT: 8125.17 ms
+Frames Per Second: 0.47
+Throughput: 8.75 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The person in the images is snowboarding (or perhaps snow-tubing) and experiencing some difficulties. They are repeatedly falling or sliding across the snow.
+
+**Specific Observations:**
+
+*   **Image 1:** The person is riding a long, flat board across the snow, attempting a sort of "slide" or controlled fall.
+*   **Images 2-5:** The person is repeatedly falling onto their stomach, sliding across the snow.
+*   **Images 6-8:** The person is using ski poles to try to maintain balance and control while moving across the snow.
+
+**Conclusion:**
+
+It appears the person is having
+============================================================
+
+============================================================
+[33/46] 處理影片: ./dataset/face_planting/faceplanting_oxPAGFHhE5s.mp4
+影片長度: 9.45 sec
+Average Query Latency: 17097.67 ms
+TTFT: 8141.94 ms
+Frames Per Second: 0.47
+Throughput: 8.71 tokens/sec
+模型回答: Here's an analysis of the action happening in the frames:
+
+**Overall Action:**
+
+The primary action is mountain biking. Several individuals are riding a dirt jump course within a wooded area. 
+
+**Specific Details:**
+
+*   **Riders:** There are multiple riders visible in the frames, all on mountain bikes.
+*   **Dirt Jump Course:** The scene is dominated by a constructed dirt jump course. This consists of a series of small, sculpted hills and ramps designed for mountain bikers to jump over.
+*   **Riding Style:** The riders appear to be performing jumps and navigating the course with skill and control.
+
+Let me know if you'd like me to focus on a specific aspect of the scene!
+============================================================
+
+============================================================
+[34/46] 處理影片: ./dataset/face_planting/faceplanting_M7fnZthnKv0.mp4
+影片長度: 5.08 sec
+Average Query Latency: 17009.24 ms
+TTFT: 8141.49 ms
+Frames Per Second: 0.47
+Throughput: 8.76 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Main Action:**
+
+The primary action is a person skateboarding. The individual is repeatedly attempting to ride a small, flat skateboard (likely a "penny board" or similar) across a concrete surface. 
+
+**Progression of the Action & Key Events:**
+
+1.  **Initial Attempts:** The first few frames show the person attempting to ride the board, but they are struggling to maintain balance and control.
+2.  **Falls:** The person repeatedly falls off the board, often rolling or sliding across the concrete.
+3.  **Attempted Maneuvers:** In some frames, the person tries to perform a trick or maneuver, but they fail.
+============================================================
+
+============================================================
+[35/46] 處理影片: ./dataset/face_planting/faceplanting_TAG04GA-p_Q.mp4
+影片長度: 7.08 sec
+Average Query Latency: 17082.22 ms
+TTFT: 8133.98 ms
+Frames Per Second: 0.47
+Throughput: 8.78 tokens/sec
+模型回答: Here's an analysis of the action happening in the images:
+
+**Overall Action:** The video depicts a child attempting to use a slide, but experiencing a fall. 
+
+**Sequence of Events:**
+
+1.  **Initial Setup:** A woman is assisting a child (wearing a pink jacket and hat) to climb onto the slide.
+2.  **Attempt to Slide:** The child is positioned on the slide, ready to slide.
+3.  **Fall:** The child loses their balance and falls off the slide, landing on the grass. 
+
+**Details:**
+
+*   The child is wearing winter clothing, suggesting the video was taken during colder weather.
+*   The woman is providing support and assistance.
+*
+============================================================
+
+============================================================
+[36/46] 處理影片: ./dataset/face_planting/faceplanting_DAeLsJBXaAA.mp4
+影片長度: 10.90 sec
+Average Query Latency: 17002.72 ms
+TTFT: 8129.34 ms
+Frames Per Second: 0.47
+Throughput: 8.82 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a group of people attempting to perform a stunt involving riding their bicycles over a ramp or platform. It appears to be a somewhat chaotic and experimental attempt at a trick.
+
+**Specific Details:**
+
+*   **Initial Shot:** The first image shows a person riding a standard bicycle on a street.
+*   **Subsequent Shots:** The following images depict the same person (and possibly others) repeatedly attempting to ride their bicycles over a gray, angled platform. They are using a mountain bike with suspension.
+*   **Failed Attempts:** The images show multiple attempts where the riders lose control and the bikes fall off the platform. There'
+============================================================
+
+============================================================
+[37/46] 處理影片: ./dataset/face_planting/faceplanting_X7ztDnayQAo.mp4
+影片長度: 10.04 sec
+Average Query Latency: 17118.92 ms
+TTFT: 8135.42 ms
+Frames Per Second: 0.47
+Throughput: 8.76 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a group of people (likely teenagers or young adults) engaged in a playful, chaotic game on a trampoline. It appears to be a form of "tag" or a similar activity where people try to knock each other off the trampoline.
+
+**Specific Details:**
+
+*   **Physical Interaction:** The core of the action is the physical contact between the individuals. They are actively pushing, jumping on, and attempting to knock each other off the trampoline.
+*   **Laughter and Excitement:** The expressions on the faces of the participants suggest a lighthearted and joyful atmosphere. There's a lot of laughter and excitement.
+*
+============================================================
+
+============================================================
+[38/46] 處理影片: ./dataset/face_planting/faceplanting_SBWpjWPvFho.mp4
+影片長度: 12.91 sec
+Average Query Latency: 17027.94 ms
+TTFT: 8131.38 ms
+Frames Per Second: 0.47
+Throughput: 8.81 tokens/sec
+模型回答: Here's an analysis of the video frames:
+
+**Overall Situation:**
+
+The images depict a concerning situation involving a group of students (likely teenagers) surrounding and restraining a younger student. It appears to be a physical altercation or a situation where the older students are exerting control over the younger one.
+
+**Specific Observations from the Frames:**
+
+*   **Restraint:** Multiple students are holding the younger student down, pinning them to a table.
+*   **Aggressive Posture:** The students involved appear to be in a tense and potentially aggressive posture.
+*   **Younger Student's Reaction:** The younger student is clearly distressed, with a look of fear and resistance.
+*   **Setting:** The scene is taking place
+============================================================
+
+============================================================
+[39/46] 處理影片: ./dataset/face_planting/faceplanting_nsjqgD_St9w.mp4
+影片長度: 4.70 sec
+Average Query Latency: 17227.51 ms
+TTFT: 8131.41 ms
+Frames Per Second: 0.46
+Throughput: 8.71 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video depicts a young girl (likely a child) engaging in a playful, somewhat chaotic movement within a living room setting. She appears to be attempting a sort of dance or movement sequence, possibly inspired by a video on the television.
+
+**Specific Observations:**
+
+*   **Movement:** The girl is repeatedly jumping and moving around, often with a slightly awkward or uncontrolled style.
+*   **Clothing:** She is wearing a red shirt and pink pants, which are slightly revealing.
+*   **Surroundings:** The room is cluttered with furniture (a TV, a cabinet, a chair), toys, and other household items.
+*
+============================================================
+
+============================================================
+[40/46] 處理影片: ./dataset/face_planting/faceplanting_wjmyNaK6TRc.mp4
+影片長度: 10.03 sec
+Average Query Latency: 16974.30 ms
+TTFT: 8131.88 ms
+Frames Per Second: 0.47
+Throughput: 8.84 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video depicts a group of people waterskiing or wakeboarding behind a boat. A man in a hat and sunglasses is in the boat, controlling the speed and direction. There's also a second person wakeboarding in the water.
+
+**Specific Details from the Frames:**
+
+*   **Frames 1-3:** The man in the boat is focused on the wakeboarder, likely adjusting the boat's speed to maintain a good wake.
+*   **Frames 4-7:** The wakeboarder is performing a jump or trick, creating a large spray of water.
+*   **Frames 8-10
+============================================================
+
+============================================================
+[41/46] 處理影片: ./dataset/face_planting/faceplanting_Q3LkU_qIANE.mp4
+影片長度: 5.03 sec
+Average Query Latency: 17187.22 ms
+TTFT: 8135.70 ms
+Frames Per Second: 0.47
+Throughput: 8.73 tokens/sec
+模型回答: Here's an analysis of the action depicted in the frames:
+
+**Overall Action:**
+
+The video shows a person attempting to snowboard on a frozen surface (likely ice or a very icy patch of snow). It's a humorous and ultimately unsuccessful attempt.
+
+**Sequence of Events:**
+
+1. **Initial Glide (Frames 1-2):** A person is seen gliding on a snowboard, seemingly trying to maintain balance. The motion is blurred, indicating speed.
+2. **Loss of Control (Frames 3-5):** The person loses control and falls, landing face-first in the snow.
+3. **Recovery and Continued Fall (Frames 6-8):** The person attempts to get back up, but
+============================================================
+
+============================================================
+[42/46] 處理影片: ./dataset/face_planting/faceplanting_mk9eyW1bzAU.mp4
+影片長度: 12.05 sec
+Average Query Latency: 17190.96 ms
+TTFT: 8127.08 ms
+Frames Per Second: 0.47
+Throughput: 8.73 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Activity:**
+
+The video depicts a group of young men playing a game on the beach, involving a combination of running, grappling, and being swept away by the waves. It appears to be a somewhat chaotic and playful version of a wrestling or grappling game, likely with a focus on surprise and getting knocked into the water.
+
+**Specific Actions & Events:**
+
+*   **Initial Engagement:** In the first few frames, individuals are actively engaging in a grappling or wrestling stance, attempting to take each other down.
+*   **Falls and Tumbles:**  Several individuals are shown being unexpectedly knocked over by the waves or by other players. There are instances of people
+============================================================
+
+============================================================
+[43/46] 處理影片: ./dataset/face_planting/faceplanting__wJfPEwJn_s.mp4
+影片長度: 5.03 sec
+Average Query Latency: 17323.78 ms
+TTFT: 8135.36 ms
+Frames Per Second: 0.46
+Throughput: 8.66 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video shows a young child (likely a toddler) playfully attempting to walk through a doorway. They are clearly engaged in a moment of exploration and movement.
+
+**Specific Observations:**
+
+*   **Walking/Attempting to Walk:** The child is repeatedly stepping forward, as if trying to walk through the doorway.
+*   **Stumbling/Falling:** The child is frequently stumbling and falling over, suggesting they are still learning to coordinate their movements.
+*   **Joyful Expression:** The child's facial expression (smiling) indicates they are enjoying the activity, despite the falls.
+*   **Environment:** The background shows a brick
+============================================================
+
+============================================================
+[44/46] 處理影片: ./dataset/face_planting/faceplanting_VO37FL6Qo7c.mp4
+影片長度: 7.93 sec
+Average Query Latency: 17261.77 ms
+TTFT: 8140.37 ms
+Frames Per Second: 0.46
+Throughput: 8.69 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Situation:**
+
+The video depicts a scene of a child (likely a young boy) riding a small, motorized scooter down a ramp or inclined surface. There are several other children observing and participating in the activity. 
+
+**Sequence of Events (as seen in the frames):**
+
+1. **Initial Ride:** The first few frames show the child successfully riding the scooter down the ramp.
+2. **Crash:**  The subsequent frames show the scooter crashing and the child falling over. There appears to be some confusion and concern from the other children.
+3. **Rescue/Help:**  The final frames show multiple children attempting to help the child who fell
+============================================================
+
+============================================================
+[45/46] 處理影片: ./dataset/face_planting/faceplanting_e7AnmQTKegM.mp4
+影片長度: 11.04 sec
+Average Query Latency: 17102.26 ms
+TTFT: 8138.75 ms
+Frames Per Second: 0.47
+Throughput: 8.77 tokens/sec
+模型回答: Here's an analysis of the actions depicted in the frames:
+
+**Overall Context:**
+
+The images clearly show a person (likely a snowboarder) on a snow-covered surface, likely a ski slope or snowboard run. The consistent patterns in the snow suggest a groomed area.
+
+**Sequence of Actions:**
+
+1. **Frame 1 & 2:** A shadow is visible, indicating the person is standing still.
+2. **Frame 3 & 4:** The person is snowboarding, seen from a low angle, with their snowboard visible.
+3. **Frame 5 & 6:** The person is in mid-air, likely performing a jump or trick. The blue sky and snow particles indicate a high-speed
+============================================================
+
+============================================================
+[46/46] 處理影片: ./dataset/face_planting/faceplanting_neeVaqbf7wI.mp4
+影片長度: 10.80 sec
+Average Query Latency: 17044.23 ms
+TTFT: 8119.44 ms
+Frames Per Second: 0.47
+Throughput: 8.80 tokens/sec
+模型回答: Here's an analysis of the video frames, based on the visual information:
+
+**Overall Situation:**
+
+The video depicts a disturbing scene involving a large number of what appear to be small, white pills arranged on a table. There are multiple individuals present, and the overall atmosphere suggests a potentially illegal or dangerous activity.
+
+**Frame-by-Frame Breakdown:**
+
+*   **Frame 1 & 2:** Shows a table laden with dozens of small, white pills. A window is visible in the background, and there are other people present.
+*   **Frame 3:** A person is actively manipulating the pills on the table, possibly scooping or distributing them.
+*   **Frame 4 & 5:**  A
+============================================================
+
+==================== Benchmark Summary ====================
+
+Input
+	Model: google/gemma-3-4b-it
+	Hardware Name  : Tesla V100-SXM2-32GB
+	Video Dir      : ./dataset/face_planting
+	Fixed Frames   : 8
+
+Output
+	Average Query Latency: 17078.43 ms
+	Frames Per Second (FPS): 0.4684
+	Equivalent Real-time Latency (RT Latency): 1.7472
+	Peak VRAM Usage: 27.0484 GB
+	Throughput: 8.7601 tokens/sec
+	Power Consumption: 70.07 W
+	TTFT: 8138.96 ms
+
+
+成功處理影片數: 46 / 46
+平均影片長度: 9.7747 sec
+詳細測試結果已記錄於: gemma-3-4b-8frames/face_planting.log

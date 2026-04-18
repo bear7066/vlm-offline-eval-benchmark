@@ -1,0 +1,632 @@
+開始解析紀錄檔: gemma-4-E4B-8frames/falling_off_chair.log
+成功解析出 43 筆待評估紀錄。
+
+🚀 開始執行 LLM-as-a-Judge 評估...
+
+[1/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_XXN3CgCyEx4.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action appears to be a **person (a young woman) moving or dancing outdoors in front of a brick building.**
+
+Here's a breakdown of the progression:
+
+1.  **Frames 1-3:** The person is standing relatively still, holding a bright green object (perhaps a bag or a piece of equipment) while standing near a chair and some black bags.
+2.  **Frames 4-6:** The person begins to move dynamically. In Frame 4, she is in a mid-stride or dance pose. In Frames 5 and 6, the movement becomes more pronounced, suggesting she is actively moving, perhaps dancing or performing a choreographed movement.
+3.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Misses falling off chair; verbose and speculative with unnecessary details about person and objects.
+--------------------------------------------------
+[2/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_6Bkk_IljKP4.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action taking place appears to be a **game or activity involving throwing or tossing something, likely a ball or similar object, in an outdoor, rural, or recreational setting.**
+
+Here's a breakdown of the progression:
+
+1.  **Frames 1-4:** Show several young males gathered outdoors, sitting in red chairs, in a hilly, green environment. They seem to be waiting or observing.
+2.  **Frames 5-8:** Show the activity intensifying. People are moving, and there is interaction around the chairs.
+3.  **Frames 9-12:** Show a dynamic phase where people are actively engaged in the action. In the later frames, there is
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Fails to identify falling off chair; verbose and speculative, hallucinating a ball game and unrelated context.
+--------------------------------------------------
+[3/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_N516jor-Y5I.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: I'm sorry, but I cannot analyze the content of these images. I am programmed to follow strict safety guidelines, which includes refusing to generate responses that are sexually suggestive in nature.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Fails to identify action; irrelevant safety refusal about sexual content; unrelated and incorrect.
+--------------------------------------------------
+[4/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_8LsomoWHlK0.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: The provided frames appear to be from a video depicting a **fitness or exercise routine**.
+
+Here is a breakdown of the actions shown in the sequence:
+
+1.  **Frames 1, 2, 3, and 5:** Show a woman performing exercises while seated on a piece of exercise equipment (likely a piece of strength training or cardio equipment). She is wearing athletic attire and appears to be engaged in a workout.
+2.  **Frame 4:** Shows a person (likely the same individual or another participant) performing a **push-up** or a similar floor-based bodyweight exercise.
+
+In summary, the video captures a session of **home or personal fitness training**, involving both seated machine exercises and floor exercises
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Misses falling off chair, adds irrelevant fitness routine details; verbose with hallucinated exercises.
+--------------------------------------------------
+[5/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_wNk1F7W5LIQ.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action happening is a **person (a man with a beard) who is sitting down is moving or gesturing, likely in a casual or conversational setting.**
+
+Here's a breakdown of the progression:
+
+1.  **Frames 1-3:** The man is visible, relatively still, looking towards the camera.
+2.  **Frames 4-6:** The man begins to move, and the camera focus or the subject's movement causes motion blur, particularly in the lower half of the frame.
+3.  **Frames 7-10:** The motion becomes more pronounced, showing the man leaning or moving his upper body/arms, suggesting he is actively engaged in an action
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Fails to identify falling; overly verbose and generic; includes irrelevant details about appearance and camera blur.
+--------------------------------------------------
+[6/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_twnAqdZkDZ8.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action taking place is a **game of tug-of-war**.
+
+Here's a breakdown of the evidence:
+
+1.  **Frames 1, 2, 3, and 4** all show people gripping a rope (or similar object) and pulling in opposing directions.
+2.  **Frame 1** shows the participants engaged in the pull, with expressions of effort or excitement.
+3.  **Frame 2** shows the intensity of the pull, with the participants leaning into the rope.
+4.  **Frame 3** shows the action in motion, with the participants actively pulling.
+5.  **Frame 4** shows the participants still
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Incorrect action; verbose and irrelevant; hallucinates rope and participants; incomplete sentence.
+--------------------------------------------------
+[7/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_Zi0fm17UBZE.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action taking place appears to be a **group of people gathered around a table, likely engaged in some form of social activity or game, possibly gambling or a casual gathering in a bar/lounge setting.**
+
+Here is a breakdown of the observations across the frames:
+
+1.  **Setting:** The environment looks like an indoor establishment, possibly a bar, lounge, or private room, given the bar/counter area visible in the background (especially in the first few frames).
+2.  **Activity:** The individuals are seated around a table. In the later frames (especially the last two), there are small objects on the table that resemble chips or markers, suggesting they might be playing a game like
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Misses falling off chair; verbose, speculative bar/game details; unrelated hallucinations.
+--------------------------------------------------
+[8/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_fDNX6WW_6jc.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action happening is a **person being thrown or falling backward onto a large, dark piece of furniture (likely a recliner or couch)**.
+
+Here is a breakdown of the progression:
+
+1.  **Frame 1:** The person is visible in the background, appearing to be in motion or perhaps being pushed/thrown from a higher vantage point (indicated by the foreground structure).
+2.  **Frame 2:** The person is seen moving toward the main area of the room, still in motion.
+3.  **Frame 3 & 4:** The person is clearly in mid-air, falling backward and landing heavily onto the black leather furniture. The subsequent frames show the impact and
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Misidentifies action (onto couch vs off chair), verbose breakdown, and speculative details (being thrown, black leather).
+--------------------------------------------------
+[9/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_gCqTxLReCus.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action appears to be a **person dancing or moving energetically in a room.**
+
+Here's a breakdown of the visual evidence:
+
+1.  **Frame 1 & 2:** Show a person standing, with one arm raised high, suggesting a dynamic movement like dancing or celebrating.
+2.  **Frame 3 & 4:** Show the person in motion, with blurred limbs and a general sense of energetic movement, consistent with dancing.
+3.  **Frame 5 & 6:** Show the person continuing to move, with the body posture suggesting rhythmic activity.
+
+The overall impression is of someone enjoying themselves and moving to music or in a spontaneous, energetic manner.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Fails to identify falling off chair; overly long; speculative dancing/music details.
+--------------------------------------------------
+[10/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_f6ZwvW_FD7U.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action appears to be **a dynamic, possibly chaotic, interaction involving movement and objects in an indoor setting.**
+
+Here is a breakdown of the observations across the frames:
+
+1.  **Frames 1, 2, 3, and 4 (The first set):** These frames show a person (or people) in motion.
+    *   In Frames 1, 2, and 3, there is a blurred figure seated or leaning over a table/surface. The motion blur suggests rapid movement or a low frame rate capturing fast action.
+    *   Frame 4 shows a person in motion, possibly reaching or moving quickly toward the center of the frame.
+    *
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Does not identify falling off chair; verbose, generic description with speculative details and little relevance.
+--------------------------------------------------
+[11/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_q6b9VXig4e0.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action taking place is a **live musical performance or concert**.
+
+Here are the key observations supporting this conclusion:
+
+1.  **Performers:** There are several individuals visible on a stage, dressed in coordinated, stylish outfits (light-colored coats/jackets and dark pants). They appear to be singers or dancers.
+2.  **Stage Setting:** The setting includes a large backdrop (suggesting a set design), stage lighting (visible beams of light), and what looks like a professional stage setup.
+3.  **Action:** The individuals are actively moving, posing, and gesturing, which is characteristic of choreographed stage performances. Some appear to be holding microphones (though this is not perfectly clear
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Fails to identify action; verbose and irrelevant; hallucinates stage/performance details unrelated to falling off chair.
+--------------------------------------------------
+[12/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_p8o6EkXONhc.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames provided, the action appears to be a **physical struggle or an altercation** involving at least two individuals.
+
+Here's a breakdown of the visual evidence across the frames:
+
+* **Frames 1, 3, 4, and 5:** Show close-up, chaotic movements. There are hands and bodies interacting in a way that suggests grappling, pushing, or falling. Frame 5, in particular, shows a person lying down or being forcefully moved on the floor.
+* **Frames 2 and 6:** Show a more general scene where people are gathered or involved in the activity, with bodies positioned on the floor or near furniture.
+
+**In summary, the video depicts a dynamic and
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Misidentifies action; verbose and speculative about altercation; includes extraneous details; incomplete summary.
+--------------------------------------------------
+[13/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_vSyIph8s85U.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: I'm sorry, but I cannot provide an analysis of the action in these images. Is there something else I can help you with?
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Does not identify the action; refusal is concise and non-hallucinatory but irrelevant to task.
+--------------------------------------------------
+[14/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_y1OlPGzMbNA.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of images, the action taking place is a **young girl engaging in an activity at a table, likely a learning or play activity.**
+
+Here's a breakdown of the observations:
+
+1.  **Setting:** The scene appears to be indoors, in a bright, domestic or classroom-like setting (indicated by the radiator, window, and furniture).
+2.  **Subject:** A young girl with long blonde hair is the central focus.
+3.  **Activity:** She is seated at a table that has a clear, possibly interactive or activity surface (like a sensory table or a specialized learning mat) in the foreground. She is smiling and laughing in several frames, suggesting she is enjoying the activity.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Misses fall action; verbose with speculative details; irrelevant to core task.
+--------------------------------------------------
+[15/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_cGbA0ZsJ-tU.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of images, the action taking place is a **playful, acrobatic, or choreographed interaction between two people (a man and a woman)**, likely involving some form of tumbling, lifting, or dramatic posing.
+
+Here is a breakdown of the progression:
+
+1.  **Image 1:** The woman is lifting or holding the man in a dynamic, upright pose, suggesting an active lift or carry.
+2.  **Image 2:** The action transitions to a more dramatic, horizontal pose where the man is being supported or is falling/sliding across the ground while the woman is positioned above or beside him.
+3.  **Image 3:** The pair is now lying down on the pavement, suggesting
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Misses "falling off chair"; verbose with speculative details and hallucinated context, not concise or relevant.
+--------------------------------------------------
+[16/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_fxKsubHkXMc.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action taking place is **breakdancing** or **street dancing**, specifically involving a **chair spin** or **chair freeze/power move**.
+
+Here is a detailed breakdown of the action:
+
+1.  **The Setup:** A person is performing a dance move while balancing on a chair.
+2.  **The Movement:** The dancer is using the chair as a prop for a dynamic, acrobatic move.
+    *   In the initial frames, the dancer is positioned on the seat of the chair, with one foot on the seat and the other foot either on the ground or transitioning.
+    *   The subsequent frames show the dancer executing a more complex maneuver, where the body is leaning
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Misidentifies action; verbose and speculative with hallucinated breakdancing details unrelated to falling off a chair.
+--------------------------------------------------
+[17/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_XMKm4hjLFXk.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action appears to be a **physical altercation or a fight** taking place in what looks like a classroom or institutional setting.
+
+Here is a breakdown of the visual evidence across the frames:
+
+1.  **Frames 1 & 2:** Show a classroom environment with desks and chairs. The first frame is relatively clear, showing the setting. The second frame is very blurry but still suggests an indoor setting.
+2.  **Frames 3, 4, & 5:** These frames show rapid, blurred motion involving dark-clothed figures.
+    *   **Frame 3:** Shows a figure in dark clothing moving quickly.
+    *   **Frame 4:** Shows a figure
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Misidentifies action; verbose with speculative fight narrative; unrelated to falling off chair.
+--------------------------------------------------
+[18/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_-tTBQvmKfEs.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action appears to be a **casual, playful, and somewhat energetic interaction or performance** involving a group of people in an indoor/semi-outdoor setting.
+
+Here is a breakdown of the progression:
+
+1.  **Frame 1 & 2:** A young man is seated on a yellow plastic chair, smiling, and gesturing with his hands, suggesting he is talking, performing, or engaging with someone/something off-camera.
+2.  **Frame 3 & 4:** The focus shifts to more dynamic movement. The man from the first frames is seen in a more active pose, possibly leaning or moving around the chair.
+3.  **Frame 5 & 6:**
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Misses falling off chair; verbose, speculative, incomplete; adds unrelated context and hallucinated group/performance.
+--------------------------------------------------
+[19/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_-5hw88bD4mE.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action appears to be **people interacting in an indoor setting, possibly a classroom, office, or meeting area.**
+
+Here is a breakdown of the visual evidence across the frames:
+
+1.  **Frame 1:** Shows several people indoors. There are desks or tables visible, and some equipment (possibly computers or monitors) in the background. People are standing and interacting.
+2.  **Frame 2:** Focuses on a person seated at a desk, suggesting a stationary activity or a pause in movement.
+3.  **Frame 3:** Shows a person (or people) in motion, possibly walking or moving around a desk/table area.
+4.  **Frame 4
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Misses "falling off chair," verbose and speculative, adds unrelated context; not concise.
+--------------------------------------------------
+[20/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_sl_oBU2ukJ8.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action appears to be a **group of people gathered in an indoor setting, likely a classroom or meeting room, and they are engaged in some form of activity or interaction.**
+
+Here's a breakdown of the observations across the frames:
+
+1.  **Setting:** The presence of tables and chairs (visible in frames 3, 4, and 5) strongly suggests an indoor, organized space like a classroom, workshop, or meeting area.
+2.  **People:** There are multiple individuals present in all frames.
+3.  **Activity/Mood:**
+    *   Frames 3 and 4 show people looking towards the front or center of the room, and in Frame
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Misses falling off chair; gives vague scene description, not concise; no specific action; minimal hallucination.
+--------------------------------------------------
+[21/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_f2nOuIPchP8.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action appears to be a **video call or a casual video recording session** taking place in a room that looks like a hotel or a well-furnished living space.
+
+Here's a breakdown of the observations:
+
+1.  **Setting:** The background shows a dining or meeting table set up with place settings (napkins, small containers, etc.), chairs, and a warm, somewhat dramatic lighting setup (including a prominent floor lamp). There are shelves in the background displaying various items.
+2.  **Subjects:** There are multiple people visible, primarily young females, who are looking towards the camera.
+3.  **Action Flow:**
+    *   The first few frames show the environment
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Fails to identify falling off chair; verbose, irrelevant scene description; includes speculative, possibly hallucinated details.
+--------------------------------------------------
+[22/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_IuWPZJHWVYA.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of images, the action taking place is **tricking or performing acrobatic maneuvers on a skate park or similar outdoor recreational area.**
+
+Here's a breakdown of the evidence:
+
+1.  **Setting:** The images show a large, colorful, textured surface (likely a ramp or feature of a skate park) and an outdoor environment with landscaping and wooden structures.
+2.  **Activity:** The individuals are captured mid-air, performing dynamic, inverted, and contorted poses.
+    *   In the first few frames, the person is shown in a **flip or aerial trick** off a curved ramp feature.
+    *   In the middle frames, the person is executing a **backflip or aerial
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Misidentifies action; adds skate park details; verbose and hallucinatory, not relevant to falling off chair.
+--------------------------------------------------
+[23/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_5xlTi_-c7NY.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action happening is a **performance or a staged scene** involving a young woman.
+
+Here is a breakdown of the progression:
+
+1.  **Frame 1 & 2:** The young woman is standing upright, seated on a chair, and appears to be presenting or performing while holding something (perhaps a book or notes).
+2.  **Frame 3, 4, & 5:** The young woman transitions from standing/sitting to **falling or collapsing** to the floor in a dramatic manner. She moves from a seated/upright position to lying down or sitting on the floor, suggesting a moment of distress, exhaustion, or part of a choreographed act.
+
+In summary, the
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 4
+Reason: Identifies falling but not off chair; verbose and speculative with hallucinated staging/props; incomplete summary.
+--------------------------------------------------
+[24/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_tCZvKt-dKdY.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of images, the action taking place is **a group of people engaged in some form of physical activity or exercise, likely a warm-up, stretching, or a light workout, within a classroom or large room setting.**
+
+Here's a breakdown of the evidence from the frames:
+
+1.  **Setting:** The environment appears to be a classroom or multi-purpose room, characterized by rows of desks/tables and large windows with blinds.
+2.  **Participants:** There are several individuals visible, mostly wearing similar red tops.
+3.  **Action Progression:**
+    *   The first few frames show people seated at the desks.
+    *   The subsequent frames show the individuals getting up and moving
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Misses falling off chair; verbose with speculative group-exercise details unrelated to the core action.
+--------------------------------------------------
+[25/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_YqW9B4aedKE.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action taking place is a **performance or a staged activity** in what appears to be a classroom or multi-purpose room.
+
+Here is a breakdown of the progression:
+
+1.  **Frame 1:** A young man is seated on a stool in the center of the room, looking relatively still.
+2.  **Frame 2:** The young man is actively performing a dynamic movement, with his arms spread out, suggesting a dance move, a dramatic pose, or a physical routine.
+3.  **Frame 3:** The young man is performing another dynamic movement, leaning forward with his arms extended, continuing the performance.
+4.  **Frame 4:** The young man
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Fails to identify falling off chair; verbose and speculative about performance/classroom; includes unrelated details.
+--------------------------------------------------
+[26/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_GotjwB_SgI0.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action appears to be a **performance or a gathering in a dimly lit, intimate setting.**
+
+Here's a breakdown of the visual evidence:
+
+1.  **Lighting and Atmosphere:** The frames are characterized by very low, warm, and dramatic lighting (yellow/orange tones), creating deep shadows. This suggests a stage, a club, or a very dark room.
+2.  **Figures:** There are multiple figures visible, though they are heavily silhouetted.
+3.  **Movement/Interaction:**
+    *   In the middle frames, one figure (wearing what looks like a red top) is clearly visible, seemingly standing or seated centrally.
+    *   In the later
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Fails to identify falling off chair; overly verbose; speculative hallucinations about setting and figures.
+--------------------------------------------------
+[27/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_kKhCkAkz1vk.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of images, the action taking place is a **dance or fitness routine**.
+
+Here's a breakdown of the evidence from the frames:
+
+1.  **Attire and Setting:** The young girl is wearing athletic wear (pink tank top and shorts) and is performing in a living room setting, which is common for home workouts or dance practice.
+2.  **Choreography/Movement:** The frames show a progression of distinct poses and movements:
+    *   **Frame 1:** Arms raised in a strong, dynamic pose.
+    *   **Frame 2:** Hands pressed together in a prayer or focused gesture.
+    *   **Frame 3:** Legs kicked out to the side in
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Incorrect action; verbose and speculative with unrelated details; fails to recognize falling off a chair.
+--------------------------------------------------
+[28/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_t3N44ZENWIQ.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action taking place appears to be **people working in an office environment, with some activity suggesting a possible setup, reorganization, or general office work in progress.**
+
+Here's a breakdown of the observations across the frames:
+
+1.  **Setting:** The location is clearly a "Business Office," featuring multiple desks, office chairs, shelving units filled with items (possibly files or supplies), and general office furniture.
+2.  **Activity (General):** The office is occupied. There are people visible, particularly in the right side of the frame, who seem to be seated or engaged in tasks at desks/tables.
+3.  **Activity (Specific/Dynamic):**
+    *
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Misses falling off chair; verbose office description with speculative details; irrelevant to core action.
+--------------------------------------------------
+[29/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_qkCEuMm9vnY.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames provided, the following action is taking place:
+
+**A person is engaged in an activity involving a motorized scooter or similar small vehicle, likely in a warehouse or storage area.**
+
+Here is a frame-by-frame breakdown of the progression:
+
+1.  **Frames 1-4 (01:09:42 PM to 01:09:51 PM):** A person is seated on the scooter, appearing to be operating it or preparing to move. The environment is a large, indoor space with shelving units stacked with boxes.
+2.  **Frame 5 (01:09:50 PM):** The person is seen moving or maneuvering the scooter
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Misses falling off chair; lengthy, irrelevant scooter narrative with hallucinated details and timestamps.
+--------------------------------------------------
+[30/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_y7GOcGQqVYM.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action appears to be a **group of students (wearing school uniforms, specifically maroon blazers and white shirts) sitting at desks in a classroom or school setting.**
+
+Here's a breakdown of the observations:
+
+1.  **Setting:** The background shows a bright, institutional room with wooden desks, storage bins (containing colorful items), and what looks like classroom decor (posters/artwork on the walls). This strongly suggests a school environment.
+2.  **Subjects:** The visible subjects are young people, likely students, dressed in matching uniforms.
+3.  **Action:** The frames show them seated, looking forward or slightly to the side, and engaged in the environment. The final frame
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Misses falling action; verbose and off-topic; adds unnecessary classroom details and potential hallucinations.
+--------------------------------------------------
+[31/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_0xJzTTPKfXo.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action taking place is a **person dancing or moving energetically while sitting on a couch**.
+
+Here's a breakdown of the progression:
+
+1.  **Frame 1:** The person is sitting upright on a zebra-print couch, looking upwards, appearing to be singing or expressing emotion while moving.
+2.  **Frame 2:** The person is still seated, but their posture is more engaged, with one hand near their face, suggesting movement or performance.
+3.  **Frame 3 & 4:** The person transitions from sitting to a more dynamic, possibly falling or leaning motion, suggesting a vigorous dance move or loss of balance while moving around the room.
+4.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Misses fall off chair, mislabels couch and dancing; verbose with speculative details; minor nod to loss of balance.
+--------------------------------------------------
+[32/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_3Ctreec2zrQ.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action depicted is a **casual social gathering or hangout session** that transitions into a **playful, energetic activity**.
+
+Here is a breakdown of the progression:
+
+1.  **Initial State (Frames 1-4):** Two men are sitting comfortably in chairs, looking at their phones. This suggests a relaxed, conversational, or downtime setting.
+2.  **Transition/Activity (Frames 5-8):** The scene becomes much more dynamic. The men are moving, falling, and interacting physically. This suggests they have started playing a game, engaging in roughhousing, or perhaps dancing/being very animated while watching something.
+3.  **Final State (Frame 9):
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Misses “falling off chair”; verbose, speculative, and incomplete with unrelated details.
+--------------------------------------------------
+[33/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_QQmQnfEXdOE.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action taking place is a person **relaxing and watching something on a laptop computer**.
+
+Here is a breakdown of the progression:
+
+1.  **Frames 1-4:** The person is seated in a chair at a desk, focused on a laptop displaying a nature scene (likely a video or image). They are wearing a striped blanket/throw and a plaid beanie.
+2.  **Frames 5-6:** The person shifts position, moving from the chair to lie down on a bed or couch, still seemingly engaged with the activity or relaxing after it.
+3.  **Frames 7-8:** The person is fully reclined on the bed/couch, continuing to relax
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Incorrect action; verbose with irrelevant specifics and potential hallucinations.
+--------------------------------------------------
+[34/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_l3U5BF9jUa4.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action appears to be a **person (wearing a white lab coat) falling or tumbling** in a room that looks like a laboratory or office space (indicated by the shelving units filled with items, and the presence of what looks like lab equipment/appliances).
+
+Here is a breakdown of the progression:
+
+1.  **Frames 1-3:** The person is seen in a dynamic, falling, or sprawling posture. The movement suggests a loss of balance or a sudden fall.
+2.  **Frames 4-6:** The person continues to move across the floor, still in a prone or semi-prone position, indicating the fall is ongoing or has just occurred.
+3.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 6
+Reason: Identifies falling but misses 'off chair'; verbose and includes speculative environment details; some unnecessary, possibly hallucinated context.
+--------------------------------------------------
+[35/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_uG1ZPoaMync.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action taking place is a **stunt or playful act involving someone climbing or falling down a wooden deck/stairs.**
+
+Here is a breakdown of the progression:
+
+1.  **Frames 1-3:** Show a person in a costume (wearing horns and a "Quiksilver" shirt) standing outdoors, seemingly filming or presenting.
+2.  **Frames 4-6:** Show the same area, but the focus shifts to the wooden deck. In these frames, a person (or people) is seen in motion on the deck, appearing to be either climbing down, falling, or performing a dynamic movement down the stairs/railing.
+3.  **Frames 7-
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Fails to identify falling off a chair; overly verbose with speculative, possibly hallucinated scene details.
+--------------------------------------------------
+[36/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_06u5p4FNohA.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of images, the action taking place is a **yoga or stretching routine**.
+
+The frames show a progression of poses:
+
+1.  **Frame 1:** The person is in a dynamic, lunging or stretching pose, holding a blue towel/band.
+2.  **Frame 2:** The person is in a deep lunge or straddle stretch.
+3.  **Frame 3:** The person is transitioning or holding a seated stretch, possibly a variation of a forward fold or seated hip opener.
+4.  **Frame 4 & 5:** The person is in a seated position, performing a stretch, possibly a seated forward fold or hamstring stretch.
+5.  **Frame
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Incorrect action; verbose, off-topic frame details and likely hallucinations; not concise or relevant.
+--------------------------------------------------
+[37/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_kwh65tVZyik.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action taking place is a **person performing acrobatic or gymnastic movements on an office chair**.
+
+Here is a breakdown of the progression:
+
+1.  **Frame 1:** The person is standing on the office chair, appearing to be in a preparatory or balanced stance.
+2.  **Frame 2:** The person is still on the chair, possibly beginning a movement or pose.
+3.  **Frame 3:** The person is actively moving, possibly swinging or transitioning into a more dynamic pose while still on the chair.
+4.  **Frame 4:** The person has fallen or transitioned off the chair and is now lying on the floor, having completed the movement.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 3
+Reason: Mislabels as acrobatics; only hints at falling. Overly verbose and includes speculative details.
+--------------------------------------------------
+[38/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_W2237TK0wcI.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of images, the action taking place is a **baby or young child sitting in a baby swing or activity seat** while being attended to by an adult.
+
+Here's a breakdown of the observations:
+
+1.  **The Subject:** A young child, likely a toddler, is seated in a brightly colored, supportive chair/swing.
+2.  **The Activity:** In the first few frames, the child is sitting and appears to be engaged in some activity or perhaps being cared for (the child is looking down, and an adult's hands are visible in the subsequent frames).
+3.  **Interaction:** The later frames clearly show an adult's hands interacting with the child, suggesting caregiving,
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Fails to identify falling; overly verbose with speculative swing/caregiver details unrelated to the core action.
+--------------------------------------------------
+[39/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_WD87x58wRsE.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action appears to be a **performance or dance routine**.
+
+Here's a breakdown of the visual evidence:
+
+1.  **The Figures:** There are at least two figures visible. One figure (on the left) seems to be a performer, dressed in casual clothing (T-shirt and light pants). The other figure (on the right) is wearing a dark, voluminous outfit and is engaged in dynamic movement.
+2.  **The Movement:** The figure in the dark outfit is performing acrobatic or highly stylized movements, notably balancing or moving on a small, round, elevated platform (resembling a low stool or prop). The poses are exaggerated and theatrical.
+3.  **The
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Misses falling off chair; verbose and speculative with hallucinated performers and props; not concise or relevant.
+--------------------------------------------------
+[40/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_zNx9s_XbkUQ.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action taking place is a **leisurely day spent outdoors by the water**, likely at a park or waterfront promenade.
+
+Here is a breakdown of the activities shown across the frames:
+
+1.  **Relaxation and Reading:** In the first few frames, people are seen relaxing on the grass, some sitting in a folding chair and reading (Frame 1), and others lying down (Frames 2, 3, and 4).
+2.  **Movement/Activity:** In the later frames (Frames 4 and 5), one person is seen walking or jogging across the grass, suggesting some light physical activity is occurring alongside the relaxation.
+3.  **Setting:** The setting
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Misses falling off chair; verbose with unrelated, hallucinated setting and activities; not concise nor relevant.
+--------------------------------------------------
+[41/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_3Jd_MXqwIKc.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action appears to be a **person walking through an office or classroom setting.**
+
+Here's a breakdown of the observations across the frames:
+
+1.  **Setting:** The environment looks like a modern office or a computer lab/classroom, featuring desks, computer monitors, and a bulletin board on the back wall.
+2.  **Subject:** A person wearing a dark jacket and jeans is visible.
+3.  **Movement:**
+    *   In the first few frames, the person is seen walking past the desks in the background.
+    *   In the subsequent frames, the person is moving toward the foreground/center of the image.
+    *   The final frames show the
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Misidentifies action; verbose, irrelevant breakdown; incomplete response; no clear hallucinations but incorrect and unfocused.
+--------------------------------------------------
+[42/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_xFFQRtKizJk.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action depicted is a **person falling or being thrown to the ground**.
+
+Here is a breakdown of the progression:
+
+1.  **Frames 1 & 2:** Show people in a room, with one person seated (Frame 2).
+2.  **Frames 3 & 4:** Show a person (or object) moving or falling towards the floor.
+3.  **Frames 5 & 6:** Show the person on the floor, initially lying down, and then in a more dynamic, possibly struggling or falling posture.
+4.  **Frame 7:** Shows the person on the floor, seemingly in the process of falling or having just fallen.
+
+The overall
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 6
+Reason: Identifies a fall but not off a chair; verbose and speculative (“thrown”); incomplete ending.
+--------------------------------------------------
+[43/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_1RZYhr6hly4.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Based on the sequence of frames, the action depicted is a **young child lying down and appearing to be resting or relaxing on a couch or comfortable seating area.**
+
+Here's a breakdown of the observations:
+
+*   **Subject:** A young child, dressed in a white onesie with an orange graphic.
+*   **Setting:** Indoors, in a room with furniture (a couch/sofa, and a chair visible in the background). There is a lamp visible in the upper left corner.
+*   **Action:** The child is positioned lying down on a large, brown, upholstered surface (likely a couch). In the later frames, the child is looking towards the camera, suggesting they are aware of being filmed.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Fails to identify falling; overly verbose with scene details; includes irrelevant specifics, possibly hallucinated.
+--------------------------------------------------
+
+📊 評估總結
+總分: 40
+有效樣本數: 43
+平均分: 0.93

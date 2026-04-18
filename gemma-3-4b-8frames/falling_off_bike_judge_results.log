@@ -1,0 +1,865 @@
+開始解析紀錄檔: gemma-3-4b-8frames/falling_off_bike.log
+成功解析出 45 筆待評估紀錄。
+
+🚀 開始執行 LLM-as-a-Judge 評估...
+
+[1/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_k73Go_-hE-I.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**Overall Action:** The video shows a person attempting to ride a BMX bike over a ramp-like structure. However, the attempts are unsuccessful, and the person repeatedly falls off the ramp.
+
+**Sequence of Events:**
+
+1.  **Initial Attempts:** The first few frames show the person riding the ramp, but they quickly lose control and fall.
+2.  **Repeated Falls:** Subsequent frames show the person repeatedly falling off the ramp, indicating a lack of skill or control.
+3.  **Final Fall:** The last two frames show the person lying on the grass after a final fall.
+
+**In essence, the video captures a humorous and somewhat clumsy
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 7
+Reason: Identifies falling off a bike, but verbose with speculative ramp/BMX and unnecessary commentary; minor hallucination and truncation.
+--------------------------------------------------
+[2/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_W6M1Y_RYQIY.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**Overall Action:** The video shows a child attempting to ride a bike down a slope, but ultimately crashes. 
+
+**Sequence of Events:**
+
+1.  **Initial Ride:** The first few images show the child riding the bike down a slope, appearing to gain some speed.
+2.  **Loss of Control:** As the video progresses, the child loses control of the bike.
+3.  **Crash:** The final images show the child falling over the handlebars and the bike sliding down the slope. 
+
+**Key Details:**
+
+*   The child is wearing a helmet, which is good safety practice.
+*   The slope is likely a makeshift ramp
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 8
+Reason: Correctly identifies falling off bike, but overly verbose and includes speculative details like a makeshift ramp.
+--------------------------------------------------
+[3/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_RluniDxJ-io.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the video frames:
+
+**Overall Action:**
+
+The video depicts a person riding a small, motorized vehicle (likely a mini-bike or similar) down a dirt or sandy slope. The person is repeatedly going over a small embankment or "bump" in the road. 
+
+**Observations from the Frames:**
+
+*   **Repeated Falls:** The person is consistently falling off the vehicle as it approaches the bump.
+*   **Momentum:** The vehicle appears to have some momentum, carrying the rider over the obstacle.
+*   **Terrain:** The terrain is a reddish-brown dirt or sand, suggesting a rural or outdoor setting.
+*   **Obstacle:** The bump is a significant feature of
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 7
+Reason: Correctly identifies falling off bike, but verbose with speculative terrain/motorization details and truncated ending.
+--------------------------------------------------
+[4/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_Hrt2-YSJaBM.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the frames:
+
+**Overall Action:** The video shows a person riding a bicycle and subsequently falling into a flooded area. 
+
+**Sequence of Events:**
+
+1.  **Initial Ride:** The person is initially riding a bicycle on a flooded surface.
+2.  **Loss of Control:** The person loses control of the bicycle, likely due to the slippery conditions.
+3.  **Fall:** The person falls off the bicycle and into the water.
+4.  **Entanglement:** The bicycle becomes entangled in the water, trapping the person.
+
+**Key Observations:**
+
+*   The flooded surface is the primary factor contributing to the accident.
+*   The person's
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 6
+Reason: Correctly identifies falling off bike but verbose and speculative (flooding, entanglement), adding unrelated details.
+--------------------------------------------------
+[5/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_6bIMrpU6ils.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video depicts a young boy riding a small, three-wheeled vehicle (likely a "pedi-cycle" or similar) down a rough, unpaved road. 
+
+**Sequence of Events (as seen in the frames):**
+
+1. **Frame 1:** The boy is shown in mid-action, leaning forward and pushing off with his legs, indicating he's actively moving the vehicle down the slope.
+2. **Frames 2 & 3:** The camera shows the road and the boy's vehicle from different angles, highlighting the uneven and deteriorated condition of the road.
+3. **Frames 4
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Fails to identify falling off bike; verbose, incomplete, and includes speculative, unrelated details.
+--------------------------------------------------
+[6/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_USCaphYBPOg.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the video frames:
+
+**Overall Action:** The video depicts a child attempting a trick on a bicycle, which ultimately results in a fall.
+
+**Sequence of Events (based on the frames):**
+
+1.  **Frame 1:** The child is shown riding the bike, seemingly trying to perform a trick (possibly a wheelie or a balance trick).
+2.  **Frames 2-4:** The child loses control of the bike and begins to fall. The bike is spinning.
+3.  **Frames 5-6:** The child is lying on the ground, with the bike beside them.
+4.  **Frames 7-8:** A view of the child getting up
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 8
+Reason: Correctly identifies falling off bike, but verbose with speculative details (trick, wheelie, bike spinning, getting up).
+--------------------------------------------------
+[7/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_WWjDVZAIxrA.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The images show a group of people engaged in a freestyle BMX stunt session. They are attempting various tricks and maneuvers on their bikes in a natural, somewhat rough terrain environment. 
+
+**Specific Actions & Observations:**
+
+*   **Falls/Tumbles:** The most prominent action is a series of falls and tumbles. It appears the riders are attempting tricks that aren't always successful.
+*   **Attempted Tricks:** There are moments where riders are clearly trying to perform tricks, such as jumps and rotations.
+*   **Bike Handling:** Some riders demonstrate skillful bike handling, navigating the terrain and attempting to maintain control.
+*   **
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 5
+Reason: Partially identifies falling, but not explicit; overly verbose and includes speculative BMX/stunt details.
+--------------------------------------------------
+[8/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_AxMf6X5_A3A.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**Action:** A person is riding a bicycle on a paved path.
+
+**Observations:**
+
+*   **Subject:** A person is riding a bicycle.
+*   **Location:** The scene appears to be a residential area with a paved path or road.
+*   **Movement:** The person is actively riding the bicycle, moving across the frame in multiple shots.
+*   **Perspective:** The images are taken from a slightly elevated position, likely from a vehicle or building.
+
+Let me know if you'd like me to elaborate on any aspect of this analysis!
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Misses the fall; describes generic riding with speculative details and mild verbosity, though mostly on-topic.
+--------------------------------------------------
+[9/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_F5rWXJiw4Z4.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**Overall Action:** The video shows a mountain biker navigating a challenging, wooded trail. 
+
+**Specific Observations:**
+
+*   **Descending:** The biker is primarily moving downhill, indicated by the angle of the trail and the biker's body position (leaning forward).
+*   **Technical Terrain:** The trail is uneven, with roots, rocks, and loose dirt, suggesting a technical trail designed for skilled riders.
+*   **Obstacles:** The biker is actively maneuvering around obstacles, including roots and rocks, demonstrating skill and control.
+*   **Falls:** In some frames, the biker appears to have fallen, suggesting a challenging and potentially risky ride.
+*
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 6
+Reason: Partially identifies falling, but buries it in verbose trail details and speculative observations unrelated to core action.
+--------------------------------------------------
+[10/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_4kU-hbhQ9is.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a person riding a handcycle (a bicycle designed for people with limited use of their arms and legs) down a street. 
+
+**Specific Observations:**
+
+*   **Handcycle:** The person is using a handcycle, which is evident from the hand-operated pedals and the seat designed for seated riding.
+*   **Movement:** The person is moving forward, indicating they are actively riding the handcycle.
+*   **Location:** The setting appears to be a residential street with red-painted buildings and a sidewalk.
+*   **Clothing:** The person is wearing a dark jacket and a hat, which suggests they are
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Misses fall; describes riding instead; overly verbose with speculative handcycle and disability details; some unrelated context.
+--------------------------------------------------
+[11/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_vg4T4Ts3KdU.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a man riding a bicycle through a very loose, sandy, and muddy terrain. He's performing various tricks and maneuvers, primarily focused on navigating the challenging ground conditions. 
+
+**Specific Actions & Observations:**
+
+*   **Riding:** The man is consistently riding the bike, demonstrating control and skill in the difficult terrain.
+*   **Tricks/Maneuvers:** He's performing a variety of tricks, including:
+    *   **Bun jumps:**  Several images show him jumping over small mounds of sand and dirt.
+    *   **Wheelies:**  He's shown doing wheelies,
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Misses falling action; overly verbose; adds speculative tricks and terrain details not evidenced.
+--------------------------------------------------
+[12/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_vz8oSbQi_mM.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video shows a person skateboarding at a skate park. 
+
+**Specific Details:**
+
+*   **Movement:** The person is actively riding and performing maneuvers on the ramps and obstacles within the skate park.
+*   **Maneuvers:** It appears they are attempting to ride the ramps and possibly doing some kind of jump or trick.
+*   **Equipment:** The person is riding a bicycle.
+
+Let me know if you'd like me to elaborate on any aspect of the video!
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Fails to identify falling; contradictory (skateboard vs bicycle); verbose with speculative, unrelated details.
+--------------------------------------------------
+[13/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_YawF29t8FRY.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the video frames:
+
+**Overall Impression:**
+
+The video depicts a traumatic event – a bicycle accident. The images show a person falling off a bicycle in a wooded area, resulting in a crash.
+
+**Frame-by-Frame Breakdown:**
+
+*   **Frames 1-3:** Shows a group of people (at least two) walking along a muddy path in a forest. The color grading is unusual, giving a slightly eerie or distorted look.
+*   **Frame 4:** A person on a bicycle is moving forward.
+*   **Frame 5:** The bicycle is seen mid-fall, with the rider clearly losing control.
+*   **Frame 6:** The bicycle is lying
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 8
+Reason: Correctly identifies falling off bike; mostly relevant but verbose with unnecessary, subjective details.
+--------------------------------------------------
+[14/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_p8Jt6ROutMo.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a person (likely a stunt rider) performing stunts on a makeshift obstacle course in a wooded area. The central feature is a large, man-made mound of earth or dirt that serves as a jump or ramp.
+
+**Specific Details:**
+
+*   **Jumping:** The person is repeatedly jumping over the mound.
+*   **Balance and Control:** The rider is demonstrating skill in maintaining balance and controlling their movement while navigating the obstacle.
+*   **Obstacle Course:** The surrounding area suggests a deliberately constructed course with multiple mounds and features.
+
+Let me know if you'd like me to elaborate on any aspect of the
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Misses falling off bike; verbose with fabricated obstacle-course details; not concise.
+--------------------------------------------------
+[15/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike__9wbSErLcT4.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video depicts a child riding a bicycle down a narrow, paved pathway. 
+
+**Specific Observations from the Frames:**
+
+*   **Frames 1-4:** A child is riding a bicycle down the path.
+*   **Frames 5-6:** The child continues riding the bicycle.
+*   **Frames 7-8:** The child has fallen off the bicycle.
+*   **Frame 9:** The bicycle is lying on the ground.
+
+**In summary, the video shows a child riding a bicycle, falling off, and the bicycle remaining on the ground.**
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 10
+Reason: Correctly identifies falling off bike; relevant and concise; no unrelated or hallucinated details.
+--------------------------------------------------
+[16/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_I10wpW-lYPM.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**Overall Action:** The video shows a young boy who has fallen off his bicycle. 
+
+**Sequence of Events:**
+
+1.  **Image 1:** The boy is riding his bike on a grassy area, appearing to be attempting a maneuver or turn.
+2.  **Images 2-5:** The boy loses control of the bike and falls to the ground. He is lying on the grass, with the bike resting beside him.
+3.  **Images 6-8:** The boy is sitting up, still wearing his helmet, and appears to be recovering from the fall. 
+
+**Key Observations:**
+
+*   The boy is wearing a
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 7
+Reason: Correct core action; somewhat verbose with unnecessary specifics and an incomplete sentence; no major hallucinations.
+--------------------------------------------------
+[17/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_0uf2P7BX1vs.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a person attempting to ride a bicycle off a trampoline, but failing spectacularly. It's a comedic and somewhat chaotic scene.
+
+**Sequence of Events (as seen in the frames):**
+
+1.  **Initial Attempt:** The person is leaning forward, trying to lift the front wheel of the bike off the trampoline.
+2.  **Loss of Balance:** The person loses their balance and falls off the bike.
+3.  **Multiple Falls:** The person continues to fall repeatedly, landing on the trampoline surface.
+4.  **Final Position:** The person is lying on the trampoline, with the bike beside them.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 7
+Reason: Identifies falling off bike, but verbose and adds likely hallucinated trampoline and extra details.
+--------------------------------------------------
+[18/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_SocGMDzqthw.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the video frames:
+
+**Overall Scenario:**
+
+The video depicts a cyclist being struck by a car. It appears to be a tragic accident.
+
+**Frame-by-Frame Breakdown:**
+
+*   **Frame 1 & 2:** The cyclist is riding on a wet road, seemingly attempting to cross a street.
+*   **Frame 3:** The cyclist is falling to the ground after being hit by a car.
+*   **Frame 4:** The cyclist is lying on the ground, surrounded by onlookers and emergency personnel.
+*   **Frame 5 & 6:** The cyclist is being attended to by paramedics.
+*   **Frame 7 & 8:** The cyclist is
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Misidentifies action; adds car collision/paramedics hallucinations; overly verbose and truncated; not concise.
+--------------------------------------------------
+[19/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_7qZvo1A3MRQ.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action happening in the video frames:
+
+**Main Action:**
+
+The primary action is a person riding a bicycle through a somewhat rough, unpaved area. The person is performing tricks or stunts on the bicycle, including wheelies, and attempting to navigate around obstacles like a large shipping container.
+
+**Details Observed:**
+
+*   **Bicycle Tricks:** The person is repeatedly lifting the front wheel of the bicycle (wheelies) and attempting to maneuver around objects.
+*   **Shipping Container:** A large shipping container is a prominent obstacle in the background, and the person is actively trying to ride around it.
+*   **Terrain:** The ground is uneven and covered in debris, suggesting a challenging environment
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Fails to identify falling; focuses on tricks/riding. Overly verbose with possibly irrelevant scene details.
+--------------------------------------------------
+[20/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_QcutxgXwENE.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a person riding a mountain bike and subsequently falling over while navigating a grassy, uneven trail. 
+
+**Sequence of Events (as shown in the frames):**
+
+1.  **Initial Ride:** The first image shows the person riding the bike on a trail.
+2.  **Loss of Control:** The subsequent images show the person losing control of the bike, likely due to an obstacle or a slippery patch of ground.
+3.  **Fall:** The person falls over, with the bike rolling along the trail. 
+
+**Details:**
+
+*   The terrain is grassy and uneven, suggesting a challenging off-road trail
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 8
+Reason: Identifies falling off bike accurately; relevant but somewhat verbose with minor speculative details.
+--------------------------------------------------
+[21/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_GduBJtZHDGM.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the video frames, based on what I can observe:
+
+**Overall Action:**
+
+The video depicts a street race or a competitive cycling event taking place at night. Several young men are riding bicycles at high speed on a paved area, likely a track or a designated race course.
+
+**Specific Observations from the Frames:**
+
+*   **Frame 1 & 2:** Shows a close-up of a cyclist, likely the leader, with a blurred background of other racers and spectators.
+*   **Frame 3 & 4:** Captures the action of a cyclist speeding away, with a blurred background.
+*   **Frame 5:** Shows a cyclist falling off their bike.
+*   **
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 6
+Reason: Mentions falling off bike but buries core action in verbose, speculative context with unnecessary details.
+--------------------------------------------------
+[22/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_7PcdoivSB3w.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**Overall Action:** The video shows a young man riding a BMX bike in a parking lot. He is attempting some kind of trick or maneuver, but it quickly goes wrong.
+
+**Sequence of Events:**
+
+1.  **Initial Attempt:** The first few frames show him riding, likely trying to perform a trick (possibly a wheelie or a jump).
+2.  **Loss of Control:** He loses control of the bike.
+3.  **Fall:** He falls over, resulting in a spectacular (and somewhat comical) backward somersault.
+
+**Key Details:**
+
+*   **BMX Bike:** The bike is a typical BMX style, designed for
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 8
+Reason: Correctly identifies falling off bike; slightly verbose with speculative details and subjective tone.
+--------------------------------------------------
+[23/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_X5QyTM7XAjo.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**The woman is having a very unfortunate experience while riding her bicycle.** 
+
+The images clearly show her losing control of the bike and falling over. It appears she was attempting to steer or maneuver the bike in a way that resulted in her losing balance and tumbling to the ground. 
+
+It's a rather comical and unfortunate situation!
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 8
+Reason: Correctly states falling off bike, but verbose with speculative commentary and unnecessary tone.
+--------------------------------------------------
+[24/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_W8fpOGSD_7M.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of what's happening in the video frames:
+
+**Overall Action:**
+
+The video depicts a person attempting to ride a bicycle, but they have fallen off. It's a clear case of a failed attempt at cycling.
+
+**Specific Details from the Frames:**
+
+*   **Frame 1 & 2:** The person is initially sitting on the bicycle, wearing a red jacket.
+*   **Frame 3 & 4:** The person has fallen off the bicycle and is lying on the ground. The "Nope!" text indicates a sense of disappointment or failure.
+*   **Frame 5 & 6:** The person is still on the ground, entangled with the bicycle.
+*   **
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 8
+Reason: Correctly identifies falling off bike; mostly relevant; minor verbosity and trivial extra details; slight truncation.
+--------------------------------------------------
+[25/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_Tl1a49pTtak.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of what's happening in the images:
+
+**Overall Situation:**
+
+The images depict a serious bicycle accident. A young man has fallen from his bicycle and is lying on the pavement. 
+
+**Sequence of Events (as shown in the frames):**
+
+1. **Initial Impact:** The first few images show the cyclist falling, likely due to a loss of control. The pavement has a noticeable crack, which may have contributed to the fall.
+2. **Post-Fall:** Subsequent frames show the cyclist lying on the ground, entangled with the bicycle. They appear to be in distress, with their arms raised.
+3. **Assistance:**  In some frames, people are attempting to help the cyclist
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 6
+Reason: Correctly identifies falling off bike, but verbose with speculative details (pavement crack, helpers) beyond core action.
+--------------------------------------------------
+[26/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_ggi3XwH4vPo.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**The Action:**
+
+The video shows a man attempting to ride a bicycle across a very muddy, unstable surface – likely a large, muddy embankment or a section of ground that has turned into a slurry. He's using a large piece of wood as a makeshift "bridge" or path. 
+
+**Observations and What's Happening:**
+
+*   **Instability:** The mud is extremely deep and soft, causing the bicycle and the man to sink significantly.
+*   **Attempted Crossing:** The man is clearly trying to navigate this difficult terrain.
+*   **Loss of Control:** In several frames, he loses his balance and appears to be sliding or
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 4
+Reason: Implies a fall but not explicit; overly verbose with possibly invented muddy plank details.
+--------------------------------------------------
+[27/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_4VpUtUGcJzE.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action happening in the video frames:
+
+**Overall Activity:**
+
+The video depicts a group of young people performing tricks on BMX bikes in a park-like setting. It appears to be a casual, informal gathering of riders.
+
+**Specific Actions:**
+
+*   **Tricks:** Several riders are actively performing tricks, including jumps, flips, and spins.
+*   **Falls:** One rider is shown falling off their bike, with the bike landing on its side.
+*   **Riding:** Other riders are simply riding around, maintaining balance and maneuvering.
+
+**Setting:**
+
+The location is a paved area within a park or recreational area, with a building (likely a school or community center)
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 6
+Reason: Identifies falling off bike, but verbose and includes speculative tricks/setting details unrelated to core action.
+--------------------------------------------------
+[28/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_9EqDdRaHEZE.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a person attempting to perform a trick on a BMX bike, but repeatedly crashing and falling over a large piece of wood that has been submerged in floodwater. 
+
+**Sequence of Events:**
+
+1.  **Initial Attempt:** The first few frames show the person attempting to ride over the wood.
+2.  **Multiple Crashes:** The person repeatedly loses control and falls off the bike, often landing on the wood.
+3.  **Continued Attempts:** Despite the crashes, the person continues to try the trick.
+4.  **Final Crash:** In the last frames, the person falls completely over the bike and the
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 6
+Reason: Correctly identifies falling off bike, but verbose with speculative details (BMX, wood, floodwater) and incomplete sentence.
+--------------------------------------------------
+[29/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_u386WjrxTuM.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The primary action is a young man jumping into a pool or pond from a raised, earthen bank. 
+
+**Sequence of Events (as shown in the frames):**
+
+1.  **Initial Position:** The first image shows the boy sitting on a bicycle, perched on a raised bank overlooking the water.
+2.  **Preparation:** The subsequent images show him preparing to jump, likely gaining momentum.
+3.  **The Jump:** The final images capture the moment of the jump, with a splash of water as he enters the water. 
+
+**Observations:**
+
+*   The location appears to be a somewhat makeshift or natural pool/
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Misidentifies action; says jumping into water, not falling off bike. Verbose with speculative, unnecessary details.
+--------------------------------------------------
+[30/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_G_w2dLWeQfY.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**Overall Action:** The video shows a collision between two cyclists. It appears to be a fairly serious fall, with one cyclist landing heavily on the grass.
+
+**Sequence of Events (as shown in the frames):**
+
+1.  **Initial Ride:** The first image shows a cyclist riding on a paved path.
+2.  **Collision:** The second and third images show the collision, with the cyclist in the blue shirt falling.
+3.  **Impact and Recovery:** The fourth image shows the cyclist in the blue shirt attempting to get back on their bike.
+4.  **Further Fall:** The fifth and sixth images show the cyclist in the blue shirt
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 8
+Reason: Correctly identifies falling off a bike; relevant but overly verbose with minor unnecessary details.
+--------------------------------------------------
+[31/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_rhCVjp71CRU.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the video based on the frames:
+
+**Action:** The video depicts a serious accident involving a motorcycle. 
+
+**Details:**
+
+*   **Initial Frames:** The first few frames show a motorcycle traveling down a dirt path through a natural setting.
+*   **The Accident:** The later frames clearly show the motorcycle falling off the path and tumbling down into a body of water (likely a stream or river). The rider is seen in the water, appearing to be injured.
+
+**Overall Impression:** It's a dramatic and concerning scene, suggesting a potentially dangerous situation.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 8
+Reason: Identifies falling off motorcycle; relevant but somewhat verbose with speculative injury and water details.
+--------------------------------------------------
+[32/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_-c0s5FYBWTQ.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**The action is a child riding a bicycle down a residential street.**
+
+**Observations:**
+
+*   **Consistent Subject:** A child is consistently visible in each frame, riding a bicycle.
+*   **Setting:** The scenes are all set in a typical suburban neighborhood with houses, sidewalks, and trees.
+*   **Movement:** The child is actively moving the bicycle down the street.
+
+Let me know if you'd like me to elaborate on any aspect of this analysis!
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Fails to identify fall; describes riding instead. Some unnecessary scene details, though generally relevant.
+--------------------------------------------------
+[33/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_GcWGUxG-qYo.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the video frames:
+
+**Overall Action:** The video depicts a series of crashes and accidents involving a quad bike (a type of all-terrain vehicle) and a rider. It appears to be a competitive event, possibly a motocross race or off-road competition.
+
+**Sequence of Events (based on the frames):**
+
+1.  **Initial Ride:** The first few frames show a rider on a mountain bike navigating a dirt track through a wooded area.
+2.  **Quad Bike Entry:** A quad bike enters the scene, also traveling down the track.
+3.  **Crash 1:** The quad bike crashes, sending the rider flying.
+4.  **Crash 2:**
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 4
+Reason: Mentions crash and rider flying off, but overlong, speculative, includes incorrect vehicle details and unfinished content.
+--------------------------------------------------
+[34/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_puUZXLmpJKI.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**The Action:**
+
+The person in the images is performing a "snow plow" or "sled" technique on a grassy surface. They are lying on their stomach, using their arms and legs to propel themselves across the ground, similar to how a child might slide down a snowy hill. 
+
+**Observations:**
+
+*   **Gear:** The person is wearing a helmet and gloves, suggesting this is a deliberate activity rather than accidental.
+*   **Environment:** The setting is a park or grassy area with trees and shade.
+*   **Progression:** The images show the progression of the movement, starting with the person positioned on the grass and then sliding across it
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Fails to identify falling off bike; lengthy, irrelevant details; hallucinated sledding action and environment.
+--------------------------------------------------
+[35/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_wWEnYiHzorg.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video depicts a young boy attempting to ride his bicycle down a narrow, flooded alleyway. However, he loses control and falls off the bike.
+
+**Sequence of Events (based on the frames):**
+
+1.  **Initial Attempt:** In the first few frames, the boy is riding his bike forward down the alleyway.
+2.  **Loss of Control:** As the video progresses, the boy's bike begins to wobble and he loses control.
+3.  **Fall:** In the last few frames, the boy falls off the bike, landing on the ground.
+
+**Contextual Observations:**
+
+*   **
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 7
+Reason: Correctly identifies falling off bike, but verbose and includes unverified details about age and setting.
+--------------------------------------------------
+[36/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_GNjsTEp_J8E.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video depicts a person riding a bicycle across a series of wooden planks or tables. It's a somewhat precarious and challenging stunt.
+
+**Specific Details:**
+
+*   **The Stunt:** The person is deliberately balancing the bicycle on top of various elevated surfaces (tables, logs).
+*   **Difficulty:** The frames show a clear struggle to maintain balance, suggesting the stunt is not easy.
+*   **Location:** The setting appears to be a rural or outdoor area, likely a campsite or recreational area with a red building and mountains in the background.
+
+Let me know if you'd like me to elaborate on any aspect of
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 3
+Reason: Fails to identify falling; verbose with unnecessary setting details; possible hallucinations; only recognizes biking context.
+--------------------------------------------------
+[37/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_4y0ujkNbul8.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**Overall Action:** The video shows a child attempting to ride a small, motorized platform resembling a mini-dirt bike. It appears to be a learning experience, with some successes and several falls.
+
+**Sequence of Events:**
+
+1.  **Initial Ride (Images 1 & 2):** A young boy is riding a small, yellow and blue bicycle on a paved surface. He seems to be gaining some control.
+2.  **Transition to Platform (Images 3 & 4):** The boy is then transferred to a black, motorized platform.  Two older boys are assisting him.
+3.  **Attempts and Falls (Images 5 &
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Misses core "falling off bike"; verbose, incomplete, with hallucinated motorized platform and assistants; not concise.
+--------------------------------------------------
+[38/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_QXlLnjld17U.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the actions depicted in the images:
+
+**Overall Situation:**
+
+The images show a young boy learning to ride a bicycle, specifically a BMX-style bike. He's practicing on a paved area, likely a schoolyard, with a brick building in the background.
+
+**Sequence of Events:**
+
+1. **Initial Attempt (Images 1 & 2):** The boy is riding a three-wheeled bike, attempting to balance and steer. He's clearly still learning and struggling to maintain control.
+
+2. **Fall (Images 3 & 4):** The boy loses his balance and falls over the bike. He's wearing a helmet, which is crucial for safety.
+
+3.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 7
+Reason: Identifies falling off bike, but verbose with unnecessary details and possible hallucinations (BMX, three-wheeled).
+--------------------------------------------------
+[39/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_KZZ2ySZ2oC8.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a man repeatedly falling off a small, adult-sized bicycle while attempting to ride on a road. He seems to be struggling to maintain balance and control.
+
+**Sequence of Events (as shown in the frames):**
+
+1.  **Initial Attempt:** The first image shows him riding, but he quickly loses control and falls.
+2.  **Post-Fall:** Subsequent images show him sitting on the curb, next to the damaged bicycle.
+3.  **Repeated Falls:** The following frames depict him repeatedly falling off the bike, each time landing on the curb.
+4.  **Attempt to Ride Again:**
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 6
+Reason: Correctly identifies falling off a bike, but overly verbose with likely hallucinated details (damaged bike, repeated curb falls).
+--------------------------------------------------
+[40/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_Zt4pZsUXLwU.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video depicts a person riding a small bicycle up a long, steep set of stairs. It appears to be a challenging and somewhat precarious ride.
+
+**Detailed Breakdown of the Frames:**
+
+*   **Frame 1 & 4:** Shows the person starting their ascent up the stairs, with a slide visible in the background.
+*   **Frame 2 & 5:** The person is actively riding up the stairs, maintaining balance.
+*   **Frame 3:** The person is falling down the stairs.
+*   **Frame 6 & 7:** The person is lying on the ground after the fall.
+*
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 6
+Reason: Identifies a fall but emphasizes riding; not concise and includes unnecessary background details.
+--------------------------------------------------
+[41/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_ENfmLM2-ZDQ.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a mountain biker attempting to navigate a flooded, stone-lined channel or aqueduct. The water level is high, and the channel is uneven, creating a challenging obstacle course.
+
+**Specific Events:**
+
+*   **Initial Attempt:** In the first few frames, the biker is successfully riding across the water, demonstrating some skill and control.
+*   **Loss of Control:** As the video progresses, the biker loses control and the bike tips over into the water.
+*   **Recovery:** The biker attempts to regain balance and continue, but struggles to maintain traction.
+*   **Final Fall:** The biker ultimately falls into the
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 7
+Reason: Correctly identifies falling off bike; overly verbose with speculative environment details and truncated ending.
+--------------------------------------------------
+[42/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_0US_tIy2xAg.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a young man riding a BMX bike in a residential neighborhood. He's performing tricks, specifically attempting to launch himself over a small ramp that has been set up in his front yard. 
+
+**Specific Details:**
+
+*   **Ramp:** A small, angled ramp is prominently featured in the foreground. This suggests the focus of the activity is practicing jumps or tricks.
+*   **BMX Bike:** The rider is using a BMX bike, which is designed for tricks and stunts.
+*   **Tricks:** The images show the rider attempting various maneuvers, including launching over the ramp.
+*   **Location:** The
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Fails to identify falling; overly verbose with speculative details; incomplete and partially unrelated.
+--------------------------------------------------
+[43/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_AVLCPu4UaPE.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**The boy is attempting to ride his bike in a "wheelie" position.** 
+
+*   **What is a wheelie?** A wheelie is a trick where a bicycle rider lifts the front wheel off the ground and balances it while riding. It requires a lot of balance and control.
+*   **What's happening in the images?** The boy is clearly struggling to maintain the wheelie. You can see the bike tilting and the boy losing his balance in several frames. In the last image, he has fallen off the bike.
+
+**Overall Impression:** It looks like the boy is learning to do a wheelie, and it's a
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 6
+Reason: Mentions falling off but focuses on wheelie; verbose with speculative details; partially irrelevant and incomplete.
+--------------------------------------------------
+[44/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_qKScacoGAwE.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a man and a young girl riding a bicycle together in a narrow, dusty street. However, the video depicts a fall. 
+
+**Sequence of Events (as seen in the frames):**
+
+1.  **Initial Ride:** The man and girl are initially riding the bicycle down the street, with the man seemingly holding onto the back of the bike.
+2.  **Loss of Control:** The man loses control of the bicycle, and they both fall to the ground.
+3.  **Impact:** The final frames show the man and girl lying on the ground after the fall.
+
+**Context and Observations:**
+
+*
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 9
+Reason: Accurately describes falling off a bike; relevant sequence, slightly verbose with minor unnecessary scene details.
+--------------------------------------------------
+[45/45] 正在評估影片: ./dataset/falling_off_bike/falling_off_bike_WGHj7LBp2t8.mp4
+Ground Truth: falling off bike
+🤖 VLM 回答內容: Here's an analysis of the video based on the frames provided:
+
+**Overall Impression:**
+
+The video appears to be a very unsettling and potentially disturbing piece of experimental filmmaking. It's characterized by a grainy, low-quality aesthetic and a sense of unease.
+
+**Action and Narrative (as inferred from the frames):**
+
+*   **Initial Title Card:** The first frame establishes the film's title: "Film by Filip Radošević."  The warning "Upozoravamo osjetljivije ljude da NE GLEDAJU!!!" (We warn sensitive people not to watch!) immediately sets a tone of caution and suggests the content is potentially disturbing.
+*   **Central Figure:** A young person (likely
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Does not identify falling off bike; verbose, irrelevant film analysis with apparent hallucinated details.
+--------------------------------------------------
+
+📊 評估總結
+總分: 229
+有效樣本數: 45
+平均分: 5.09

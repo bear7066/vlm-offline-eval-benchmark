@@ -1,0 +1,894 @@
+載入模型與處理器: google/gemma-3-4b-it ... 
+
+
+從 ./dataset/falling_off_chair 尋找，共找到 43 支影片。
+
+開始測試，隨機抽取 43 支影片進行推論...
+
+Hardware Name: Tesla V100-SXM2-32GB
+Fixed Frames : 8
+
+============================================================
+[1/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_tCZvKt-dKdY.mp4
+影片長度: 5.86 sec
+Average Query Latency: 17197.13 ms
+TTFT: 8395.69 ms
+Frames Per Second: 0.47
+Throughput: 8.72 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a student (likely a young boy) repeatedly falling and getting back up from a seated position on a chair, then crawling under a table. It appears to be a repetitive, somewhat frantic movement.
+
+**Specific Observations:**
+
+*   **Initial Position:** The student starts sitting on a chair, seemingly in a relaxed or bored posture.
+*   **Falling and Rising:** The student repeatedly falls off the chair, then quickly gets back up and sits down again.
+*   **Crawling:** In the later frames, the student is seen crawling under a table, suggesting a desire to move away from the chair or a specific location.
+============================================================
+
+============================================================
+[2/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_q6b9VXig4e0.mp4
+影片長度: 12.03 sec
+Average Query Latency: 17032.37 ms
+TTFT: 8077.77 ms
+Frames Per Second: 0.47
+Throughput: 8.81 tokens/sec
+模型回答: Okay, let's analyze the images.
+
+**The video depicts a chaotic and somewhat unsettling scene involving the K-pop group BTS.**
+
+Here's a breakdown of what's happening, based on the frames:
+
+*   **Initial Incident (Images 1 & 2):** The first two images show a man in a white suit and a woman in a white dress falling or being pulled down from a raised platform. It appears as though the man is being pulled down by the woman.
+*   **Subsequent Actions (Images 3 & 4):** The next two images show the members of BTS reacting to the incident. They are moving around, seemingly trying to help or assess the situation.
+*   **
+============================================================
+
+============================================================
+[3/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_xFFQRtKizJk.mp4
+影片長度: 12.04 sec
+Average Query Latency: 17183.15 ms
+TTFT: 8126.40 ms
+Frames Per Second: 0.47
+Throughput: 8.73 tokens/sec
+模型回答: Here's an analysis of the video based on the frames provided:
+
+**Overall Impression:**
+
+The video depicts a potentially violent or threatening situation. It appears to involve a struggle between two individuals. 
+
+**Detailed Breakdown of the Frames:**
+
+*   **Frame 1:** Shows a blurry view of a person being restrained or held down, possibly by someone wearing a dark jacket.
+*   **Frame 2:** Shows a person sitting in a chair, with a shadowy figure approaching them. This suggests a confrontation or potential attack.
+*   **Frame 3:** A close-up of a shoe, possibly being used as a weapon or tool during the struggle.
+*   **Frame 4:** A person is on the
+============================================================
+
+============================================================
+[4/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_sl_oBU2ukJ8.mp4
+影片長度: 10.36 sec
+Average Query Latency: 16913.46 ms
+TTFT: 8082.23 ms
+Frames Per Second: 0.47
+Throughput: 8.87 tokens/sec
+模型回答: Okay, let's analyze the images.
+
+**Overall Impression:**
+
+The images depict a chaotic and potentially tense situation involving a group of people, likely in a room or building. The low lighting, shaky camera work, and obscured faces contribute to a sense of urgency and possibly conflict.
+
+**Specific Observations & Possible Interpretation:**
+
+*   **Multiple Individuals:** There are several people visible in the frames, suggesting a group interaction.
+*   **Dark Clothing:** Most individuals are wearing dark clothing, which could indicate a formal setting or a deliberate attempt to conceal identities.
+*   **One Person in a White Shirt:** A man in a black suit and white shirt is a prominent figure in several frames. He appears to be the focal point
+============================================================
+
+============================================================
+[5/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_l3U5BF9jUa4.mp4
+影片長度: 12.05 sec
+Average Query Latency: 16963.72 ms
+TTFT: 8141.83 ms
+Frames Per Second: 0.47
+Throughput: 8.84 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a person (likely a young adult) attempting to climb or maneuver themselves under a shelving unit or counter. They are struggling to get under it, and it appears they are having difficulty maintaining their balance. 
+
+**Details Observed:**
+
+*   **Position:** The person is lying on their stomach, with their legs extended and arms reaching to try and pull themselves under the shelf.
+*   **Obstacles:** There's a large black object (possibly a bag or a piece of equipment) obstructing their path.
+*   **Environment:** The setting appears to be a storage area or workspace, with shelves filled with various items.
+============================================================
+
+============================================================
+[6/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_Zi0fm17UBZE.mp4
+影片長度: 10.06 sec
+Average Query Latency: 16850.11 ms
+TTFT: 8020.65 ms
+Frames Per Second: 0.47
+Throughput: 8.90 tokens/sec
+模型回答: Based on the images, it appears a violent altercation is taking place. Here's a breakdown of what I observe:
+
+*   **Physical Assault:** There are multiple instances of individuals physically attacking others. One person is being held down and repeatedly struck.
+*   **Weapon Use:** A dark object (likely a bat or similar blunt instrument) is being used to strike a person.
+*   **Chaos and Confusion:** The scene is chaotic, with people scrambling and reacting to the violence.
+*   **Dark Environment:** The lighting is dim, making it difficult to fully assess the situation, but it contributes to the sense of urgency and danger.
+
+**Important Note:** This is a disturbing scene. I am providing an analysis based on
+============================================================
+
+============================================================
+[7/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_f6ZwvW_FD7U.mp4
+影片長度: 14.71 sec
+Average Query Latency: 17045.25 ms
+TTFT: 8137.32 ms
+Frames Per Second: 0.47
+Throughput: 8.80 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video appears to show a person (or possibly two people) engaged in a violent altercation involving a chair. It looks like a struggle is taking place.
+
+**Specific Details:**
+
+*   **Chair as a Weapon:** The chair is being used as a striking implement. The person is repeatedly hitting the chair with their hands and possibly their feet.
+*   **Aggressive Posture:** The person's body language is tense and aggressive, with a clenched fist and a forceful stance.
+*   **Blurred Motion:** The images are blurry, suggesting rapid movement and a chaotic scene.
+
+**Important Note:**  Due to the nature of the
+============================================================
+
+============================================================
+[8/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_gCqTxLReCus.mp4
+影片長度: 9.80 sec
+Average Query Latency: 16917.09 ms
+TTFT: 8146.34 ms
+Frames Per Second: 0.47
+Throughput: 8.87 tokens/sec
+模型回答: Here's an analysis of the video frames:
+
+**Overall Action:**
+
+The video appears to show a young person (likely a boy) attempting to do a "wall sit" or a similar isometric exercise. They are leaning against a wall or furniture, holding their legs in a bent position, and raising one arm upwards. 
+
+**Observations from the Frames:**
+
+*   **Frame 1 & 2:** The person is clearly in the wall-sitting position, raising one arm.
+*   **Frame 3 & 4:** The person is still in the wall-sitting position, but the image is blurry and the person is moving slightly.
+*   **Frame 5 & 6:** The person is still in
+============================================================
+
+============================================================
+[9/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_1RZYhr6hly4.mp4
+影片長度: 10.21 sec
+Average Query Latency: 17012.94 ms
+TTFT: 8134.68 ms
+Frames Per Second: 0.47
+Throughput: 8.82 tokens/sec
+模型回答: Here's an analysis of the actions depicted in the images:
+
+**Overall Impression:** The video appears to show a young child (likely a toddler) exploring and interacting with their bedroom environment. They are moving around, climbing, and generally investigating their surroundings.
+
+**Specific Actions:**
+
+*   **Climbing/Crawling:** The child is frequently seen in a crawling or low-to-the-ground position, suggesting they are attempting to climb or explore furniture and objects.
+*   **Reaching/Manipulating:** The child is reaching for objects (pillows, a lamp, etc.) and seems to be trying to grasp or manipulate them.
+*   **Sitting/Squatting:** The child is often seen in a
+============================================================
+
+============================================================
+[10/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_W2237TK0wcI.mp4
+影片長度: 13.70 sec
+Average Query Latency: 15859.85 ms
+TTFT: 8150.57 ms
+Frames Per Second: 0.50
+Throughput: 8.26 tokens/sec
+模型回答: Here's an analysis of the action happening in the images:
+
+**The child is experiencing a bowel movement while seated in a plastic chair.** 
+
+The images clearly show the child in a distressed position, with their legs drawn up and a visible release of fluid. The chair is a type often used in splash pads or pools, and the situation is clearly uncomfortable for the child. 
+
+**Important Note:**  It's crucial to approach this situation with sensitivity.  This is a potentially embarrassing and distressing event for the child.  If you encounter this in a real-life situation, offer support and assistance to the child and their caregivers.
+============================================================
+
+============================================================
+[11/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_f2nOuIPchP8.mp4
+影片長度: 14.44 sec
+Average Query Latency: 16870.01 ms
+TTFT: 8143.35 ms
+Frames Per Second: 0.47
+Throughput: 8.89 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video appears to be a live stream or video call. A young woman (likely a teenager) is the subject of the recording. She is actively engaging with the camera, smiling, and making eye contact. 
+
+**Specific Observations from the Frames:**
+
+*   **Movement:** The camera is being moved around, creating a slightly shaky and zoomed-in effect. This suggests the person is actively moving the camera while talking or reacting to something.
+*   **Facial Expressions:** She consistently displays a happy and engaged expression, smiling and looking directly at the camera.
+*   **Interaction:** She seems to be responding to something or someone
+============================================================
+
+============================================================
+[12/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_-5hw88bD4mE.mp4
+影片長度: 13.04 sec
+Average Query Latency: 17032.87 ms
+TTFT: 8136.54 ms
+Frames Per Second: 0.47
+Throughput: 8.81 tokens/sec
+模型回答: Here's an analysis of the video frames, based on what's visible:
+
+**Overall Impression:**
+
+The video appears to depict a physical altercation or a struggle between two individuals. It's a chaotic and somewhat blurry sequence, making precise details difficult to discern.
+
+**Frame-by-Frame Breakdown:**
+
+*   **Frame 1 & 2:** Shows two people, one in a black shirt and the other in a light-colored shirt, engaged in a physical struggle. The person in the black shirt is holding something (possibly a weapon) and appears to be striking the other person.
+*   **Frame 3:** The person in the black shirt is continuing the attack.
+*   **Frame 4:**
+============================================================
+
+============================================================
+[13/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_IuWPZJHWVYA.mp4
+影片長度: 9.83 sec
+Average Query Latency: 17087.63 ms
+TTFT: 8144.68 ms
+Frames Per Second: 0.47
+Throughput: 8.78 tokens/sec
+模型回答: Here's an analysis of the action happening in the images:
+
+**Overall Action:**
+
+The primary action is a playful, somewhat chaotic interaction between two young women. They are engaging in a game involving a large, circular, dark-colored structure (likely a playground element) and a series of rotations and flips. 
+
+**Specific Details:**
+
+*   **Rotation:** The women are repeatedly rotating around the central structure, appearing to be suspended or supported by each other.
+*   **Balance:** They are struggling to maintain balance as they spin and change positions.
+*   **Playful Interaction:** The expressions and movements suggest a lighthearted and fun activity.
+
+**In essence, it looks like they are engaged in a playful spinning
+============================================================
+
+============================================================
+[14/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_GotjwB_SgI0.mp4
+影片長度: 11.05 sec
+Average Query Latency: 17211.11 ms
+TTFT: 8072.51 ms
+Frames Per Second: 0.46
+Throughput: 8.72 tokens/sec
+模型回答: Okay, let's analyze these frames.
+
+**Overall Impression:**
+
+The images depict a scene with a person (or people) in a dimly lit room, likely indoors. The low lighting and blurry quality create a sense of unease and suggest a potentially uncomfortable or secretive situation.
+
+**Action Analysis (Based on the frames):**
+
+*   **Frames 1-3:** The person appears to be sitting or leaning against something (possibly a chair or wall). They seem to be holding something in their hands, possibly a phone or a device. There's a sense of vulnerability or distress.
+*   **Frames 4-5:** The person is still in a similar position, but there's a slight movement or shift
+============================================================
+
+============================================================
+[15/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_zNx9s_XbkUQ.mp4
+影片長度: 14.71 sec
+Average Query Latency: 17711.50 ms
+TTFT: 8151.64 ms
+Frames Per Second: 0.45
+Throughput: 8.47 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Action:** The video shows a man attempting to repeatedly launch himself into a green folding chair. 
+
+**Sequence of Events:**
+
+1.  **Initial Launch:** In the first image, the man is standing with a chair and a newspaper, attempting to launch himself into the chair.
+2.  **Failed Launches:** Subsequent images show him repeatedly falling out of the chair, often landing on the grass.
+3.  **Relaxation:** In the final images, he is lying on the grass, seemingly having given up on the chair.
+
+**Context:** The setting (a waterfront park with boats) suggests a casual, recreational activity.
+
+Do you want
+============================================================
+
+============================================================
+[16/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_N516jor-Y5I.mp4
+影片長度: 14.18 sec
+Average Query Latency: 17292.70 ms
+TTFT: 8147.70 ms
+Frames Per Second: 0.46
+Throughput: 8.62 tokens/sec
+模型回答: Here's an analysis of the actions happening in the frames:
+
+**Overall Action:**
+
+The primary action is a person (likely a young woman) sitting and looking at a laptop screen. They appear to be engaged in something on the screen, possibly watching a video or playing a game.
+
+**Specific Observations from the Frames:**
+
+*   **Frame 1 & 2:** The person is sitting in a chair, looking at the laptop screen with a slight smile.
+*   **Frame 3 & 4:** The person is still looking at the laptop screen, with a more focused expression.
+*   **Frame 5:** The person is leaning slightly forward, still focused on the screen.
+*   **Frame
+============================================================
+
+============================================================
+[17/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_t3N44ZENWIQ.mp4
+影片長度: 11.71 sec
+Average Query Latency: 17262.48 ms
+TTFT: 8148.79 ms
+Frames Per Second: 0.46
+Throughput: 8.69 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**The Action:**
+
+The images show a person (likely a man) intentionally rolling down a set of office stairs. It appears to be a deliberate stunt or prank. 
+
+**Observations:**
+
+*   **Rolling Down Stairs:** The primary action is the individual rolling down the stairs, using their body to propel themselves downwards.
+*   **Chaos:** The scene is chaotic, with furniture and papers scattered around, indicating the force of the roll.
+*   **Multiple Frames:** The sequence of images shows the progression of the roll, capturing the momentum and the impact with the floor.
+
+**Context:**
+
+The timestamp "04/21/200
+============================================================
+
+============================================================
+[18/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_06u5p4FNohA.mp4
+影片長度: 4.58 sec
+Average Query Latency: 16824.81 ms
+TTFT: 8132.32 ms
+Frames Per Second: 0.48
+Throughput: 8.92 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a young woman struggling to fold a large garment (likely a blanket or a large piece of clothing) while surrounded by a very cluttered room. She's attempting to do this on the floor, amidst a pile of clothes, boxes, and other items. 
+
+**Specific Details & Observations:**
+
+*   **Folding Attempt:** The primary action is her trying to fold the garment. She's using her hands and feet to manipulate it, but it's clearly a difficult task.
+*   **Cluttered Environment:** The room is extremely messy, which is contributing to the difficulty of the task. It looks like a bedroom or
+============================================================
+
+============================================================
+[19/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_YqW9B4aedKE.mp4
+影片長度: 11.00 sec
+Average Query Latency: 16942.89 ms
+TTFT: 8132.38 ms
+Frames Per Second: 0.47
+Throughput: 8.79 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video depicts a student (likely a male) engaging in a series of unusual and somewhat awkward movements while sitting on a table in a classroom. He appears to be attempting to balance and perform a sort of acrobatic or playful pose.
+
+**Specific Observations from the Frames:**
+
+*   **Frames 1-3:** The student is sitting on a table, leaning back and extending his arms out to the sides, trying to maintain balance. It looks like he's struggling to keep his center of gravity.
+*   **Frame 4:** He's attempting to stand on the table, using the chair for support.
+*
+============================================================
+
+============================================================
+[20/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_6Bkk_IljKP4.mp4
+影片長度: 10.04 sec
+Average Query Latency: 17239.82 ms
+TTFT: 8141.30 ms
+Frames Per Second: 0.46
+Throughput: 8.70 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Situation:**
+
+The images show a violent altercation taking place outdoors, likely in a rural or semi-rural setting. It appears to be a physical fight between multiple men.
+
+**Sequence of Events (as depicted in the frames):**
+
+1. **Initial Setup:** Two men, one shirtless and the other in a cap and shirt, are seated on chairs. A third man is standing nearby.
+2. **The Attack:** A man in a dark jacket and cap aggressively grabs the shirtless man and pulls him down, initiating the fight.
+3. **The Struggle:** The shirtless man is being dragged and thrown to the ground.  The man in the jacket
+============================================================
+
+============================================================
+[21/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_uG1ZPoaMync.mp4
+影片長度: 9.54 sec
+Average Query Latency: 17379.16 ms
+TTFT: 8142.87 ms
+Frames Per Second: 0.46
+Throughput: 8.57 tokens/sec
+模型回答: Here's an analysis of the video based on the frames:
+
+**Overall Action:**
+
+The video depicts a man attempting to climb down a deck, but he loses his balance and falls. 
+
+**Sequence of Events (as shown in the frames):**
+
+1.  **Initial Pose:** The first few frames show the man wearing a Viking helmet and a Quiksilver shirt, posing and seemingly talking to the camera.
+2.  **Attempt to Climb:** He begins to descend the deck stairs.
+3.  **Loss of Balance:** In the subsequent frames, he loses his grip and falls down the stairs.
+4.  **Recovery:** The final frames show him attempting to regain his footing on the stairs.
+============================================================
+
+============================================================
+[22/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_fxKsubHkXMc.mp4
+影片長度: 2.63 sec
+Average Query Latency: 17114.84 ms
+TTFT: 8143.34 ms
+Frames Per Second: 0.47
+Throughput: 8.76 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Action:** The person in the images is attempting to balance on a stack of folding chairs. They are repeatedly stepping onto and off of the chairs, seemingly trying to maintain their balance. 
+
+**Observations:**
+
+*   **Location:** The setting appears to be a conference room or event space, indicated by the tables, chairs, and carpet.
+*   **Equipment:** The person is using a folding chair with wheels as part of their balancing act.
+*   **Movement:** The images show a dynamic sequence of steps and shifts in weight as the person tries to stay balanced.
+
+**Overall Impression:** It looks like a playful, perhaps slightly precarious, stunt or trick
+============================================================
+
+============================================================
+[23/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_twnAqdZkDZ8.mp4
+影片長度: 11.68 sec
+Average Query Latency: 17200.08 ms
+TTFT: 8131.57 ms
+Frames Per Second: 0.47
+Throughput: 8.72 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video appears to be a playful, somewhat chaotic, and likely staged interaction between two young people. They are engaging in a series of physical actions that resemble a playful wrestling or mock fight. 
+
+**Specific Details:**
+
+*   **Handshakes/Grappling:** The most prominent action is the repeated exchange of handshakes, which quickly escalate into a playful grappling or wrestling sequence.
+*   **Laughter and Exaggerated Reactions:** Both individuals are laughing and exhibiting exaggerated facial expressions, suggesting this is a lighthearted and humorous activity.
+*   **Physical Movement:** There's a lot of movement – pushing, pulling, and leaning –
+============================================================
+
+============================================================
+[24/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_fDNX6WW_6jc.mp4
+影片長度: 11.03 sec
+Average Query Latency: 17151.89 ms
+TTFT: 8138.22 ms
+Frames Per Second: 0.47
+Throughput: 8.75 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a young woman attempting to do a handstand against a large, plush sofa. It's a somewhat clumsy and unsteady attempt, with the woman repeatedly falling over and struggling to maintain balance.
+
+**Specific Observations:**
+
+*   **Initial Attempt:** In the first few frames, she's leaning against a desk, trying to get into a handstand position.
+*   **Falling Over:** She repeatedly loses her balance and falls backward onto the sofa.
+*   **Struggling to Recover:** She attempts to get back up, but her movements are awkward and she continues to fall.
+*   **Final Position:** In
+============================================================
+
+============================================================
+[25/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_vSyIph8s85U.mp4
+影片長度: 12.92 sec
+Average Query Latency: 15196.40 ms
+TTFT: 8138.14 ms
+Frames Per Second: 0.53
+Throughput: 7.70 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Action:** The person in the images is attempting to do a yoga pose, specifically a "crow" or "bird dog" pose. They are trying to balance on one leg while extending the opposite arm upwards. 
+
+**Observations:**
+
+*   They are clearly struggling to maintain balance.
+*   They are repeatedly falling backward and hitting the wall and the bed.
+*   They are using pillows for support.
+
+It appears they are learning or practicing this pose and are having difficulty with the balance.
+============================================================
+
+============================================================
+[26/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_WD87x58wRsE.mp4
+影片長度: 10.03 sec
+Average Query Latency: 17140.83 ms
+TTFT: 8130.07 ms
+Frames Per Second: 0.47
+Throughput: 8.75 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows two individuals engaged in a playful, somewhat awkward, and potentially challenging physical activity. They are attempting to balance on a small, circular stool. 
+
+**Specific Details:**
+
+*   **Balancing Act:** The primary action is the attempt to maintain balance while standing on the stool.
+*   **Variations in Technique:** The individuals are experimenting with different stances and positions to achieve balance. Some are leaning forward, others are shifting their weight.
+*   **Interaction:** One person is actively supporting the other, likely to help them maintain balance.
+*   **Humorous Element:** The situation appears lighthearted and playful, suggesting
+============================================================
+
+============================================================
+[27/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_kwh65tVZyik.mp4
+影片長度: 11.03 sec
+Average Query Latency: 17174.87 ms
+TTFT: 8135.10 ms
+Frames Per Second: 0.47
+Throughput: 8.73 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video depicts a person (likely a woman) attempting to do a handstand, but it's clearly going poorly. They are repeatedly falling and struggling to maintain balance. 
+
+**Specific Observations from the Frames:**
+
+*   **Initial Attempt:** In the first few frames, the person is standing on a chair, attempting to lift their hands and get into a handstand position.
+*   **Falling:** The subsequent frames show them repeatedly falling backward, often landing on a chair or the floor.
+*   **Struggling:** They are visibly struggling to maintain balance and control their movements.
+*   **Final Collapse:** The
+============================================================
+
+============================================================
+[28/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_qkCEuMm9vnY.mp4
+影片長度: 10.73 sec
+Average Query Latency: 17268.05 ms
+TTFT: 8144.28 ms
+Frames Per Second: 0.46
+Throughput: 8.69 tokens/sec
+模型回答: Here's an analysis of the video frames:
+
+**Overall Action:**
+
+The video depicts a violent assault. A person is attacking another person with a metal object (likely a baseball bat or similar).
+
+**Specific Details from the Frames:**
+
+*   **Initial Attack:** In the first few frames, a person in a dark hoodie is seen swinging a metal object (bat) at another person who is sitting on a chair.
+*   **Continued Assault:** Subsequent frames show the attacker continuing to strike the victim.
+*   **Victim's Reaction:** The victim appears to be trying to defend themselves, possibly by moving away or attempting to block the blows.
+*   **Location:** The scene appears to be an indoor area
+============================================================
+
+============================================================
+[29/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_XMKm4hjLFXk.mp4
+影片長度: 4.07 sec
+Average Query Latency: 17201.19 ms
+TTFT: 8078.04 ms
+Frames Per Second: 0.47
+Throughput: 8.72 tokens/sec
+模型回答: Okay, let's analyze the images.
+
+**Overall Impression:**
+
+The images depict a violent altercation, likely a physical assault, taking place in what appears to be a cafeteria or common area. 
+
+**Detailed Breakdown:**
+
+*   **Image 1 & 2:** Shows a crowded room with tables and chairs. It gives a sense of a public space.
+*   **Image 3 & 4:**  This is the most critical frame. It clearly shows a man (wearing a black jacket) forcefully lifting and carrying another person (wearing a pink shirt) over his shoulder. The person being carried appears distressed and is struggling.
+*   **Image 5 & 6:** Shows the same action continuing, with the
+============================================================
+
+============================================================
+[30/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_QQmQnfEXdOE.mp4
+影片長度: 13.71 sec
+Average Query Latency: 17092.43 ms
+TTFT: 8130.95 ms
+Frames Per Second: 0.47
+Throughput: 8.78 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Action:** The video shows a person experiencing a sudden and dramatic fall, resulting in the destruction of furniture.
+
+**Sequence of Events (as seen in the frames):**
+
+1.  **Initial Position:** The person is sitting in a chair at a desk, using a laptop and appearing to be engrossed in something on the screen.
+2.  **Sudden Collapse:** The person abruptly collapses backward, seemingly losing their balance or experiencing a sudden loss of control.
+3.  **Furniture Damage:** As they fall, they knock over a rocking chair and a small wooden stool.
+4.  **Further Collapse:** The person continues to fall, becoming
+============================================================
+
+============================================================
+[31/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_3Ctreec2zrQ.mp4
+影片長度: 12.38 sec
+Average Query Latency: 17049.02 ms
+TTFT: 8135.24 ms
+Frames Per Second: 0.47
+Throughput: 8.80 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Action:**
+
+The video shows a chaotic and somewhat comical scene of two men engaged in a playful, and ultimately destructive, game involving folding chairs. It appears to be a spontaneous, impromptu activity.
+
+**Detailed Breakdown:**
+
+*   **Initial Setup:** The men are initially sitting in folding chairs, seemingly engaged in conversation while looking at a tablet. They have drinks.
+*   **The Challenge:** The core of the action is a challenge to see who can fold their chair the fastest.
+*   **The Escalation:** The challenge quickly escalates into a competitive, and increasingly frantic, attempt to fold the chairs as quickly as possible.
+*   **
+============================================================
+
+============================================================
+[32/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_8LsomoWHlK0.mp4
+影片長度: 13.40 sec
+Average Query Latency: 17145.62 ms
+TTFT: 8145.63 ms
+Frames Per Second: 0.47
+Throughput: 8.75 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Action:** The video appears to show a woman experiencing a sudden and dramatic fall from a chair. 
+
+**Sequence of Events (as seen in the frames):**
+
+1.  **Sitting and Stretching:** The first few frames show the woman sitting in a chair, seemingly stretching or attempting a yoga-like pose.
+2.  **Loss of Balance:** In the subsequent frames, she loses her balance and falls backward from the chair.
+3.  **Rolling and Impact:** She continues to roll across the floor, eventually landing in a prone position. 
+
+**Important Note:**  It's crucial to acknowledge that the images depict a potentially concerning situation
+============================================================
+
+============================================================
+[33/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_y7GOcGQqVYM.mp4
+影片長度: 3.60 sec
+Average Query Latency: 16863.45 ms
+TTFT: 8140.11 ms
+Frames Per Second: 0.47
+Throughput: 8.89 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video appears to show a student (likely a girl) experiencing a moment of distress or discomfort. She is clutching her stomach and looking down, suggesting she is experiencing pain or nausea. 
+
+**Specific Observations from the Frames:**
+
+*   **Frames 1-3:** She is sitting at a desk, wearing a school uniform, and has a slightly concerned expression.
+*   **Frames 4-5:** She is clutching her stomach tightly, indicating pain.
+*   **Frames 6-7:** She is still clutching her stomach and looking down, possibly trying to suppress the discomfort.
+*   **Frames 8-
+============================================================
+
+============================================================
+[34/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_p8o6EkXONhc.mp4
+影片長度: 14.53 sec
+Average Query Latency: 16909.82 ms
+TTFT: 8139.01 ms
+Frames Per Second: 0.47
+Throughput: 8.87 tokens/sec
+模型回答: Here's an analysis of the video frames:
+
+**Overall Situation:**
+
+The video depicts a physical altercation or struggle between two individuals. It appears to be taking place indoors, likely in a room with furniture and appliances.
+
+**Specific Actions (Based on the frames):**
+
+*   **Frames 1-3:** One person is on top of the other, attempting to restrain them. There's a struggle evident, with both individuals grappling for control.
+*   **Frames 4-5:** The person on the bottom is trying to break free, possibly kicking or moving to escape.
+*   **Frames 6-7:** The struggle continues, with the individuals still locked in a physical confrontation.
+*   **
+============================================================
+
+============================================================
+[35/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_0xJzTTPKfXo.mp4
+影片長度: 11.04 sec
+Average Query Latency: 17005.10 ms
+TTFT: 8147.01 ms
+Frames Per Second: 0.47
+Throughput: 8.82 tokens/sec
+模型回答: Here's an analysis of the actions depicted in the images:
+
+**Overall Situation:**
+
+The images show a person (likely a young woman) in a disoriented and distressed state. It appears they have collapsed onto the floor, possibly due to intoxication or a medical episode. 
+
+**Specific Actions & Observations:**
+
+*   **Initial State (Images 1 & 2):** The person is sitting upright, smiling and seemingly engaged in conversation. They are wearing a black t-shirt with a graphic and zebra-print pants.
+*   **Collapse (Images 3 & 4):** The person suddenly collapses to the floor, with a blurry, obscured view.
+*   **On the Floor (Images 5-
+============================================================
+
+============================================================
+[36/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_y1OlPGzMbNA.mp4
+影片長度: 13.43 sec
+Average Query Latency: 17052.79 ms
+TTFT: 8153.58 ms
+Frames Per Second: 0.47
+Throughput: 8.80 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video depicts a young girl (likely Princess Louise) having a fit of laughter and playfully attempting to climb onto a chair. It appears she's experiencing a moment of unrestrained joy and excitement.
+
+**Sequence of Events (based on the frames):**
+
+1.  **Initial Laughter:** The first few frames show her laughing, leaning over a table, and clearly enjoying herself.
+2.  **Attempt to Climb:** She then starts to attempt to climb onto a chair.
+3.  **Chair Collapse:** As she tries to climb, the chair collapses under her weight.
+4.  **Chaos:** The final frames
+============================================================
+
+============================================================
+[37/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_3Jd_MXqwIKc.mp4
+影片長度: 6.07 sec
+Average Query Latency: 17130.31 ms
+TTFT: 8146.28 ms
+Frames Per Second: 0.47
+Throughput: 8.76 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video depicts a man (likely a visitor or employee) causing a disturbance in an office environment. He is repeatedly knocking over chairs and disrupting the workspace.
+
+**Specific Observations from the Frames:**
+
+*   **Frame 1 & 2:** The man is seen walking through the office, knocking over a chair.
+*   **Frame 3 & 4:** He continues to knock over chairs, seemingly without regard for the people working at their desks.
+*   **Frame 5:** He is shown raising his hand in a gesture of frustration or annoyance.
+*   **Frame 6 & 7:** The man is still
+============================================================
+
+============================================================
+[38/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_kKhCkAkz1vk.mp4
+影片長度: 10.70 sec
+Average Query Latency: 16908.23 ms
+TTFT: 8148.46 ms
+Frames Per Second: 0.47
+Throughput: 8.81 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video depicts a young girl (likely a child) engaging in a playful and somewhat chaotic activity involving a chair and a boy. It appears to be a game or a spontaneous moment of fun.
+
+**Specific Actions & Observations:**
+
+*   **Sitting on the Chair:** The girl is consistently sitting on a small, dark-colored chair.
+*   **Reaching and Stretching:** She's frequently reaching upwards, often with her arms extended, as if trying to touch something above her.
+*   **Kneeling and Leaning:** She is also seen kneeling and leaning over the boy, who is sitting on the couch.
+============================================================
+
+============================================================
+[39/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_XXN3CgCyEx4.mp4
+影片長度: 10.08 sec
+Average Query Latency: 17107.33 ms
+TTFT: 8141.91 ms
+Frames Per Second: 0.47
+Throughput: 8.77 tokens/sec
+模型回答: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video depicts a young woman repeatedly attempting to flip over a chair and then herself, seemingly in a playful or challenging way. It appears to be a series of failed attempts to do a trick.
+
+**Detailed Breakdown of Each Frame:**
+
+*   **Frame 1:** She's standing with a yellow cone and a chair, looking at the camera and smiling.
+*   **Frame 2:** She's holding the cone and chair, still smiling.
+*   **Frame 3:** She's attempting to flip over the chair, but it's unsuccessful.
+*   **Frame 4:** She's trying
+============================================================
+
+============================================================
+[40/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_-tTBQvmKfEs.mp4
+影片長度: 10.70 sec
+Average Query Latency: 17011.54 ms
+TTFT: 8146.69 ms
+Frames Per Second: 0.47
+Throughput: 8.82 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**Overall Action:** The video shows a man falling over a stack of yellow plastic chairs. It appears to be a somewhat clumsy and humorous accident.
+
+**Sequence of Events (as shown in the frames):**
+
+1.  **Frame 1 & 2:** The man is sitting on a chair, smiling and seemingly enjoying himself.
+2.  **Frame 3 & 4:** He loses his balance and falls backward, landing on the chairs.
+3.  **Frame 5 & 6:** He's entangled with the chairs, struggling to get up.
+4.  **Frame 7:** A wider shot shows him still struggling with the
+============================================================
+
+============================================================
+[41/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_5xlTi_-c7NY.mp4
+影片長度: 6.67 sec
+Average Query Latency: 17100.67 ms
+TTFT: 8146.80 ms
+Frames Per Second: 0.47
+Throughput: 8.77 tokens/sec
+模型回答: Here's an analysis of the images and the situation they depict:
+
+**Overall Situation:**
+
+The images show a young girl being restrained and subjected to a distressing and potentially abusive situation. She is bound to a chair with what appears to be tape or some other material. The individuals surrounding her are actively involved in this restraint.
+
+**Observations from the Images:**
+
+*   **Restraint:** The girl is bound to a chair with what looks like tape around her wrists and ankles.
+*   **Facial Expression:** Her expression is one of distress, fear, and possibly pain.
+*   **Surrounding Individuals:** Several people are present, and they appear to be actively involved in the restraint.
+*   **Setting:** The
+============================================================
+
+============================================================
+[42/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_wNk1F7W5LIQ.mp4
+影片長度: 3.10 sec
+Average Query Latency: 13712.47 ms
+TTFT: 8081.91 ms
+Frames Per Second: 0.58
+Throughput: 6.93 tokens/sec
+模型回答: Okay, let's analyze what's happening in these frames.
+
+**The action is a comedic and chaotic event where a man is repeatedly falling backward into a chair.** 
+
+It appears he's attempting to stand up from the chair, but he loses his balance and falls backward each time. It's a very awkward and funny sequence. 
+
+Do you want me to describe any specific detail from the frames, or perhaps analyze the humor of the situation?
+============================================================
+
+============================================================
+[43/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_cGbA0ZsJ-tU.mp4
+影片長度: 9.87 sec
+Average Query Latency: 16345.56 ms
+TTFT: 8157.76 ms
+Frames Per Second: 0.49
+Throughput: 8.44 tokens/sec
+模型回答: Here's an analysis of the action depicted in the images:
+
+**The core action is a playful, acrobatic interaction between two people.** 
+
+*   **The Setup:** A man and a woman are engaging in a series of movements on a paved outdoor area.
+*   **The Movement:** The man is repeatedly lifting the woman into the air, often in a spinning or balancing position. She is actively participating, appearing to enjoy the activity.
+*   **The Context:** A small office chair is present, suggesting this might be a performance or a playful stunt.
+
+**Overall Impression:** It appears to be a lighthearted and entertaining display of physical coordination and interaction.
+============================================================
+
+==================== Benchmark Summary ====================
+
+Input
+	Model: google/gemma-3-4b-it
+	Hardware Name  : Tesla V100-SXM2-32GB
+	Video Dir      : ./dataset/falling_off_chair
+	Fixed Frames   : 8
+
+Output
+	Average Query Latency: 16923.55 ms
+	Frames Per Second (FPS): 0.4727
+	Equivalent Real-time Latency (RT Latency): 1.6230
+	Peak VRAM Usage: 27.0484 GB
+	Throughput: 8.6944 tokens/sec
+	Power Consumption: 70.85 W
+	TTFT: 8137.39 ms
+
+
+成功處理影片數: 43 / 43
+平均影片長度: 10.4270 sec
+詳細測試結果已記錄於: gemma-3-4b-8frames/falling_off_chair.log

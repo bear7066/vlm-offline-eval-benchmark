@@ -1,0 +1,519 @@
+開始解析紀錄檔: gemma3-4b-kinetic3K_FT-8frames/face_planting.log
+成功解析出 46 筆待評估紀錄。
+
+🚀 開始執行 LLM-as-a-Judge 評估...
+
+[1/46] 正在評估影片: ./dataset/face_planting/faceplanting_M7fnZthnKv0.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: A person is skateboarding in the video.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Incorrect action; concise but unrelated to face planting and likely hallucinated.
+--------------------------------------------------
+[2/46] 正在評估影片: ./dataset/face_planting/faceplanting_koMIvXhfe9c.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: The video shows a person falling off their bicycle while riding on a sand dune.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 5
+Reason: Identifies a fall but not face-plant; extra bicycle/sand dune details may be irrelevant or hallucinated.
+--------------------------------------------------
+[3/46] 正在評估影片: ./dataset/face_planting/faceplanting_7IWBLXPrxoQ.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: A person is sledding down a snowy hill.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Misidentifies core action; concise and relevant, but not a face plant.
+--------------------------------------------------
+[4/46] 正在評估影片: ./dataset/face_planting/faceplanting_e7AnmQTKegM.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: Here's an analysis of the video frames:
+
+**Overall Action:** The video appears to show a person snowboarding.
+
+**Frame-by-Frame Breakdown:**
+
+*   **Frame 1 & 2:** A shadow of a person is visible on a snowy slope. This suggests the person is standing or preparing to snowboard.
+*   **Frame 3 & 4:** A snowboarder is seen riding down the slope, with the snowboard clearly visible.
+*   **Frame 5 & 6:** The snowboarder is in mid-air, likely performing a jump or trick.
+*   **Frame 7 & 8:** The snowboarder is back on the slope, continuing to ride.
+
+**Conclusion:** The
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Misses face planting; verbose frame breakdown; incomplete conclusion; speculative details.
+--------------------------------------------------
+[5/46] 正在評估影片: ./dataset/face_planting/faceplanting_phVppFzTgkA.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: The answer is: **A man is being thrown into the air.**
+
+In the first image, a man is standing on a barrel and is being thrown into the air. In the subsequent images, the man is still in the air.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Fails to identify face planting; adds extra scene details and likely hallucinates being thrown.
+--------------------------------------------------
+[6/46] 正在評估影片: ./dataset/face_planting/faceplanting_RhL1gAwe9K4.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: A man is using a small, handheld device to clean the trampoline.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Incorrect action; irrelevant description; includes hallucinated device and cleaning activity.
+--------------------------------------------------
+[7/46] 正在評估影片: ./dataset/face_planting/faceplanting_wEW0geZNjF4.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: The video shows a person falling off their bicycle.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 6
+Reason: Captures a fall but misses the specific face-plant; otherwise concise and relevant without extra details.
+--------------------------------------------------
+[8/46] 正在評估影片: ./dataset/face_planting/faceplanting_Te8kzu0-N7I.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: Here's an analysis of the video frames:
+
+**Overall Observation:**
+
+The video appears to show a man and several children playing on a driveway or paved area in front of a house. 
+
+**Frame-by-Frame Breakdown:**
+
+*   **Frame 1:** A man in a yellow shirt is standing and watching the children. There are several children playing in the background.
+*   **Frame 2:** The man is still watching the children. A child is riding a tricycle.
+*   **Frame 3:** The child on the tricycle is now in the foreground, and the man is still watching.
+*   **Frame 4:** The child is still riding the tricycle.
+*   **Frame
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Misses “face planting”; verbose, unrelated scene description with likely hallucinations; not concise or relevant.
+--------------------------------------------------
+[9/46] 正在評估影片: ./dataset/face_planting/faceplanting_kr4B88Ldgso.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: The images show a child lying on a slide at a playground. The child is lying on the slide, seemingly upside down.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 3
+Reason: Fails to identify face planting; only describes position on slide; concise and mostly relevant.
+--------------------------------------------------
+[10/46] 正在評估影片: ./dataset/face_planting/faceplanting_XmpAlvVJyfQ.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: Aqui está a análise do que está acontecendo no vídeo:
+
+O vídeo mostra uma pessoa que está andando de snowblade. No início, a pessoa está andando em uma plataforma de snowblade. Depois, a pessoa cai no chão e está deitada de costas. Finalmente, a pessoa se levanta e começa a andar de snowblade novamente.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Misses face-plant; describes generic fall and snowblading with extra details; not concise; possible hallucinations.
+--------------------------------------------------
+[11/46] 正在評估影片: ./dataset/face_planting/faceplanting_o5FiLY-wObk.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: A boy is running in a muddy area.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Misses core action of face planting; describes running instead. Concise but adds possibly irrelevant details.
+--------------------------------------------------
+[12/46] 正在評估影片: ./dataset/face_planting/faceplanting__wJfPEwJn_s.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: A little girl is dancing.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Incorrect action; says dancing instead of face planting. Concise but irrelevant and potentially hallucinated subject.
+--------------------------------------------------
+[13/46] 正在評估影片: ./dataset/face_planting/faceplanting__3Sd76OyNxo.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: Here's an analysis of the action happening in the images:
+
+**Overall Action:**
+
+The images show a group of people sledding down a snowy hill. It appears to be a recreational activity, likely during winter.
+
+**Specific Details:**
+
+*   **Sledding:** Several individuals are using sleds to slide down the slope.
+*   **Falling:** Some of the people are seen falling or tumbling while sledding, indicating a bit of excitement and perhaps some minor mishaps.
+*   **Various Positions:** The people are in different positions – some are sitting on the sleds, others are lying on them, and one is actively sliding.
+
+Let me know if you'd like me to focus on a specific aspect
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 3
+Reason: Fails to identify face planting; verbose with extraneous details; mentions sledding rather than the core action.
+--------------------------------------------------
+[14/46] 正在評估影片: ./dataset/face_planting/faceplanting_D9x20LIhb9Y.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: Here's an analysis of the action happening in the frames:
+
+**Overall Action:** The video shows a child riding a bicycle down a rough, rocky trail.
+
+**Sequence of Events (based on the frames):**
+
+1.  **Frame 1-4:** The child is riding the bike down the trail, appearing to be in control.
+2.  **Frame 5:** The child loses control and falls off the bike.
+3.  **Frame 6-7:** The child is lying on the ground after the fall.
+4.  **Frame 8-9:** The child is still on the ground.
+
+**In summary, the video depicts a child riding a bike, losing control, and
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 3
+Reason: Misses face-plant; describes generic bike fall with extra specifics; verbose and incomplete; potential hallucinated details.
+--------------------------------------------------
+[15/46] 正在評估影片: ./dataset/face_planting/faceplanting_m84Zlf4UxK0.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: A boy is falling over a log in a forest.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 6
+Reason: Captures falling but not explicit face-plant; includes possibly hallucinated details (boy, log, forest); concise.
+--------------------------------------------------
+[16/46] 正在評估影片: ./dataset/face_planting/faceplanting_2zHDlGlWTG8.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: A man is lying on the ground.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 3
+Reason: Misses action of face planting; only describes aftermath. Concise and mostly relevant, no hallucinations.
+--------------------------------------------------
+[17/46] 正在評估影片: ./dataset/face_planting/faceplanting_QbyBACtRcz8.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: The babies are playing on a bed. The baby on the left is holding a stuffed animal. The baby on the right is reaching out to the baby on the left.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Misses face planting; adds irrelevant details about babies and toys; overly verbose.
+--------------------------------------------------
+[18/46] 正在評估影片: ./dataset/face_planting/faceplanting_Oinr3wRnArM.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video shows a child playfully splashing and jumping in a large, muddy puddle. 
+
+**Frame-by-Frame Breakdown:**
+
+*   **Frames 1-3:** The child is actively walking through the puddle, seemingly enjoying the experience.
+*   **Frames 4-5:** The child is jumping into the puddle.
+*   **Frames 6-7:** The child is submerged in the mud, likely struggling to get out.
+*   **Frames 8-9:** The child is standing up, covered in mud.
+*   **Frame 10:** The child is taking a selfie in the mud
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Fails to identify face planting, verbose, and hallucinates details like a selfie.
+--------------------------------------------------
+[19/46] 正在評估影片: ./dataset/face_planting/faceplanting_MaYeShN2k8I.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: The video shows a person falling onto the grass. The person is wearing a dark jacket and pants. The video appears to be taken from a low angle.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 6
+Reason: Identifies a fall but not face-plant specifically; some irrelevant details, no clear hallucinations.
+--------------------------------------------------
+[20/46] 正在評估影片: ./dataset/face_planting/faceplanting_oxPAGFHhE5s.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: The images show a mountain bike park with a person riding a mountain bike. The person is riding through a series of jumps and obstacles.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Fails to identify face planting; describes generic biking. Some relevance but misses core action.
+--------------------------------------------------
+[21/46] 正在評估影片: ./dataset/face_planting/faceplanting_ZLFkNSl-XPw.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: A student is lying on the ground, and the other students are looking at him. The video is a "Faceplant" meme.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 8
+Reason: Identifies faceplant correctly and is concise, but adds speculative context ('students', 'meme') beyond the action.
+--------------------------------------------------
+[22/46] 正在評估影片: ./dataset/face_planting/faceplanting_Us1OJs0UxE0.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: A boy is sitting in a laundry basket on the stairs.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Fails to identify face planting; describes static scene instead. Concise but unrelated and likely hallucinated details.
+--------------------------------------------------
+[23/46] 正在評估影片: ./dataset/face_planting/faceplanting_Q3LkU_qIANE.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: Basándome en las imágenes, parece que una persona está patinando sobre hielo. En las últimas imágenes, la persona está tumbada en la nieve con una tabla de snowboard.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Doesn't identify face-planting; contradictory skating/snowboard claims; includes speculative, unrelated details.
+--------------------------------------------------
+[24/46] 正在評估影片: ./dataset/face_planting/faceplanting_nsjqgD_St9w.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: The video shows a young girl running through a living room. She is wearing a red shirt and pink pants. There are other children in the room, and a large black chair is in the foreground. The video appears to be slightly shaky and has some visual distortion.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Fails to identify face planting; overly verbose with irrelevant details and possible hallucinations.
+--------------------------------------------------
+[25/46] 正在評估影片: ./dataset/face_planting/faceplanting_-dLXIIjWS-c.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The primary action is a child sledding down a snow-covered slope. 
+
+**Breakdown of Frames:**
+
+*   **Frames 1-3:** Shows the initial formation of the snow slide, likely created by someone (possibly the child) digging into the snow.
+*   **Frames 4-6:**  A child is actively sledding down the created slide.
+*   **Frames 7-8:** The child is still sledding, with a close-up showing them using the sled.
+
+**In summary, the video depicts a child creating and then using a snow slide for sledding.**
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Misses face-plant action; adds speculative sledding details; overly verbose and not concise.
+--------------------------------------------------
+[26/46] 正在評估影片: ./dataset/face_planting/faceplanting_Kj725DEceik.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: Based on the images, it appears a young man is standing in a doorway, possibly entering or exiting a room. The images show him in a blue shirt and khaki pants. The room has orange and teal walls, and a closet is visible in the background.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Does not identify face planting; focuses on irrelevant scene details; lacks action analysis.
+--------------------------------------------------
+[27/46] 正在評估影片: ./dataset/face_planting/faceplanting_mk9eyW1bzAU.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video depicts a group of young men playing a game on the beach, involving running, jumping, and interacting with the waves. It appears to be a playful, informal game, possibly a variation of tag or a beach-based sport.
+
+**Specific Observations from the Frames:**
+
+*   **Initial Frame (Top Left):** Several people are standing and moving, seemingly engaged in a chase or a playful competition.
+*   **Second Frame (Top Right):** One person is lying on the sand, possibly after being "tagged" or knocked down during the game.
+*   **Third Frame (Bottom Left):** The action continues
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Fails to identify face planting; verbose, speculative beach-game details and unrelated hallucinations.
+--------------------------------------------------
+[28/46] 正在評估影片: ./dataset/face_planting/faceplanting_4FgYoZSabV0.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: The video shows a person riding a bicycle on a dirt trail. The person is performing a trick where they flip the bike over and land on their feet. The video shows the person doing this trick multiple times.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Fails to identify face-plant; hallucinates bike trick, landing on feet, multiple attempts; verbose and irrelevant.
+--------------------------------------------------
+[29/46] 正在評估影片: ./dataset/face_planting/faceplanting_X7ztDnayQAo.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: A group of people are playing a game on a trampoline. It appears they are trying to catch a person who is falling off the trampoline.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Misses “face planting”; adds trampoline/game details; not concise; likely hallucinations unrelated to core action.
+--------------------------------------------------
+[30/46] 正在評估影片: ./dataset/face_planting/faceplanting_JR9LTG9F4j0.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: A snowboarder is riding down a snowy slope.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Fails to identify face planting; gives generic snowboarding. Concise and non-hallucinatory but incorrect action.
+--------------------------------------------------
+[31/46] 正在評估影片: ./dataset/face_planting/faceplanting_T4wf6w_HqUs.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: Based on the sequence of images, it appears a person is falling or collapsing in the snow. The person is initially standing, then appears to lose balance and falls to the ground. 
+
+Here's a breakdown of the progression:
+
+*   **Frames 1-4:** A person is standing, possibly inspecting something.
+*   **Frames 5-8:** The person falls to the ground.
+*   **Frames 9-12:** The person remains on the ground, seemingly unconscious or injured.
+
+It's a concerning sequence, and it's important to note that without further context, it's difficult to determine the exact circumstances.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 6
+Reason: Identifies a fall but not face-plant; overly verbose and includes speculative injury and inspection details.
+--------------------------------------------------
+[32/46] 正在評估影片: ./dataset/face_planting/faceplanting_DAeLsJBXaAA.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: The video shows a person riding a bicycle over a ramp or platform. The person is attempting to perform a trick or maneuver on the bicycle.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Misses core action of face planting; only describes riding a bike; concise but incomplete.
+--------------------------------------------------
+[33/46] 正在評估影片: ./dataset/face_planting/faceplanting_TAG04GA-p_Q.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: The child is lying on the ground near the slide.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Doesn't identify face planting; describes static lying. Concise, no clear hallucinations.
+--------------------------------------------------
+[34/46] 正在評估影片: ./dataset/face_planting/faceplanting_kIhT0fUUPK0.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: A woman is waterskiing.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Incorrect; misses face planting and invents waterskiing/woman. Though concise, it's unrelated to the action.
+--------------------------------------------------
+[35/46] 正在評估影片: ./dataset/face_planting/faceplanting_Z-beIVl_wPs.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: The video shows a person attempting a stunt on a beach, which ultimately fails. Here's a breakdown of what's happening:
+
+*   **Initial Attempt:** The first few frames show a person jumping and attempting to do a flip.
+*   **Failure:** The subsequent frames show the person landing awkwardly in the sand, with their legs tangled and their body twisted.
+
+It's a classic "fail video" moment!
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 5
+Reason: Partially captures a failed landing but not face-plant; verbose with possibly unverified specifics.
+--------------------------------------------------
+[36/46] 正在評估影片: ./dataset/face_planting/faceplanting_SBWpjWPvFho.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: The images show a group of students in a classroom. It appears that one student is being held down by the other students. It is unclear what is happening, but it looks like a conflict or disagreement.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Fails to identify face planting; adds speculative classroom conflict details unrelated to the core action.
+--------------------------------------------------
+[37/46] 正在評估影片: ./dataset/face_planting/faceplanting_neeVaqbf7wI.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: A man is attempting to rob a bank.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Incorrect action; hallucinates bank robbery scenario; irrelevant to face planting despite being concise.
+--------------------------------------------------
+[38/46] 正在評估影片: ./dataset/face_planting/faceplanting_DnxygkTssDc.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: Here's an analysis of the video frames:
+
+**Overall Impression:**
+
+The video appears to show a baby or infant lying down in a storage container or bin. There are various toys and blankets surrounding the baby.
+
+**Frame-by-Frame Breakdown:**
+
+*   **Frame 1 & 2:** The baby is clearly visible, lying on a patterned blanket. There's a toy with a light on, and a blanket with a zigzag pattern.
+*   **Frame 3 & 4:** The baby is still in the same position, with the same surrounding items.
+*   **Frame 5 & 6:** The baby is still in the same position.
+*   **Frame 7 & 8
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Fails to identify face planting; verbose, irrelevant details; incomplete and likely hallucinated context.
+--------------------------------------------------
+[39/46] 正在評估影片: ./dataset/face_planting/faceplanting_ZObLHal3oPg.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: Here's an analysis of the video frames:
+
+**Overall Action:**
+
+The video depicts a person attempting a series of jumps over blue barrels. The person is clearly struggling and failing to complete the jumps, resulting in a fall.
+
+**Frame-by-Frame Breakdown:**
+
+*   **Frame 1:** The person is in mid-jump, attempting to clear the first barrel.
+*   **Frame 2:** The person is still in the air, but the jump is failing.
+*   **Frame 3 & 4:** The person falls to the ground after missing the barrel.
+*   **Frame 5, 6, 7 & 8:** The word "Damnnn!" appears repeatedly,
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 3
+Reason: Misses “face planting”; describes generic fall and barrels; verbose and includes irrelevant on-screen text.
+--------------------------------------------------
+[40/46] 正在評估影片: ./dataset/face_planting/faceplanting_wF-7CEJZ4w8.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: Here's an analysis of the action depicted in the frames:
+
+**Overall Action:**
+
+The video shows a person performing a complex acrobatic maneuver, likely a handstand or a variation of it, while moving across a padded surface (possibly a tumbling mat or a gymnastics floor). 
+
+**Specific Details:**
+
+*   **Frames 1 & 3:** The person is in a stable handstand position, with their legs extended and arms reaching out.
+*   **Frames 2 & 4:** The person is transitioning into a backward roll, with their body curving over and their legs moving in a circular motion.
+*   **Frames 5 & 6:** The person is completing the backward roll, with their body now
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Fails to identify face planting; verbose with imagined handstand/roll details and unrelated specifics.
+--------------------------------------------------
+[41/46] 正在評估影片: ./dataset/face_planting/faceplanting_ng_6Awo2Luo.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: Based on the images, it appears that a young boy is being pulled down by another child. The boy is lying on the floor, and the other child is pulling him down with a blue rope.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 1
+Reason: Misses face planting, adds unverified details about another child and rope; not concise or relevant.
+--------------------------------------------------
+[42/46] 正在評估影片: ./dataset/face_planting/faceplanting_11YmgupLXYE.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: A man is doing a handstand on a stage.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Incorrect action; mislabels face-plant as handstand. Concise but adds possibly hallucinated 'stage' detail.
+--------------------------------------------------
+[43/46] 正在評估影片: ./dataset/face_planting/faceplanting_VO37FL6Qo7c.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: Here's an analysis of the action happening in the video frames:
+
+**Overall Action:**
+
+The video appears to show a group of children playing with a small, motorized vehicle (likely a mini-scooter or similar). They are using a ramp to launch the vehicle.
+
+**Frame-by-Frame Breakdown:**
+
+*   **Frame 1-3:** Children are watching the vehicle being launched.
+*   **Frame 4-6:** The vehicle is being launched down the ramp.
+*   **Frame 7-9:** The vehicle is in the air after the launch.
+*   **Frame 10-12:** The vehicle is landing on the ground.
+*   **Frame 13
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 0
+Reason: Fails to identify face planting; verbose, incomplete, and adds imagined children/vehicle details.
+--------------------------------------------------
+[44/46] 正在評估影片: ./dataset/face_planting/faceplanting_wjmyNaK6TRc.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: A man is waterskiing behind a boat.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Incorrect action; describes waterskiing instead of face planting. Concise but adds unrelated details.
+--------------------------------------------------
+[45/46] 正在評估影片: ./dataset/face_planting/faceplanting_gfO5b9MkeYw.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: Based on the images, it appears that a cheerleader has fallen during a cheerleading routine. The other cheerleaders are reacting to the fall, likely trying to help her up.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 6
+Reason: Captures a fall but not face-plant; includes speculative cheerleader context and reactions.
+--------------------------------------------------
+[46/46] 正在評估影片: ./dataset/face_planting/faceplanting_piCD8qYAMVI.mp4
+Ground Truth: face planting
+🤖 VLM 回答內容: O homem está a deslizar na neve.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+📝 Judge 評語:
+Score: 2
+Reason: Incorrect action; describes sliding instead of face planting. Concise and relevant, no clear hallucinations.
+--------------------------------------------------
+
+📊 評估總結
+總分: 100
+有效樣本數: 46
+平均分: 2.17
