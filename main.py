@@ -209,7 +209,8 @@ def main():
 		try:
 			formatted_prompt = processor.apply_chat_template(
 					messages,
-					add_generation_prompt=True
+					add_generation_prompt=True,
+					enable_thinking=False
 					)
 
 			inputs = processor(
