@@ -1,0 +1,12 @@
+載入模型與處理器: google/gemma-4-E4B-it ... 
+
+
+從 ./dataset/falling_off_chair 尋找，共找到 43 支影片。
+
+開始測試，隨機抽取 43 支影片進行推論...
+
+Hardware Name: Tesla V100-SXM2-32GB
+Sample FPS   : 5
+
+============================================================
+[1/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_QQmQnfEXdOE.mp4
