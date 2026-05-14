@@ -1,0 +1,522 @@
+[
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person lying down on couch.",
+    "metrics": {
+      "last_latency_ms": 1228.710412979126,
+      "avg_latency_ms": 1228.710412979126,
+      "total_inferences": 1,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person lying down on couch.",
+    "metrics": {
+      "last_latency_ms": 1229.520559310913,
+      "avg_latency_ms": 1229.1154861450195,
+      "total_inferences": 2,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person sleeping on couch.",
+    "metrics": {
+      "last_latency_ms": 1121.8221187591553,
+      "avg_latency_ms": 1193.3510303497314,
+      "total_inferences": 3,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is lying down on couch.",
+    "metrics": {
+      "last_latency_ms": 1395.789623260498,
+      "avg_latency_ms": 1243.960678577423,
+      "total_inferences": 4,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is lying down.",
+    "metrics": {
+      "last_latency_ms": 1167.9322719573975,
+      "avg_latency_ms": 1228.754997253418,
+      "total_inferences": 5,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person relaxing on couch.",
+    "metrics": {
+      "last_latency_ms": 1115.900993347168,
+      "avg_latency_ms": 1209.9459966023762,
+      "total_inferences": 6,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person lying down on couch.",
+    "metrics": {
+      "last_latency_ms": 1228.1217575073242,
+      "avg_latency_ms": 1212.5425338745117,
+      "total_inferences": 7,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is lying down resting.",
+    "metrics": {
+      "last_latency_ms": 1229.9320697784424,
+      "avg_latency_ms": 1214.716225862503,
+      "total_inferences": 8,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person relaxing in a chair.",
+    "metrics": {
+      "last_latency_ms": 1222.984790802002,
+      "avg_latency_ms": 1215.6349553002253,
+      "total_inferences": 9,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person relaxing on couch.",
+    "metrics": {
+      "last_latency_ms": 1120.1281547546387,
+      "avg_latency_ms": 1206.0842752456665,
+      "total_inferences": 10,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person relaxing on couch.",
+    "metrics": {
+      "last_latency_ms": 1121.0711002349854,
+      "avg_latency_ms": 1198.3558047901502,
+      "total_inferences": 11,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person relaxing on couch.",
+    "metrics": {
+      "last_latency_ms": 1135.934591293335,
+      "avg_latency_ms": 1193.1540369987488,
+      "total_inferences": 12,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person relaxing on couch.",
+    "metrics": {
+      "last_latency_ms": 1086.9698524475098,
+      "avg_latency_ms": 1184.9860228024995,
+      "total_inferences": 13,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person relaxing on couch.",
+    "metrics": {
+      "last_latency_ms": 1114.8653030395508,
+      "avg_latency_ms": 1179.977399962289,
+      "total_inferences": 14,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person sitting on couch.",
+    "metrics": {
+      "last_latency_ms": 1118.9544200897217,
+      "avg_latency_ms": 1175.909201304118,
+      "total_inferences": 15,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person relaxing in chair.",
+    "metrics": {
+      "last_latency_ms": 1119.0683841705322,
+      "avg_latency_ms": 1172.3566502332687,
+      "total_inferences": 16,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person relaxing on couch.",
+    "metrics": {
+      "last_latency_ms": 1138.2951736450195,
+      "avg_latency_ms": 1170.3530339633717,
+      "total_inferences": 17,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person relaxing on couch.",
+    "metrics": {
+      "last_latency_ms": 1116.2464618682861,
+      "avg_latency_ms": 1167.3471132914226,
+      "total_inferences": 18,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person relaxing on couch.",
+    "metrics": {
+      "last_latency_ms": 1116.6222095489502,
+      "avg_latency_ms": 1164.677381515503,
+      "total_inferences": 19,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person relaxing on couch.",
+    "metrics": {
+      "last_latency_ms": 1122.7529048919678,
+      "avg_latency_ms": 1162.5811576843262,
+      "total_inferences": 20,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person relaxing on couch.",
+    "metrics": {
+      "last_latency_ms": 1321.6471672058105,
+      "avg_latency_ms": 1170.1557295663017,
+      "total_inferences": 21,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person relaxing on couch.",
+    "metrics": {
+      "last_latency_ms": 1157.7954292297363,
+      "avg_latency_ms": 1169.5938977328212,
+      "total_inferences": 22,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person relaxing on couch.",
+    "metrics": {
+      "last_latency_ms": 1129.8785209655762,
+      "avg_latency_ms": 1167.867142221202,
+      "total_inferences": 23,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person relaxing on couch.",
+    "metrics": {
+      "last_latency_ms": 1140.3980255126953,
+      "avg_latency_ms": 1166.722595691681,
+      "total_inferences": 24,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Child sitting on couch.",
+    "metrics": {
+      "last_latency_ms": 1105.2277088165283,
+      "avg_latency_ms": 1164.2628002166748,
+      "total_inferences": 25,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Child sitting on couch.",
+    "metrics": {
+      "last_latency_ms": 1119.4133758544922,
+      "avg_latency_ms": 1162.5378223565908,
+      "total_inferences": 26,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Child sitting on couch.",
+    "metrics": {
+      "last_latency_ms": 1274.9841213226318,
+      "avg_latency_ms": 1166.702500096074,
+      "total_inferences": 27,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Child sitting on couch.",
+    "metrics": {
+      "last_latency_ms": 1112.1323108673096,
+      "avg_latency_ms": 1164.7535647664752,
+      "total_inferences": 28,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Child sitting near lamp.",
+    "metrics": {
+      "last_latency_ms": 1137.1400356292725,
+      "avg_latency_ms": 1163.8013741065715,
+      "total_inferences": 29,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Child sitting on couch.",
+    "metrics": {
+      "last_latency_ms": 1316.1354064941406,
+      "avg_latency_ms": 1168.8791751861572,
+      "total_inferences": 30,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Child sitting on furniture.",
+    "metrics": {
+      "last_latency_ms": 1158.848762512207,
+      "avg_latency_ms": 1168.5556134869973,
+      "total_inferences": 31,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Child is sitting on furniture.",
+    "metrics": {
+      "last_latency_ms": 1244.0674304962158,
+      "avg_latency_ms": 1170.9153577685356,
+      "total_inferences": 32,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Child sitting on couch.",
+    "metrics": {
+      "last_latency_ms": 1136.254072189331,
+      "avg_latency_ms": 1169.8650157812872,
+      "total_inferences": 33,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Child is sitting on couch.",
+    "metrics": {
+      "last_latency_ms": 1249.9008178710938,
+      "avg_latency_ms": 1172.2190099603988,
+      "total_inferences": 34,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person relaxing on couch.",
+    "metrics": {
+      "last_latency_ms": 1130.3954124450684,
+      "avg_latency_ms": 1171.0240500313896,
+      "total_inferences": 35,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is sitting and relaxing.",
+    "metrics": {
+      "last_latency_ms": 1249.1726875305176,
+      "avg_latency_ms": 1173.1948455174763,
+      "total_inferences": 36,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person sitting in a chair.",
+    "metrics": {
+      "last_latency_ms": 1245.7630634307861,
+      "avg_latency_ms": 1175.1561487043225,
+      "total_inferences": 37,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person sitting and looking down.",
+    "metrics": {
+      "last_latency_ms": 1216.214656829834,
+      "avg_latency_ms": 1176.236635760257,
+      "total_inferences": 38,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person holding and moving a blanket.",
+    "metrics": {
+      "last_latency_ms": 1356.9748401641846,
+      "avg_latency_ms": 1180.8709486936912,
+      "total_inferences": 39,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Child looking down at something.",
+    "metrics": {
+      "last_latency_ms": 1238.1548881530762,
+      "avg_latency_ms": 1182.3030471801758,
+      "total_inferences": 40,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Child looking down at something.",
+    "metrics": {
+      "last_latency_ms": 1228.3074855804443,
+      "avg_latency_ms": 1183.425106653353,
+      "total_inferences": 41,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Child looking down at something.",
+    "metrics": {
+      "last_latency_ms": 1240.1528358459473,
+      "avg_latency_ms": 1184.7757668722243,
+      "total_inferences": 42,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Child looking at something.",
+    "metrics": {
+      "last_latency_ms": 1279.09255027771,
+      "avg_latency_ms": 1186.9691804397937,
+      "total_inferences": 43,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is moving quickly.",
+    "metrics": {
+      "last_latency_ms": 1130.955457687378,
+      "avg_latency_ms": 1185.6961412863297,
+      "total_inferences": 44,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Lamp illuminates a dark room.",
+    "metrics": {
+      "last_latency_ms": 1224.5430946350098,
+      "avg_latency_ms": 1186.5594069163003,
+      "total_inferences": 45,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Object is being held/used.",
+    "metrics": {
+      "last_latency_ms": 1343.7223434448242,
+      "avg_latency_ms": 1189.9759924930077,
+      "total_inferences": 46,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Dimly lit room scene.",
+    "metrics": {
+      "last_latency_ms": 1238.5542392730713,
+      "avg_latency_ms": 1191.0095722117321,
+      "total_inferences": 47,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Room interior, dimly lit.",
+    "metrics": {
+      "last_latency_ms": 1215.2743339538574,
+      "avg_latency_ms": 1191.5150880813599,
+      "total_inferences": 48,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Image is too blurry to describe.",
+    "metrics": {
+      "last_latency_ms": 1430.7610988616943,
+      "avg_latency_ms": 1196.3976597299381,
+      "total_inferences": 49,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is sitting in a room.",
+    "metrics": {
+      "last_latency_ms": 1359.2760562896729,
+      "avg_latency_ms": 1199.6552276611328,
+      "total_inferences": 50,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Blurred image, no clear action.",
+    "metrics": {
+      "last_latency_ms": 1363.9287948608398,
+      "avg_latency_ms": 1202.876277998382,
+      "total_inferences": 51,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Image is too blurry to describe.",
+    "metrics": {
+      "last_latency_ms": 1363.4860515594482,
+      "avg_latency_ms": 1205.964927489941,
+      "total_inferences": 52,
+      "is_processing": false
+    }
+  }
+]

@@ -1,0 +1,312 @@
+[
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People in an office setting.",
+    "metrics": {
+      "last_latency_ms": 1287.8284454345703,
+      "avg_latency_ms": 1287.8284454345703,
+      "total_inferences": 1,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People in a classroom setting.",
+    "metrics": {
+      "last_latency_ms": 1232.4252128601074,
+      "avg_latency_ms": 1260.1268291473389,
+      "total_inferences": 2,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People in a classroom setting.",
+    "metrics": {
+      "last_latency_ms": 1230.2680015563965,
+      "avg_latency_ms": 1250.1738866170247,
+      "total_inferences": 3,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person standing in classroom.",
+    "metrics": {
+      "last_latency_ms": 1122.8876113891602,
+      "avg_latency_ms": 1218.3523178100586,
+      "total_inferences": 4,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person walking in classroom.",
+    "metrics": {
+      "last_latency_ms": 1143.78023147583,
+      "avg_latency_ms": 1203.437900543213,
+      "total_inferences": 5,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person walking through classroom.",
+    "metrics": {
+      "last_latency_ms": 1139.4662857055664,
+      "avg_latency_ms": 1192.7759647369385,
+      "total_inferences": 6,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man stands in control room.",
+    "metrics": {
+      "last_latency_ms": 1229.515790939331,
+      "avg_latency_ms": 1198.0245113372803,
+      "total_inferences": 7,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man walks through classroom.",
+    "metrics": {
+      "last_latency_ms": 1124.4823932647705,
+      "avg_latency_ms": 1188.8317465782166,
+      "total_inferences": 8,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person walking through a lab.",
+    "metrics": {
+      "last_latency_ms": 1200.7277011871338,
+      "avg_latency_ms": 1190.1535193125408,
+      "total_inferences": 9,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man walks through office space.",
+    "metrics": {
+      "last_latency_ms": 1216.383934020996,
+      "avg_latency_ms": 1192.7765607833862,
+      "total_inferences": 10,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man walks through office space.",
+    "metrics": {
+      "last_latency_ms": 1211.93265914917,
+      "avg_latency_ms": 1194.518024271185,
+      "total_inferences": 11,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man stands in classroom.",
+    "metrics": {
+      "last_latency_ms": 1092.7624702453613,
+      "avg_latency_ms": 1186.0383947690327,
+      "total_inferences": 12,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man points at bulletin board.",
+    "metrics": {
+      "last_latency_ms": 1227.051019668579,
+      "avg_latency_ms": 1189.1932120689978,
+      "total_inferences": 13,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man stands in classroom.",
+    "metrics": {
+      "last_latency_ms": 1094.0072536468506,
+      "avg_latency_ms": 1182.3942150388445,
+      "total_inferences": 14,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man stands near whiteboard.",
+    "metrics": {
+      "last_latency_ms": 1104.618787765503,
+      "avg_latency_ms": 1177.209186553955,
+      "total_inferences": 15,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man stands in classroom.",
+    "metrics": {
+      "last_latency_ms": 1082.7617645263672,
+      "avg_latency_ms": 1171.3062226772308,
+      "total_inferences": 16,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man works at computer in classroom.",
+    "metrics": {
+      "last_latency_ms": 1306.0274124145508,
+      "avg_latency_ms": 1179.230998544132,
+      "total_inferences": 17,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person interacts with a small animal.",
+    "metrics": {
+      "last_latency_ms": 1347.1271991729736,
+      "avg_latency_ms": 1188.5585652457341,
+      "total_inferences": 18,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People working in an office.",
+    "metrics": {
+      "last_latency_ms": 1215.1453495025635,
+      "avg_latency_ms": 1189.9578696803044,
+      "total_inferences": 19,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People working at desks.",
+    "metrics": {
+      "last_latency_ms": 1118.4837818145752,
+      "avg_latency_ms": 1186.3841652870178,
+      "total_inferences": 20,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Classroom setting, people are present.",
+    "metrics": {
+      "last_latency_ms": 1454.8814296722412,
+      "avg_latency_ms": 1199.1697493053616,
+      "total_inferences": 21,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People are gathered in a room.",
+    "metrics": {
+      "last_latency_ms": 1344.2163467407227,
+      "avg_latency_ms": 1205.7627764615147,
+      "total_inferences": 22,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People are in a classroom setting.",
+    "metrics": {
+      "last_latency_ms": 1337.56422996521,
+      "avg_latency_ms": 1211.493274439936,
+      "total_inferences": 23,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Classroom setting, people present.",
+    "metrics": {
+      "last_latency_ms": 1340.768814086914,
+      "avg_latency_ms": 1216.8797552585602,
+      "total_inferences": 24,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People are in a classroom setting.",
+    "metrics": {
+      "last_latency_ms": 1346.6567993164062,
+      "avg_latency_ms": 1222.070837020874,
+      "total_inferences": 25,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People working in an office.",
+    "metrics": {
+      "last_latency_ms": 1206.296682357788,
+      "avg_latency_ms": 1221.4641387646016,
+      "total_inferences": 26,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People are in an office setting.",
+    "metrics": {
+      "last_latency_ms": 1339.8606777191162,
+      "avg_latency_ms": 1225.849195762917,
+      "total_inferences": 27,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Classroom setting with people present.",
+    "metrics": {
+      "last_latency_ms": 1349.534511566162,
+      "avg_latency_ms": 1230.2665284701757,
+      "total_inferences": 28,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People are sitting in a classroom.",
+    "metrics": {
+      "last_latency_ms": 1359.9555492401123,
+      "avg_latency_ms": 1234.738563669139,
+      "total_inferences": 29,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People are in a classroom setting.",
+    "metrics": {
+      "last_latency_ms": 1332.66282081604,
+      "avg_latency_ms": 1238.0027055740356,
+      "total_inferences": 30,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People are in a classroom setting.",
+    "metrics": {
+      "last_latency_ms": 1327.216386795044,
+      "avg_latency_ms": 1240.8805662585842,
+      "total_inferences": 31,
+      "is_processing": false
+    }
+  }
+]

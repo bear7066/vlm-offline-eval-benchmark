@@ -1,0 +1,492 @@
+[
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person raises arm in celebration.",
+    "metrics": {
+      "last_latency_ms": 1232.649803161621,
+      "avg_latency_ms": 1232.649803161621,
+      "total_inferences": 1,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person raises arm in celebration.",
+    "metrics": {
+      "last_latency_ms": 1282.6483249664307,
+      "avg_latency_ms": 1257.6490640640259,
+      "total_inferences": 2,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person raises arm in celebration.",
+    "metrics": {
+      "last_latency_ms": 1249.6602535247803,
+      "avg_latency_ms": 1254.9861272176106,
+      "total_inferences": 3,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man raises arm in celebration.",
+    "metrics": {
+      "last_latency_ms": 1255.8729648590088,
+      "avg_latency_ms": 1255.2078366279602,
+      "total_inferences": 4,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person raising arms outdoors.",
+    "metrics": {
+      "last_latency_ms": 1129.960536956787,
+      "avg_latency_ms": 1230.1583766937256,
+      "total_inferences": 5,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man dancing in dimly lit room.",
+    "metrics": {
+      "last_latency_ms": 1358.3135604858398,
+      "avg_latency_ms": 1251.5175739924114,
+      "total_inferences": 6,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man is dancing indoors.",
+    "metrics": {
+      "last_latency_ms": 1127.1240711212158,
+      "avg_latency_ms": 1233.7470735822405,
+      "total_inferences": 7,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person dancing or moving energetically.",
+    "metrics": {
+      "last_latency_ms": 1239.7315502166748,
+      "avg_latency_ms": 1234.4951331615448,
+      "total_inferences": 8,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person standing in doorway.",
+    "metrics": {
+      "last_latency_ms": 1121.0029125213623,
+      "avg_latency_ms": 1221.8848864237468,
+      "total_inferences": 9,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person standing in a window.",
+    "metrics": {
+      "last_latency_ms": 1223.1175899505615,
+      "avg_latency_ms": 1222.0081567764282,
+      "total_inferences": 10,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person standing in bright light.",
+    "metrics": {
+      "last_latency_ms": 1245.9466457366943,
+      "avg_latency_ms": 1224.1843830455432,
+      "total_inferences": 11,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person standing in dimly lit room.",
+    "metrics": {
+      "last_latency_ms": 1368.1023120880127,
+      "avg_latency_ms": 1236.1775437990825,
+      "total_inferences": 12,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Dark, blurry indoor scene.",
+    "metrics": {
+      "last_latency_ms": 1222.2723960876465,
+      "avg_latency_ms": 1235.1079170520488,
+      "total_inferences": 13,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Bright light illuminates dark room.",
+    "metrics": {
+      "last_latency_ms": 1208.9290618896484,
+      "avg_latency_ms": 1233.2379988261632,
+      "total_inferences": 14,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Room interior with furniture.",
+    "metrics": {
+      "last_latency_ms": 1123.234748840332,
+      "avg_latency_ms": 1225.904448827108,
+      "total_inferences": 15,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Room interior with band merchandise.",
+    "metrics": {
+      "last_latency_ms": 1240.4143810272217,
+      "avg_latency_ms": 1226.8113195896149,
+      "total_inferences": 16,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Room interior with furniture.",
+    "metrics": {
+      "last_latency_ms": 1126.408338546753,
+      "avg_latency_ms": 1220.9052618812113,
+      "total_inferences": 17,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Bright light illuminates room.",
+    "metrics": {
+      "last_latency_ms": 1150.97975730896,
+      "avg_latency_ms": 1217.0205116271973,
+      "total_inferences": 18,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Bright light illuminates dark room.",
+    "metrics": {
+      "last_latency_ms": 1223.3741283416748,
+      "avg_latency_ms": 1217.3549125069064,
+      "total_inferences": 19,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Room interior, dimly lit scene.",
+    "metrics": {
+      "last_latency_ms": 1319.2353248596191,
+      "avg_latency_ms": 1222.4489331245422,
+      "total_inferences": 20,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Room interior, dimly lit.",
+    "metrics": {
+      "last_latency_ms": 1235.3432178497314,
+      "avg_latency_ms": 1223.0629466828846,
+      "total_inferences": 21,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "No discernible action in image.",
+    "metrics": {
+      "last_latency_ms": 1238.97123336792,
+      "avg_latency_ms": 1223.7860506231136,
+      "total_inferences": 22,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Blurred figures in dimly lit room.",
+    "metrics": {
+      "last_latency_ms": 1340.9767150878906,
+      "avg_latency_ms": 1228.8812969041908,
+      "total_inferences": 23,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Dark, blurry indoor scene.",
+    "metrics": {
+      "last_latency_ms": 1233.3824634552002,
+      "avg_latency_ms": 1229.0688455104828,
+      "total_inferences": 24,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Room interior, dimly lit.",
+    "metrics": {
+      "last_latency_ms": 1228.0757427215576,
+      "avg_latency_ms": 1229.0291213989258,
+      "total_inferences": 25,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Blurry indoor scene, unclear action.",
+    "metrics": {
+      "last_latency_ms": 1477.0419597625732,
+      "avg_latency_ms": 1238.5680767206045,
+      "total_inferences": 26,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Room interior, dimly lit scene.",
+    "metrics": {
+      "last_latency_ms": 1360.9473705291748,
+      "avg_latency_ms": 1243.100643157959,
+      "total_inferences": 27,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Room interior, dimly lit scene.",
+    "metrics": {
+      "last_latency_ms": 1425.598382949829,
+      "avg_latency_ms": 1249.6184195790972,
+      "total_inferences": 28,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Room interior, slightly blurry view.",
+    "metrics": {
+      "last_latency_ms": 1416.2044525146484,
+      "avg_latency_ms": 1255.362765542392,
+      "total_inferences": 29,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Blurry indoor scene with electronics.",
+    "metrics": {
+      "last_latency_ms": 1348.4928607940674,
+      "avg_latency_ms": 1258.4671020507812,
+      "total_inferences": 30,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Blurred motion, indistinct activity.",
+    "metrics": {
+      "last_latency_ms": 1235.158920288086,
+      "avg_latency_ms": 1257.7152252197266,
+      "total_inferences": 31,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Blurred view of textured surface.",
+    "metrics": {
+      "last_latency_ms": 1233.996868133545,
+      "avg_latency_ms": 1256.9740265607834,
+      "total_inferences": 32,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Stairs leading downwards.",
+    "metrics": {
+      "last_latency_ms": 1111.3111972808838,
+      "avg_latency_ms": 1252.5600014310894,
+      "total_inferences": 33,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Blurred motion, indistinct figures moving.",
+    "metrics": {
+      "last_latency_ms": 1342.1156406402588,
+      "avg_latency_ms": 1255.1939908195943,
+      "total_inferences": 34,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person walking in dimly lit area.",
+    "metrics": {
+      "last_latency_ms": 1376.922369003296,
+      "avg_latency_ms": 1258.6719444819857,
+      "total_inferences": 35,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Blurred figures in a room.",
+    "metrics": {
+      "last_latency_ms": 1228.1980514526367,
+      "avg_latency_ms": 1257.825447453393,
+      "total_inferences": 36,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a room.",
+    "metrics": {
+      "last_latency_ms": 1225.6436347961426,
+      "avg_latency_ms": 1256.9556687329266,
+      "total_inferences": 37,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person sitting on floor.",
+    "metrics": {
+      "last_latency_ms": 1150.2501964569092,
+      "avg_latency_ms": 1254.147629988821,
+      "total_inferences": 38,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People are gathered in a room.",
+    "metrics": {
+      "last_latency_ms": 1345.2134132385254,
+      "avg_latency_ms": 1256.4826500721467,
+      "total_inferences": 39,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Child playing on floor.",
+    "metrics": {
+      "last_latency_ms": 1146.8837261199951,
+      "avg_latency_ms": 1253.742676973343,
+      "total_inferences": 40,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Child playing on floor.",
+    "metrics": {
+      "last_latency_ms": 1124.3302822113037,
+      "avg_latency_ms": 1250.586277101098,
+      "total_inferences": 41,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is sitting on floor.",
+    "metrics": {
+      "last_latency_ms": 1235.5403900146484,
+      "avg_latency_ms": 1250.2280416942776,
+      "total_inferences": 42,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Room interior with table and TV.",
+    "metrics": {
+      "last_latency_ms": 1348.0734825134277,
+      "avg_latency_ms": 1252.503517062165,
+      "total_inferences": 43,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Room setup with table and TV.",
+    "metrics": {
+      "last_latency_ms": 1625.3583431243896,
+      "avg_latency_ms": 1260.977490381761,
+      "total_inferences": 44,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Room interior with furniture.",
+    "metrics": {
+      "last_latency_ms": 1119.0550327301025,
+      "avg_latency_ms": 1257.823657989502,
+      "total_inferences": 45,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Room interior with furniture.",
+    "metrics": {
+      "last_latency_ms": 1109.3266010284424,
+      "avg_latency_ms": 1254.595461099044,
+      "total_inferences": 46,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is moving in darkness.",
+    "metrics": {
+      "last_latency_ms": 1253.3302307128906,
+      "avg_latency_ms": 1254.568541303594,
+      "total_inferences": 47,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person walking in dimly lit room.",
+    "metrics": {
+      "last_latency_ms": 1598.3576774597168,
+      "avg_latency_ms": 1261.7308149735134,
+      "total_inferences": 48,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person walking in dimly lit room.",
+    "metrics": {
+      "last_latency_ms": 1356.4212322235107,
+      "avg_latency_ms": 1263.6632724684112,
+      "total_inferences": 49,
+      "is_processing": false
+    }
+  }
+]

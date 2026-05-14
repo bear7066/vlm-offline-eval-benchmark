@@ -1,0 +1,162 @@
+[
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man smiling directly at camera.",
+    "metrics": {
+      "last_latency_ms": 1233.9918613433838,
+      "avg_latency_ms": 1233.9918613433838,
+      "total_inferences": 1,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man looking directly at camera.",
+    "metrics": {
+      "last_latency_ms": 1208.8751792907715,
+      "avg_latency_ms": 1221.4335203170776,
+      "total_inferences": 2,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man stares directly at camera.",
+    "metrics": {
+      "last_latency_ms": 1243.8850402832031,
+      "avg_latency_ms": 1228.9173603057861,
+      "total_inferences": 3,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man smiling and looking at camera.",
+    "metrics": {
+      "last_latency_ms": 1350.4962921142578,
+      "avg_latency_ms": 1259.312093257904,
+      "total_inferences": 4,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man looking directly at camera.",
+    "metrics": {
+      "last_latency_ms": 1254.8561096191406,
+      "avg_latency_ms": 1258.4208965301514,
+      "total_inferences": 5,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man walks through the room.",
+    "metrics": {
+      "last_latency_ms": 1232.6393127441406,
+      "avg_latency_ms": 1254.1239658991497,
+      "total_inferences": 6,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man appears to be moving quickly.",
+    "metrics": {
+      "last_latency_ms": 1379.2457580566406,
+      "avg_latency_ms": 1271.998507635934,
+      "total_inferences": 7,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person running quickly through hallway.",
+    "metrics": {
+      "last_latency_ms": 1263.9591693878174,
+      "avg_latency_ms": 1270.9935903549194,
+      "total_inferences": 8,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is falling or collapsing.",
+    "metrics": {
+      "last_latency_ms": 1252.1703243255615,
+      "avg_latency_ms": 1268.9021163516575,
+      "total_inferences": 9,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person sitting, looking at screen.",
+    "metrics": {
+      "last_latency_ms": 1351.276159286499,
+      "avg_latency_ms": 1277.1395206451416,
+      "total_inferences": 10,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person filming a room.",
+    "metrics": {
+      "last_latency_ms": 1136.4655494689941,
+      "avg_latency_ms": 1264.3509778109462,
+      "total_inferences": 11,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person reaching towards a window.",
+    "metrics": {
+      "last_latency_ms": 1252.6113986968994,
+      "avg_latency_ms": 1263.3726795514424,
+      "total_inferences": 12,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person standing near window.",
+    "metrics": {
+      "last_latency_ms": 1127.9656887054443,
+      "avg_latency_ms": 1252.9567571786733,
+      "total_inferences": 13,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person kicking in the air.",
+    "metrics": {
+      "last_latency_ms": 1230.2217483520508,
+      "avg_latency_ms": 1251.3328279767718,
+      "total_inferences": 14,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is doing push-ups.",
+    "metrics": {
+      "last_latency_ms": 1348.9017486572266,
+      "avg_latency_ms": 1257.837422688802,
+      "total_inferences": 15,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Blue light appears in window.",
+    "metrics": {
+      "last_latency_ms": 1227.7638912200928,
+      "avg_latency_ms": 1255.9578269720078,
+      "total_inferences": 16,
+      "is_processing": false
+    }
+  }
+]

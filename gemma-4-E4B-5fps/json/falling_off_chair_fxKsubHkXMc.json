@@ -1,0 +1,142 @@
+[
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is kicking a chair.",
+    "metrics": {
+      "last_latency_ms": 1234.269380569458,
+      "avg_latency_ms": 1234.269380569458,
+      "total_inferences": 1,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person jumps over chair.",
+    "metrics": {
+      "last_latency_ms": 1135.3697776794434,
+      "avg_latency_ms": 1184.8195791244507,
+      "total_inferences": 2,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is jumping on a chair.",
+    "metrics": {
+      "last_latency_ms": 1394.0389156341553,
+      "avg_latency_ms": 1254.5593579610188,
+      "total_inferences": 3,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is standing on chair.",
+    "metrics": {
+      "last_latency_ms": 1235.990047454834,
+      "avg_latency_ms": 1249.9170303344727,
+      "total_inferences": 4,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is kicking a chair.",
+    "metrics": {
+      "last_latency_ms": 1233.8032722473145,
+      "avg_latency_ms": 1246.694278717041,
+      "total_inferences": 5,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person jumping on chair.",
+    "metrics": {
+      "last_latency_ms": 1119.335651397705,
+      "avg_latency_ms": 1225.467840830485,
+      "total_inferences": 6,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is jumping on chair.",
+    "metrics": {
+      "last_latency_ms": 1233.2499027252197,
+      "avg_latency_ms": 1226.5795639583043,
+      "total_inferences": 7,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is kicking something on floor.",
+    "metrics": {
+      "last_latency_ms": 1347.6486206054688,
+      "avg_latency_ms": 1241.7131960391998,
+      "total_inferences": 8,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person pushes a wheeled object.",
+    "metrics": {
+      "last_latency_ms": 1229.8994064331055,
+      "avg_latency_ms": 1240.4005527496338,
+      "total_inferences": 9,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Empty room with piano.",
+    "metrics": {
+      "last_latency_ms": 1121.1917400360107,
+      "avg_latency_ms": 1228.4796714782715,
+      "total_inferences": 10,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Blurry motion in an indoor space.",
+    "metrics": {
+      "last_latency_ms": 1476.8075942993164,
+      "avg_latency_ms": 1251.0549371892757,
+      "total_inferences": 11,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person skateboarding indoors.",
+    "metrics": {
+      "last_latency_ms": 1000.5228519439697,
+      "avg_latency_ms": 1230.1772634188335,
+      "total_inferences": 12,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Empty conference room setup.",
+    "metrics": {
+      "last_latency_ms": 1105.2947044372559,
+      "avg_latency_ms": 1220.5709127279429,
+      "total_inferences": 13,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Empty conference room setup.",
+    "metrics": {
+      "last_latency_ms": 1104.9048900604248,
+      "avg_latency_ms": 1212.3090539659772,
+      "total_inferences": 14,
+      "is_processing": false
+    }
+  }
+]

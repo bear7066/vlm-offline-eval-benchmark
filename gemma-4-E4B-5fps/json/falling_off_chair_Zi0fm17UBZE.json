@@ -1,0 +1,512 @@
+[
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man on roof, possible incident.",
+    "metrics": {
+      "last_latency_ms": 1431.5791130065918,
+      "avg_latency_ms": 1431.5791130065918,
+      "total_inferences": 1,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a room.",
+    "metrics": {
+      "last_latency_ms": 1228.7049293518066,
+      "avg_latency_ms": 1330.1420211791992,
+      "total_inferences": 2,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a room.",
+    "metrics": {
+      "last_latency_ms": 1239.0632629394531,
+      "avg_latency_ms": 1299.782435099284,
+      "total_inferences": 3,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a bar.",
+    "metrics": {
+      "last_latency_ms": 1232.9304218292236,
+      "avg_latency_ms": 1283.0694317817688,
+      "total_inferences": 4,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People working in a bar.",
+    "metrics": {
+      "last_latency_ms": 1238.8269901275635,
+      "avg_latency_ms": 1274.2209434509277,
+      "total_inferences": 5,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Musicians playing in a bar.",
+    "metrics": {
+      "last_latency_ms": 1337.1763229370117,
+      "avg_latency_ms": 1284.7135066986084,
+      "total_inferences": 6,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a room.",
+    "metrics": {
+      "last_latency_ms": 1251.9934177398682,
+      "avg_latency_ms": 1280.0392082759313,
+      "total_inferences": 7,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a room.",
+    "metrics": {
+      "last_latency_ms": 1204.455852508545,
+      "avg_latency_ms": 1270.591288805008,
+      "total_inferences": 8,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a room.",
+    "metrics": {
+      "last_latency_ms": 1229.687213897705,
+      "avg_latency_ms": 1266.0463915930852,
+      "total_inferences": 9,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a store.",
+    "metrics": {
+      "last_latency_ms": 1243.4723377227783,
+      "avg_latency_ms": 1263.7889862060547,
+      "total_inferences": 10,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a bar.",
+    "metrics": {
+      "last_latency_ms": 1231.595754623413,
+      "avg_latency_ms": 1260.8623287894509,
+      "total_inferences": 11,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a bar.",
+    "metrics": {
+      "last_latency_ms": 1243.9310550689697,
+      "avg_latency_ms": 1259.4513893127441,
+      "total_inferences": 12,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered around a table.",
+    "metrics": {
+      "last_latency_ms": 1251.161813735962,
+      "avg_latency_ms": 1258.8137296529917,
+      "total_inferences": 13,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People dancing at a party.",
+    "metrics": {
+      "last_latency_ms": 1320.3165531158447,
+      "avg_latency_ms": 1263.206788471767,
+      "total_inferences": 14,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Musician jumps while playing guitar.",
+    "metrics": {
+      "last_latency_ms": 1357.5494289398193,
+      "avg_latency_ms": 1269.4962978363037,
+      "total_inferences": 15,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People dancing at a party.",
+    "metrics": {
+      "last_latency_ms": 1231.1062812805176,
+      "avg_latency_ms": 1267.096921801567,
+      "total_inferences": 16,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man dancing at a party.",
+    "metrics": {
+      "last_latency_ms": 1238.2898330688477,
+      "avg_latency_ms": 1265.4023871702307,
+      "total_inferences": 17,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People fighting in a dark room.",
+    "metrics": {
+      "last_latency_ms": 1341.6283130645752,
+      "avg_latency_ms": 1269.6371608310276,
+      "total_inferences": 18,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People are engaged in a struggle.",
+    "metrics": {
+      "last_latency_ms": 1341.0427570343018,
+      "avg_latency_ms": 1273.395350104884,
+      "total_inferences": 19,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People struggling on the ground.",
+    "metrics": {
+      "last_latency_ms": 1288.672685623169,
+      "avg_latency_ms": 1274.1592168807983,
+      "total_inferences": 20,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is lying on the ground.",
+    "metrics": {
+      "last_latency_ms": 1348.7281799316406,
+      "avg_latency_ms": 1277.7101198832195,
+      "total_inferences": 21,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person in white garment moving.",
+    "metrics": {
+      "last_latency_ms": 1267.0691013336182,
+      "avg_latency_ms": 1277.2264372218738,
+      "total_inferences": 22,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Scene from a video game.",
+    "metrics": {
+      "last_latency_ms": 1240.4236793518066,
+      "avg_latency_ms": 1275.6263173144798,
+      "total_inferences": 23,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person appears to be falling or moving.",
+    "metrics": {
+      "last_latency_ms": 1548.7985610961914,
+      "avg_latency_ms": 1287.0084941387177,
+      "total_inferences": 24,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Scene is too dark to describe.",
+    "metrics": {
+      "last_latency_ms": 1343.0187702178955,
+      "avg_latency_ms": 1289.2489051818848,
+      "total_inferences": 25,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People are gathered in a room.",
+    "metrics": {
+      "last_latency_ms": 1349.647045135498,
+      "avg_latency_ms": 1291.571910564716,
+      "total_inferences": 26,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People playing a game.",
+    "metrics": {
+      "last_latency_ms": 1124.107837677002,
+      "avg_latency_ms": 1285.3695374948006,
+      "total_inferences": 27,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a room.",
+    "metrics": {
+      "last_latency_ms": 1232.1619987487793,
+      "avg_latency_ms": 1283.4692682538714,
+      "total_inferences": 28,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered around a table.",
+    "metrics": {
+      "last_latency_ms": 1230.6995391845703,
+      "avg_latency_ms": 1281.6496224238956,
+      "total_inferences": 29,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered around a table.",
+    "metrics": {
+      "last_latency_ms": 1296.1280345916748,
+      "avg_latency_ms": 1282.1322361628213,
+      "total_inferences": 30,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a bar.",
+    "metrics": {
+      "last_latency_ms": 1248.239517211914,
+      "avg_latency_ms": 1281.0389226482762,
+      "total_inferences": 31,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a bar.",
+    "metrics": {
+      "last_latency_ms": 1247.0660209655762,
+      "avg_latency_ms": 1279.9772694706917,
+      "total_inferences": 32,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a bar.",
+    "metrics": {
+      "last_latency_ms": 1269.5631980895996,
+      "avg_latency_ms": 1279.6616915500524,
+      "total_inferences": 33,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a bar.",
+    "metrics": {
+      "last_latency_ms": 1237.666368484497,
+      "avg_latency_ms": 1278.426534989301,
+      "total_inferences": 34,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a bar.",
+    "metrics": {
+      "last_latency_ms": 1251.0278224945068,
+      "avg_latency_ms": 1277.6437146323067,
+      "total_inferences": 35,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a room.",
+    "metrics": {
+      "last_latency_ms": 1231.1761379241943,
+      "avg_latency_ms": 1276.352948612637,
+      "total_inferences": 36,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People socializing at a bar.",
+    "metrics": {
+      "last_latency_ms": 1221.3945388793945,
+      "avg_latency_ms": 1274.8675861874142,
+      "total_inferences": 37,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered at a bar.",
+    "metrics": {
+      "last_latency_ms": 1220.0396060943604,
+      "avg_latency_ms": 1273.424744606018,
+      "total_inferences": 38,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered at a bar.",
+    "metrics": {
+      "last_latency_ms": 1208.9011669158936,
+      "avg_latency_ms": 1271.770293896015,
+      "total_inferences": 39,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered at a bar.",
+    "metrics": {
+      "last_latency_ms": 1216.9644832611084,
+      "avg_latency_ms": 1270.4001486301422,
+      "total_inferences": 40,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered at a bar.",
+    "metrics": {
+      "last_latency_ms": 1216.0329818725586,
+      "avg_latency_ms": 1269.07412017264,
+      "total_inferences": 41,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a bar.",
+    "metrics": {
+      "last_latency_ms": 1217.4441814422607,
+      "avg_latency_ms": 1267.844835917155,
+      "total_inferences": 42,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a bar.",
+    "metrics": {
+      "last_latency_ms": 1210.7956409454346,
+      "avg_latency_ms": 1266.5181104526964,
+      "total_inferences": 43,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a bar.",
+    "metrics": {
+      "last_latency_ms": 1216.430425643921,
+      "avg_latency_ms": 1265.3797539797695,
+      "total_inferences": 44,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People playing games in bar.",
+    "metrics": {
+      "last_latency_ms": 1207.1382999420166,
+      "avg_latency_ms": 1264.0854994455972,
+      "total_inferences": 45,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a bar.",
+    "metrics": {
+      "last_latency_ms": 1233.7677478790283,
+      "avg_latency_ms": 1263.4264178898022,
+      "total_inferences": 46,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a bar.",
+    "metrics": {
+      "last_latency_ms": 1244.2784309387207,
+      "avg_latency_ms": 1263.0190139121198,
+      "total_inferences": 47,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered around a bar.",
+    "metrics": {
+      "last_latency_ms": 1273.967981338501,
+      "avg_latency_ms": 1263.2471174001694,
+      "total_inferences": 48,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People playing at a casino.",
+    "metrics": {
+      "last_latency_ms": 1240.5476570129395,
+      "avg_latency_ms": 1262.7838631065524,
+      "total_inferences": 49,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People playing arcade games.",
+    "metrics": {
+      "last_latency_ms": 1123.3735084533691,
+      "avg_latency_ms": 1259.9956560134888,
+      "total_inferences": 50,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People playing games in a bar.",
+    "metrics": {
+      "last_latency_ms": 1373.673439025879,
+      "avg_latency_ms": 1262.2246321509867,
+      "total_inferences": 51,
+      "is_processing": false
+    }
+  }
+]

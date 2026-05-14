@@ -1,0 +1,502 @@
+[
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two children hugging on pavement.",
+    "metrics": {
+      "last_latency_ms": 1269.233226776123,
+      "avg_latency_ms": 1269.233226776123,
+      "total_inferences": 1,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man lifts woman on chair.",
+    "metrics": {
+      "last_latency_ms": 1235.2278232574463,
+      "avg_latency_ms": 1252.2305250167847,
+      "total_inferences": 2,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man spins woman on chair.",
+    "metrics": {
+      "last_latency_ms": 1248.002290725708,
+      "avg_latency_ms": 1250.8211135864258,
+      "total_inferences": 3,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person being carried on office chair.",
+    "metrics": {
+      "last_latency_ms": 1353.0261516571045,
+      "avg_latency_ms": 1276.3723731040955,
+      "total_inferences": 4,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person falls onto office chair.",
+    "metrics": {
+      "last_latency_ms": 1226.435661315918,
+      "avg_latency_ms": 1266.38503074646,
+      "total_inferences": 5,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man lifts woman in park.",
+    "metrics": {
+      "last_latency_ms": 1256.8023204803467,
+      "avg_latency_ms": 1264.7879123687744,
+      "total_inferences": 6,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man lifts woman in playful pose.",
+    "metrics": {
+      "last_latency_ms": 1338.7775421142578,
+      "avg_latency_ms": 1275.357859475272,
+      "total_inferences": 7,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two people are doing a stunt.",
+    "metrics": {
+      "last_latency_ms": 1340.8684730529785,
+      "avg_latency_ms": 1283.5466861724854,
+      "total_inferences": 8,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man is being lifted by woman.",
+    "metrics": {
+      "last_latency_ms": 1343.2226181030273,
+      "avg_latency_ms": 1290.177345275879,
+      "total_inferences": 9,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Couple performing acrobatic pose.",
+    "metrics": {
+      "last_latency_ms": 1266.0489082336426,
+      "avg_latency_ms": 1287.7645015716553,
+      "total_inferences": 10,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Couple playfully falls on pavement.",
+    "metrics": {
+      "last_latency_ms": 1250.8251667022705,
+      "avg_latency_ms": 1284.406380219893,
+      "total_inferences": 11,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Couple playfully falls on pavement.",
+    "metrics": {
+      "last_latency_ms": 1248.5179901123047,
+      "avg_latency_ms": 1281.4156810442607,
+      "total_inferences": 12,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Couple performs acrobatic stunt.",
+    "metrics": {
+      "last_latency_ms": 1238.997220993042,
+      "avg_latency_ms": 1278.1527225787822,
+      "total_inferences": 13,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Woman performs yoga outdoors.",
+    "metrics": {
+      "last_latency_ms": 1113.2187843322754,
+      "avg_latency_ms": 1266.371726989746,
+      "total_inferences": 14,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Woman plays with man on pavement.",
+    "metrics": {
+      "last_latency_ms": 1303.2188415527344,
+      "avg_latency_ms": 1268.8282012939453,
+      "total_inferences": 15,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is performing a stunt.",
+    "metrics": {
+      "last_latency_ms": 1210.2649211883545,
+      "avg_latency_ms": 1265.1679962873459,
+      "total_inferences": 16,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is carrying another person.",
+    "metrics": {
+      "last_latency_ms": 1224.4558334350586,
+      "avg_latency_ms": 1262.773163178388,
+      "total_inferences": 17,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Couple performing on pavement.",
+    "metrics": {
+      "last_latency_ms": 1117.664098739624,
+      "avg_latency_ms": 1254.7115484873455,
+      "total_inferences": 18,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People doing outdoor acrobatics.",
+    "metrics": {
+      "last_latency_ms": 1234.161138534546,
+      "avg_latency_ms": 1253.6299479635138,
+      "total_inferences": 19,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People are performing on pavement.",
+    "metrics": {
+      "last_latency_ms": 1230.1065921783447,
+      "avg_latency_ms": 1252.4537801742554,
+      "total_inferences": 20,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People performing on pavement.",
+    "metrics": {
+      "last_latency_ms": 1115.6673431396484,
+      "avg_latency_ms": 1245.9401403154645,
+      "total_inferences": 21,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People performing on pavement.",
+    "metrics": {
+      "last_latency_ms": 1144.8006629943848,
+      "avg_latency_ms": 1241.3428913463244,
+      "total_inferences": 22,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Woman singing on pavement.",
+    "metrics": {
+      "last_latency_ms": 1108.0100536346436,
+      "avg_latency_ms": 1235.5458114458168,
+      "total_inferences": 23,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People practicing some form of movement.",
+    "metrics": {
+      "last_latency_ms": 1397.6178169250488,
+      "avg_latency_ms": 1242.298811674118,
+      "total_inferences": 24,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Martial arts demonstration in progress.",
+    "metrics": {
+      "last_latency_ms": 1311.4972114562988,
+      "avg_latency_ms": 1245.0667476654053,
+      "total_inferences": 25,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People engaged in a performance.",
+    "metrics": {
+      "last_latency_ms": 1274.3198871612549,
+      "avg_latency_ms": 1246.1918684152456,
+      "total_inferences": 26,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Couple performing acrobatic move.",
+    "metrics": {
+      "last_latency_ms": 1231.0144901275635,
+      "avg_latency_ms": 1245.6297432934796,
+      "total_inferences": 27,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Couple doing floor exercise.",
+    "metrics": {
+      "last_latency_ms": 1137.4807357788086,
+      "avg_latency_ms": 1241.7672787393842,
+      "total_inferences": 28,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man and woman perform street act.",
+    "metrics": {
+      "last_latency_ms": 1365.828514099121,
+      "avg_latency_ms": 1246.0452523724784,
+      "total_inferences": 29,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Woman sits, man lies on ground.",
+    "metrics": {
+      "last_latency_ms": 1452.401876449585,
+      "avg_latency_ms": 1252.923806508382,
+      "total_inferences": 30,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Woman falls while singing outdoors.",
+    "metrics": {
+      "last_latency_ms": 1263.4398937225342,
+      "avg_latency_ms": 1253.2630351281935,
+      "total_inferences": 31,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People are playing on pavement.",
+    "metrics": {
+      "last_latency_ms": 1223.3242988586426,
+      "avg_latency_ms": 1252.32744961977,
+      "total_inferences": 32,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Woman tickles man on ground.",
+    "metrics": {
+      "last_latency_ms": 1313.3642673492432,
+      "avg_latency_ms": 1254.1770501570268,
+      "total_inferences": 33,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Couple playfully lying on pavement.",
+    "metrics": {
+      "last_latency_ms": 1259.317398071289,
+      "avg_latency_ms": 1254.3282368603875,
+      "total_inferences": 34,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Couple lying on pavement.",
+    "metrics": {
+      "last_latency_ms": 1208.6806297302246,
+      "avg_latency_ms": 1253.0240195138115,
+      "total_inferences": 35,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Couple playfully poses on pavement.",
+    "metrics": {
+      "last_latency_ms": 1200.753927230835,
+      "avg_latency_ms": 1251.572072505951,
+      "total_inferences": 36,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Couple playfully lying on pavement.",
+    "metrics": {
+      "last_latency_ms": 1447.0365047454834,
+      "avg_latency_ms": 1256.8548949989113,
+      "total_inferences": 37,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Couple doing acrobatic pose.",
+    "metrics": {
+      "last_latency_ms": 1226.8867492675781,
+      "avg_latency_ms": 1256.0662595849287,
+      "total_inferences": 38,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Couple lying on pavement.",
+    "metrics": {
+      "last_latency_ms": 1141.8704986572266,
+      "avg_latency_ms": 1253.138163150885,
+      "total_inferences": 39,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Couple lying on pavement.",
+    "metrics": {
+      "last_latency_ms": 1164.2811298370361,
+      "avg_latency_ms": 1250.916737318039,
+      "total_inferences": 40,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Couple relaxing on pavement.",
+    "metrics": {
+      "last_latency_ms": 1120.6552982330322,
+      "avg_latency_ms": 1247.739629047673,
+      "total_inferences": 41,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Couple relaxing on pavement.",
+    "metrics": {
+      "last_latency_ms": 1115.7772541046143,
+      "avg_latency_ms": 1244.5976677395047,
+      "total_inferences": 42,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Couple sitting on sidewalk.",
+    "metrics": {
+      "last_latency_ms": 1132.2963237762451,
+      "avg_latency_ms": 1241.9860085775688,
+      "total_inferences": 43,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People are doing a yoga pose.",
+    "metrics": {
+      "last_latency_ms": 1320.3630447387695,
+      "avg_latency_ms": 1243.7673048539596,
+      "total_inferences": 44,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two people are lying on ground.",
+    "metrics": {
+      "last_latency_ms": 1363.3782863616943,
+      "avg_latency_ms": 1246.4253266652424,
+      "total_inferences": 45,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two people are lying on ground.",
+    "metrics": {
+      "last_latency_ms": 1357.6338291168213,
+      "avg_latency_ms": 1248.842902805494,
+      "total_inferences": 46,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two people are lying on ground.",
+    "metrics": {
+      "last_latency_ms": 1357.7959537506104,
+      "avg_latency_ms": 1251.161052825603,
+      "total_inferences": 47,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two people are lying on ground.",
+    "metrics": {
+      "last_latency_ms": 1337.2750282287598,
+      "avg_latency_ms": 1252.9550939798355,
+      "total_inferences": 48,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two people are lying on ground.",
+    "metrics": {
+      "last_latency_ms": 1336.3885879516602,
+      "avg_latency_ms": 1254.6578183466074,
+      "total_inferences": 49,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two people are lying on ground.",
+    "metrics": {
+      "last_latency_ms": 1344.419240951538,
+      "avg_latency_ms": 1256.453046798706,
+      "total_inferences": 50,
+      "is_processing": false
+    }
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Empty classroom setting, waiting.",
+    "metrics": {
+      "last_latency_ms": 1213.5355472564697,
+      "avg_latency_ms": 1213.5355472564697,
+      "total_inferences": 1,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People sitting at tables.",
+    "metrics": {
+      "last_latency_ms": 1106.290340423584,
+      "avg_latency_ms": 1159.9129438400269,
+      "total_inferences": 2,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People sitting at a table.",
+    "metrics": {
+      "last_latency_ms": 1258.1536769866943,
+      "avg_latency_ms": 1192.659854888916,
+      "total_inferences": 3,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Image is too blurry to describe.",
+    "metrics": {
+      "last_latency_ms": 1549.375295639038,
+      "avg_latency_ms": 1281.8387150764465,
+      "total_inferences": 4,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two figures walking in a room.",
+    "metrics": {
+      "last_latency_ms": 1551.4411926269531,
+      "avg_latency_ms": 1335.7592105865479,
+      "total_inferences": 5,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People dancing in a room.",
+    "metrics": {
+      "last_latency_ms": 1204.024076461792,
+      "avg_latency_ms": 1313.8033548990886,
+      "total_inferences": 6,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People moving in a blurry setting.",
+    "metrics": {
+      "last_latency_ms": 1336.8916511535645,
+      "avg_latency_ms": 1317.1016829354423,
+      "total_inferences": 7,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is falling or moving quickly.",
+    "metrics": {
+      "last_latency_ms": 1391.5765285491943,
+      "avg_latency_ms": 1326.4110386371613,
+      "total_inferences": 8,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is walking or moving.",
+    "metrics": {
+      "last_latency_ms": 1231.4682006835938,
+      "avg_latency_ms": 1315.8618344200984,
+      "total_inferences": 9,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is running or moving quickly.",
+    "metrics": {
+      "last_latency_ms": 1371.3510036468506,
+      "avg_latency_ms": 1321.4107513427734,
+      "total_inferences": 10,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person moving quickly across frame.",
+    "metrics": {
+      "last_latency_ms": 1246.5198040008545,
+      "avg_latency_ms": 1314.6024834025989,
+      "total_inferences": 11,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered in a room.",
+    "metrics": {
+      "last_latency_ms": 1411.4100933074951,
+      "avg_latency_ms": 1322.669784228007,
+      "total_inferences": 12,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered around a dog.",
+    "metrics": {
+      "last_latency_ms": 1222.35107421875,
+      "avg_latency_ms": 1314.952960381141,
+      "total_inferences": 13,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Blurry scene, unclear action.",
+    "metrics": {
+      "last_latency_ms": 1341.3145542144775,
+      "avg_latency_ms": 1316.8359313692365,
+      "total_inferences": 14,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People gathered around a table.",
+    "metrics": {
+      "last_latency_ms": 1227.6077270507812,
+      "avg_latency_ms": 1310.8873844146729,
+      "total_inferences": 15,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Blurred motion, unclear action.",
+    "metrics": {
+      "last_latency_ms": 1225.745439529419,
+      "avg_latency_ms": 1305.5660128593445,
+      "total_inferences": 16,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Video is too blurry to describe.",
+    "metrics": {
+      "last_latency_ms": 1343.7602519989014,
+      "avg_latency_ms": 1307.81273280873,
+      "total_inferences": 17,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Dark object moving across surface.",
+    "metrics": {
+      "last_latency_ms": 1245.19944190979,
+      "avg_latency_ms": 1304.334216647678,
+      "total_inferences": 18,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Whale breaching or surfacing in water.",
+    "metrics": {
+      "last_latency_ms": 1453.0706405639648,
+      "avg_latency_ms": 1312.1624494853772,
+      "total_inferences": 19,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Car accident in motion.",
+    "metrics": {
+      "last_latency_ms": 1135.920763015747,
+      "avg_latency_ms": 1303.3503651618958,
+      "total_inferences": 20,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Blurry image, unclear action.",
+    "metrics": {
+      "last_latency_ms": 1341.7811393737793,
+      "avg_latency_ms": 1305.1804020291281,
+      "total_inferences": 21,
+      "is_processing": false
+    }
+  }
+]

@@ -1,0 +1,622 @@
+[
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two men talking in chairs.",
+    "metrics": {
+      "last_latency_ms": 1242.6683902740479,
+      "avg_latency_ms": 1242.6683902740479,
+      "total_inferences": 1,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two men talking in chairs.",
+    "metrics": {
+      "last_latency_ms": 1246.3464736938477,
+      "avg_latency_ms": 1244.5074319839478,
+      "total_inferences": 2,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two men talking in chairs.",
+    "metrics": {
+      "last_latency_ms": 1231.9283485412598,
+      "avg_latency_ms": 1240.3144041697185,
+      "total_inferences": 3,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two men talking in chairs.",
+    "metrics": {
+      "last_latency_ms": 1239.9256229400635,
+      "avg_latency_ms": 1240.2172088623047,
+      "total_inferences": 4,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two men talking in a room.",
+    "metrics": {
+      "last_latency_ms": 1377.7134418487549,
+      "avg_latency_ms": 1267.7164554595947,
+      "total_inferences": 5,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two men talking in room.",
+    "metrics": {
+      "last_latency_ms": 1252.8817653656006,
+      "avg_latency_ms": 1265.2440071105957,
+      "total_inferences": 6,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two men talking indoors.",
+    "metrics": {
+      "last_latency_ms": 1119.765043258667,
+      "avg_latency_ms": 1244.4612979888916,
+      "total_inferences": 7,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two men talking in room.",
+    "metrics": {
+      "last_latency_ms": 1264.8277282714844,
+      "avg_latency_ms": 1247.0071017742157,
+      "total_inferences": 8,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two men talking indoors.",
+    "metrics": {
+      "last_latency_ms": 1104.8228740692139,
+      "avg_latency_ms": 1231.2088542514377,
+      "total_inferences": 9,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two men talking in a room.",
+    "metrics": {
+      "last_latency_ms": 1311.46240234375,
+      "avg_latency_ms": 1239.234209060669,
+      "total_inferences": 10,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two men talking in a room.",
+    "metrics": {
+      "last_latency_ms": 1328.2012939453125,
+      "avg_latency_ms": 1247.3221258683639,
+      "total_inferences": 11,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two men talking in room.",
+    "metrics": {
+      "last_latency_ms": 1203.578233718872,
+      "avg_latency_ms": 1243.6768015225728,
+      "total_inferences": 12,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two men talking in room.",
+    "metrics": {
+      "last_latency_ms": 1227.9562950134277,
+      "avg_latency_ms": 1242.4675317911,
+      "total_inferences": 13,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two men talking in chairs.",
+    "metrics": {
+      "last_latency_ms": 1292.0668125152588,
+      "avg_latency_ms": 1246.0103375571114,
+      "total_inferences": 14,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two men relaxing in chairs.",
+    "metrics": {
+      "last_latency_ms": 1288.0604267120361,
+      "avg_latency_ms": 1248.8136768341064,
+      "total_inferences": 15,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two people are relaxing on chairs.",
+    "metrics": {
+      "last_latency_ms": 1369.3606853485107,
+      "avg_latency_ms": 1256.3478648662567,
+      "total_inferences": 16,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People are dancing energetically.",
+    "metrics": {
+      "last_latency_ms": 1130.8019161224365,
+      "avg_latency_ms": 1248.9628090577967,
+      "total_inferences": 17,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People are falling or tumbling.",
+    "metrics": {
+      "last_latency_ms": 1229.4306755065918,
+      "avg_latency_ms": 1247.8776905271743,
+      "total_inferences": 18,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People are lying on the floor.",
+    "metrics": {
+      "last_latency_ms": 1356.562852859497,
+      "avg_latency_ms": 1253.5979622288753,
+      "total_inferences": 19,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is falling or tumbling.",
+    "metrics": {
+      "last_latency_ms": 1271.4579105377197,
+      "avg_latency_ms": 1254.4909596443176,
+      "total_inferences": 20,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person falling through glass door.",
+    "metrics": {
+      "last_latency_ms": 1233.7419986724854,
+      "avg_latency_ms": 1253.5029138837542,
+      "total_inferences": 21,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is falling or tumbling.",
+    "metrics": {
+      "last_latency_ms": 1301.2492656707764,
+      "avg_latency_ms": 1255.6732026013462,
+      "total_inferences": 22,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person falls onto floor.",
+    "metrics": {
+      "last_latency_ms": 1094.897747039795,
+      "avg_latency_ms": 1248.6829654030178,
+      "total_inferences": 23,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is running past camera.",
+    "metrics": {
+      "last_latency_ms": 1238.3074760437012,
+      "avg_latency_ms": 1248.2506533463795,
+      "total_inferences": 24,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person enters through glass door.",
+    "metrics": {
+      "last_latency_ms": 1249.6006488800049,
+      "avg_latency_ms": 1248.3046531677246,
+      "total_inferences": 25,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person falls near window.",
+    "metrics": {
+      "last_latency_ms": 1128.007173538208,
+      "avg_latency_ms": 1243.677827028128,
+      "total_inferences": 26,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is falling near window.",
+    "metrics": {
+      "last_latency_ms": 1237.1070384979248,
+      "avg_latency_ms": 1243.4344644899722,
+      "total_inferences": 27,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two men sitting and talking.",
+    "metrics": {
+      "last_latency_ms": 1420.0818538665771,
+      "avg_latency_ms": 1249.743299824851,
+      "total_inferences": 28,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two men relaxing and talking.",
+    "metrics": {
+      "last_latency_ms": 1233.8588237762451,
+      "avg_latency_ms": 1249.1955592714507,
+      "total_inferences": 29,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two men lounging and posing.",
+    "metrics": {
+      "last_latency_ms": 1444.6923732757568,
+      "avg_latency_ms": 1255.7121197382608,
+      "total_inferences": 30,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man lounges, another reclines.",
+    "metrics": {
+      "last_latency_ms": 1337.0225429534912,
+      "avg_latency_ms": 1258.3350366161717,
+      "total_inferences": 31,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People relaxing and socializing indoors.",
+    "metrics": {
+      "last_latency_ms": 1227.149486541748,
+      "avg_latency_ms": 1257.3604881763458,
+      "total_inferences": 32,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People are dancing energetically.",
+    "metrics": {
+      "last_latency_ms": 1129.2376518249512,
+      "avg_latency_ms": 1253.4779779838793,
+      "total_inferences": 33,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People are falling down.",
+    "metrics": {
+      "last_latency_ms": 1112.1726036071777,
+      "avg_latency_ms": 1249.3219375610352,
+      "total_inferences": 34,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is falling or tumbling.",
+    "metrics": {
+      "last_latency_ms": 1305.9279918670654,
+      "avg_latency_ms": 1250.9392533983503,
+      "total_inferences": 35,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is lying on floor.",
+    "metrics": {
+      "last_latency_ms": 1257.737398147583,
+      "avg_latency_ms": 1251.1280907524958,
+      "total_inferences": 36,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is lying on floor.",
+    "metrics": {
+      "last_latency_ms": 1238.0611896514893,
+      "avg_latency_ms": 1250.7749312632793,
+      "total_inferences": 37,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person falls or is thrown.",
+    "metrics": {
+      "last_latency_ms": 1239.3622398376465,
+      "avg_latency_ms": 1250.4745972783942,
+      "total_inferences": 38,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is dancing in room.",
+    "metrics": {
+      "last_latency_ms": 1227.7750968933105,
+      "avg_latency_ms": 1249.8925588069817,
+      "total_inferences": 39,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person falls near window.",
+    "metrics": {
+      "last_latency_ms": 1120.539665222168,
+      "avg_latency_ms": 1246.6587364673615,
+      "total_inferences": 40,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is falling near window.",
+    "metrics": {
+      "last_latency_ms": 1232.0621013641357,
+      "avg_latency_ms": 1246.302720977039,
+      "total_inferences": 41,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is lying on floor.",
+    "metrics": {
+      "last_latency_ms": 1246.372938156128,
+      "avg_latency_ms": 1246.3043928146362,
+      "total_inferences": 42,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person falls dramatically onto floor.",
+    "metrics": {
+      "last_latency_ms": 1242.3241138458252,
+      "avg_latency_ms": 1246.2118281874546,
+      "total_inferences": 43,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man falls from ladder.",
+    "metrics": {
+      "last_latency_ms": 1126.441478729248,
+      "avg_latency_ms": 1243.4897747906773,
+      "total_inferences": 44,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person falls from ladder.",
+    "metrics": {
+      "last_latency_ms": 1276.395320892334,
+      "avg_latency_ms": 1244.2210091484917,
+      "total_inferences": 45,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person falls from height.",
+    "metrics": {
+      "last_latency_ms": 1126.5335083007812,
+      "avg_latency_ms": 1241.6625852170198,
+      "total_inferences": 46,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person falls from ladder.",
+    "metrics": {
+      "last_latency_ms": 1138.2758617401123,
+      "avg_latency_ms": 1239.4628676962345,
+      "total_inferences": 47,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Blurry scene, unclear action.",
+    "metrics": {
+      "last_latency_ms": 1344.2339897155762,
+      "avg_latency_ms": 1241.6455994049709,
+      "total_inferences": 48,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Blurry indoor scene with objects.",
+    "metrics": {
+      "last_latency_ms": 1346.7226028442383,
+      "avg_latency_ms": 1243.7900280465885,
+      "total_inferences": 49,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is moving furniture.",
+    "metrics": {
+      "last_latency_ms": 1138.2381916046143,
+      "avg_latency_ms": 1241.678991317749,
+      "total_inferences": 50,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is moving or working.",
+    "metrics": {
+      "last_latency_ms": 1233.6163520812988,
+      "avg_latency_ms": 1241.5209003523285,
+      "total_inferences": 51,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is falling or tumbling.",
+    "metrics": {
+      "last_latency_ms": 1231.2099933624268,
+      "avg_latency_ms": 1241.3226136794458,
+      "total_inferences": 52,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Items are being moved around.",
+    "metrics": {
+      "last_latency_ms": 1248.525857925415,
+      "avg_latency_ms": 1241.4585239482376,
+      "total_inferences": 53,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man lying on floor, looking up.",
+    "metrics": {
+      "last_latency_ms": 1447.6468563079834,
+      "avg_latency_ms": 1245.276826399344,
+      "total_inferences": 54,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man sits, working on laptop.",
+    "metrics": {
+      "last_latency_ms": 1383.1379413604736,
+      "avg_latency_ms": 1247.78339212591,
+      "total_inferences": 55,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man sits, looking at screen.",
+    "metrics": {
+      "last_latency_ms": 1347.7611541748047,
+      "avg_latency_ms": 1249.5687093053546,
+      "total_inferences": 56,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man is lying on floor.",
+    "metrics": {
+      "last_latency_ms": 1270.616054534912,
+      "avg_latency_ms": 1249.9379609760485,
+      "total_inferences": 57,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man is working on something.",
+    "metrics": {
+      "last_latency_ms": 1236.0222339630127,
+      "avg_latency_ms": 1249.6980346482376,
+      "total_inferences": 58,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man is lying on floor.",
+    "metrics": {
+      "last_latency_ms": 1281.0468673706055,
+      "avg_latency_ms": 1250.2293707960744,
+      "total_inferences": 59,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man is struggling on floor.",
+    "metrics": {
+      "last_latency_ms": 1251.2624263763428,
+      "avg_latency_ms": 1250.2465883890789,
+      "total_inferences": 60,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is doing floor exercise.",
+    "metrics": {
+      "last_latency_ms": 1217.8161144256592,
+      "avg_latency_ms": 1249.7149412749245,
+      "total_inferences": 61,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man is falling or moving quickly.",
+    "metrics": {
+      "last_latency_ms": 1325.476884841919,
+      "avg_latency_ms": 1250.9369081066502,
+      "total_inferences": 62,
+      "is_processing": false
+    }
+  }
+]

@@ -1,0 +1,592 @@
+[
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office scene with people working.",
+    "metrics": {
+      "last_latency_ms": 1253.7205219268799,
+      "avg_latency_ms": 1253.7205219268799,
+      "total_inferences": 1,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office scene with people present.",
+    "metrics": {
+      "last_latency_ms": 1250.1089572906494,
+      "avg_latency_ms": 1251.9147396087646,
+      "total_inferences": 2,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People working in office setting.",
+    "metrics": {
+      "last_latency_ms": 1230.149745941162,
+      "avg_latency_ms": 1244.6597417195637,
+      "total_inferences": 3,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior view from above.",
+    "metrics": {
+      "last_latency_ms": 1306.1935901641846,
+      "avg_latency_ms": 1260.043203830719,
+      "total_inferences": 4,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People working in an office.",
+    "metrics": {
+      "last_latency_ms": 1246.4702129364014,
+      "avg_latency_ms": 1257.3286056518555,
+      "total_inferences": 5,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People working in an office.",
+    "metrics": {
+      "last_latency_ms": 1278.9390087127686,
+      "avg_latency_ms": 1260.930339495341,
+      "total_inferences": 6,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office scene with people working.",
+    "metrics": {
+      "last_latency_ms": 1257.9009532928467,
+      "avg_latency_ms": 1260.4975700378418,
+      "total_inferences": 7,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior scene with clutter.",
+    "metrics": {
+      "last_latency_ms": 1236.2263202667236,
+      "avg_latency_ms": 1257.463663816452,
+      "total_inferences": 8,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior with people working.",
+    "metrics": {
+      "last_latency_ms": 1247.6332187652588,
+      "avg_latency_ms": 1256.3713921440974,
+      "total_inferences": 9,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior view, cluttered workspace.",
+    "metrics": {
+      "last_latency_ms": 1372.78151512146,
+      "avg_latency_ms": 1268.0124044418335,
+      "total_inferences": 10,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior scene with people.",
+    "metrics": {
+      "last_latency_ms": 1248.4261989593506,
+      "avg_latency_ms": 1266.2318403070622,
+      "total_inferences": 11,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior with people working.",
+    "metrics": {
+      "last_latency_ms": 1234.8096370697021,
+      "avg_latency_ms": 1263.6133233706157,
+      "total_inferences": 12,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office scene with people working.",
+    "metrics": {
+      "last_latency_ms": 1240.896463394165,
+      "avg_latency_ms": 1261.8658726031963,
+      "total_inferences": 13,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office scene with people working.",
+    "metrics": {
+      "last_latency_ms": 1238.9440536499023,
+      "avg_latency_ms": 1260.2285998208183,
+      "total_inferences": 14,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office scene with people working.",
+    "metrics": {
+      "last_latency_ms": 1239.3207550048828,
+      "avg_latency_ms": 1258.8347434997559,
+      "total_inferences": 15,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office space with people working.",
+    "metrics": {
+      "last_latency_ms": 1291.3460731506348,
+      "avg_latency_ms": 1260.8667016029358,
+      "total_inferences": 16,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior view from above.",
+    "metrics": {
+      "last_latency_ms": 1227.3502349853516,
+      "avg_latency_ms": 1258.895144743078,
+      "total_inferences": 17,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office scene with people working.",
+    "metrics": {
+      "last_latency_ms": 1269.8736190795898,
+      "avg_latency_ms": 1259.5050599839951,
+      "total_inferences": 18,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior view, possibly work.",
+    "metrics": {
+      "last_latency_ms": 1371.0153102874756,
+      "avg_latency_ms": 1265.3740205262836,
+      "total_inferences": 19,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior view, cluttered.",
+    "metrics": {
+      "last_latency_ms": 1228.4228801727295,
+      "avg_latency_ms": 1263.526463508606,
+      "total_inferences": 20,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior view from above.",
+    "metrics": {
+      "last_latency_ms": 1230.1208972930908,
+      "avg_latency_ms": 1261.935722260248,
+      "total_inferences": 21,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office scene with desks and people.",
+    "metrics": {
+      "last_latency_ms": 1355.607032775879,
+      "avg_latency_ms": 1266.1935091018677,
+      "total_inferences": 22,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office scene with desks and people.",
+    "metrics": {
+      "last_latency_ms": 1450.7806301116943,
+      "avg_latency_ms": 1274.219036102295,
+      "total_inferences": 23,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office space filled with desks.",
+    "metrics": {
+      "last_latency_ms": 1281.6665172576904,
+      "avg_latency_ms": 1274.5293478171031,
+      "total_inferences": 24,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office space filled with desks.",
+    "metrics": {
+      "last_latency_ms": 1230.9777736663818,
+      "avg_latency_ms": 1272.7872848510742,
+      "total_inferences": 25,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior scene with desks.",
+    "metrics": {
+      "last_latency_ms": 1239.428997039795,
+      "avg_latency_ms": 1271.5042737814097,
+      "total_inferences": 26,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior view from above.",
+    "metrics": {
+      "last_latency_ms": 1231.1742305755615,
+      "avg_latency_ms": 1270.0105684774894,
+      "total_inferences": 27,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior view from above.",
+    "metrics": {
+      "last_latency_ms": 1275.547981262207,
+      "avg_latency_ms": 1270.2083332198006,
+      "total_inferences": 28,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior view from above.",
+    "metrics": {
+      "last_latency_ms": 1225.0430583953857,
+      "avg_latency_ms": 1268.650909949993,
+      "total_inferences": 29,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office space is being set up.",
+    "metrics": {
+      "last_latency_ms": 1316.7052268981934,
+      "avg_latency_ms": 1270.2527205149331,
+      "total_inferences": 30,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office scene with desks and people.",
+    "metrics": {
+      "last_latency_ms": 1342.83447265625,
+      "avg_latency_ms": 1272.5940673582015,
+      "total_inferences": 31,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office space with many desks.",
+    "metrics": {
+      "last_latency_ms": 1248.9349842071533,
+      "avg_latency_ms": 1271.8547210097313,
+      "total_inferences": 32,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office space filled with desks.",
+    "metrics": {
+      "last_latency_ms": 1258.3868503570557,
+      "avg_latency_ms": 1271.446603717226,
+      "total_inferences": 33,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office space under renovation.",
+    "metrics": {
+      "last_latency_ms": 1163.3706092834473,
+      "avg_latency_ms": 1268.2678979985856,
+      "total_inferences": 34,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office scene with people working.",
+    "metrics": {
+      "last_latency_ms": 1234.1830730438232,
+      "avg_latency_ms": 1267.2940458570208,
+      "total_inferences": 35,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office scene with people working.",
+    "metrics": {
+      "last_latency_ms": 1227.8144359588623,
+      "avg_latency_ms": 1266.1973900265164,
+      "total_inferences": 36,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office space is cluttered.",
+    "metrics": {
+      "last_latency_ms": 1114.6390438079834,
+      "avg_latency_ms": 1262.1012185070965,
+      "total_inferences": 37,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office space is cluttered and messy.",
+    "metrics": {
+      "last_latency_ms": 1369.5683479309082,
+      "avg_latency_ms": 1264.9293008603547,
+      "total_inferences": 38,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office space is cluttered and messy.",
+    "metrics": {
+      "last_latency_ms": 1337.8496170043945,
+      "avg_latency_ms": 1266.7990525563557,
+      "total_inferences": 39,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior scene, cluttered.",
+    "metrics": {
+      "last_latency_ms": 1262.0928287506104,
+      "avg_latency_ms": 1266.6813969612122,
+      "total_inferences": 40,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior scene, somewhat cluttered.",
+    "metrics": {
+      "last_latency_ms": 1381.563425064087,
+      "avg_latency_ms": 1269.4833976466482,
+      "total_inferences": 41,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office space filled with clutter.",
+    "metrics": {
+      "last_latency_ms": 1237.210750579834,
+      "avg_latency_ms": 1268.7150012879144,
+      "total_inferences": 42,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office space cluttered with items.",
+    "metrics": {
+      "last_latency_ms": 1235.0952625274658,
+      "avg_latency_ms": 1267.9331468981366,
+      "total_inferences": 43,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office space cluttered with items.",
+    "metrics": {
+      "last_latency_ms": 1240.0627136230469,
+      "avg_latency_ms": 1267.2997279600663,
+      "total_inferences": 44,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office space is cluttered.",
+    "metrics": {
+      "last_latency_ms": 1114.4044399261475,
+      "avg_latency_ms": 1263.9020548926458,
+      "total_inferences": 45,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office space is being renovated.",
+    "metrics": {
+      "last_latency_ms": 1237.8509044647217,
+      "avg_latency_ms": 1263.335725535517,
+      "total_inferences": 46,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior view from above.",
+    "metrics": {
+      "last_latency_ms": 1309.3540668487549,
+      "avg_latency_ms": 1264.3148391804798,
+      "total_inferences": 47,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior view from above.",
+    "metrics": {
+      "last_latency_ms": 1238.6071681976318,
+      "avg_latency_ms": 1263.7792627016704,
+      "total_inferences": 48,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior view from above.",
+    "metrics": {
+      "last_latency_ms": 1333.2104682922363,
+      "avg_latency_ms": 1265.1962260810697,
+      "total_inferences": 49,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior view from above.",
+    "metrics": {
+      "last_latency_ms": 1243.1519031524658,
+      "avg_latency_ms": 1264.7553396224976,
+      "total_inferences": 50,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior view from above.",
+    "metrics": {
+      "last_latency_ms": 1256.791591644287,
+      "avg_latency_ms": 1264.5991877013562,
+      "total_inferences": 51,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior view from above.",
+    "metrics": {
+      "last_latency_ms": 1244.5175647735596,
+      "avg_latency_ms": 1264.2130026450525,
+      "total_inferences": 52,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior view from above.",
+    "metrics": {
+      "last_latency_ms": 1282.2093963623047,
+      "avg_latency_ms": 1264.552557243491,
+      "total_inferences": 53,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior view from above.",
+    "metrics": {
+      "last_latency_ms": 1230.0372123718262,
+      "avg_latency_ms": 1263.9133841903122,
+      "total_inferences": 54,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior view from above.",
+    "metrics": {
+      "last_latency_ms": 1226.8903255462646,
+      "avg_latency_ms": 1263.2402376695113,
+      "total_inferences": 55,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office scene with scattered items.",
+    "metrics": {
+      "last_latency_ms": 1281.8546295166016,
+      "avg_latency_ms": 1263.5726375239235,
+      "total_inferences": 56,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office scene with clutter and items.",
+    "metrics": {
+      "last_latency_ms": 1334.5792293548584,
+      "avg_latency_ms": 1264.818367205168,
+      "total_inferences": 57,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office interior view, cluttered desk.",
+    "metrics": {
+      "last_latency_ms": 1332.2482109069824,
+      "avg_latency_ms": 1265.9809507172683,
+      "total_inferences": 58,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Office scene with scattered items.",
+    "metrics": {
+      "last_latency_ms": 1238.619089126587,
+      "avg_latency_ms": 1265.5171903513244,
+      "total_inferences": 59,
+      "is_processing": false
+    }
+  }
+]

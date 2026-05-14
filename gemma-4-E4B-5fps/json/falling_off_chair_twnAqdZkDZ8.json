@@ -1,0 +1,592 @@
+[
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two people are playing a game.",
+    "metrics": {
+      "last_latency_ms": 1365.1797771453857,
+      "avg_latency_ms": 1365.1797771453857,
+      "total_inferences": 1,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two people talking and smiling.",
+    "metrics": {
+      "last_latency_ms": 1228.7225723266602,
+      "avg_latency_ms": 1296.951174736023,
+      "total_inferences": 2,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two young men talking indoors.",
+    "metrics": {
+      "last_latency_ms": 1326.1501789093018,
+      "avg_latency_ms": 1306.684176127116,
+      "total_inferences": 3,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two young men talking and smiling.",
+    "metrics": {
+      "last_latency_ms": 1392.9352760314941,
+      "avg_latency_ms": 1328.2469511032104,
+      "total_inferences": 4,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two people talking indoors.",
+    "metrics": {
+      "last_latency_ms": 1098.703384399414,
+      "avg_latency_ms": 1282.3382377624512,
+      "total_inferences": 5,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Young man smiling in office.",
+    "metrics": {
+      "last_latency_ms": 1244.0204620361328,
+      "avg_latency_ms": 1275.9519418080647,
+      "total_inferences": 6,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man interacts with someone.",
+    "metrics": {
+      "last_latency_ms": 1196.6524124145508,
+      "avg_latency_ms": 1264.6234376089913,
+      "total_inferences": 7,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two people shaking hands.",
+    "metrics": {
+      "last_latency_ms": 1122.5461959838867,
+      "avg_latency_ms": 1246.8637824058533,
+      "total_inferences": 8,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two people are shaking hands.",
+    "metrics": {
+      "last_latency_ms": 1240.6353950500488,
+      "avg_latency_ms": 1246.1717393663193,
+      "total_inferences": 9,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Young man smiling, pointing forward.",
+    "metrics": {
+      "last_latency_ms": 1362.6618385314941,
+      "avg_latency_ms": 1257.820749282837,
+      "total_inferences": 10,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Young man smiling, looking at camera.",
+    "metrics": {
+      "last_latency_ms": 1529.8027992248535,
+      "avg_latency_ms": 1282.5463901866565,
+      "total_inferences": 11,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two people interacting in a room.",
+    "metrics": {
+      "last_latency_ms": 1355.616569519043,
+      "avg_latency_ms": 1288.6355717976887,
+      "total_inferences": 12,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two people talking in room.",
+    "metrics": {
+      "last_latency_ms": 1233.3145141601562,
+      "avg_latency_ms": 1284.3801058255708,
+      "total_inferences": 13,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two people talking and smiling.",
+    "metrics": {
+      "last_latency_ms": 1229.8352718353271,
+      "avg_latency_ms": 1280.4840462548393,
+      "total_inferences": 14,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two people interacting in a room.",
+    "metrics": {
+      "last_latency_ms": 1342.1239852905273,
+      "avg_latency_ms": 1284.5933755238852,
+      "total_inferences": 15,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man smiling in room.",
+    "metrics": {
+      "last_latency_ms": 1125.4892349243164,
+      "avg_latency_ms": 1274.649366736412,
+      "total_inferences": 16,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man is gesturing while talking.",
+    "metrics": {
+      "last_latency_ms": 1226.635217666626,
+      "avg_latency_ms": 1271.8250050264246,
+      "total_inferences": 17,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two people are holding hands.",
+    "metrics": {
+      "last_latency_ms": 1235.7113361358643,
+      "avg_latency_ms": 1269.81869008806,
+      "total_inferences": 18,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man high-fives another person.",
+    "metrics": {
+      "last_latency_ms": 1459.4216346740723,
+      "avg_latency_ms": 1279.7977924346924,
+      "total_inferences": 19,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man interacts with hands.",
+    "metrics": {
+      "last_latency_ms": 1114.3927574157715,
+      "avg_latency_ms": 1271.5275406837463,
+      "total_inferences": 20,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man stretches, reaching for something.",
+    "metrics": {
+      "last_latency_ms": 1542.8900718688965,
+      "avg_latency_ms": 1284.4495659782774,
+      "total_inferences": 21,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Boy is stretching, yawning widely.",
+    "metrics": {
+      "last_latency_ms": 1298.945665359497,
+      "avg_latency_ms": 1285.1084795865147,
+      "total_inferences": 22,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Woman appears to be dancing.",
+    "metrics": {
+      "last_latency_ms": 1204.8048973083496,
+      "avg_latency_ms": 1281.617019487464,
+      "total_inferences": 23,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is moving in foreground.",
+    "metrics": {
+      "last_latency_ms": 1227.4010181427002,
+      "avg_latency_ms": 1279.358019431432,
+      "total_inferences": 24,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People are gathered in a room.",
+    "metrics": {
+      "last_latency_ms": 1356.9467067718506,
+      "avg_latency_ms": 1282.4615669250488,
+      "total_inferences": 25,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is moving quickly.",
+    "metrics": {
+      "last_latency_ms": 1127.5486946105957,
+      "avg_latency_ms": 1276.503379528339,
+      "total_inferences": 26,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man plays with hands.",
+    "metrics": {
+      "last_latency_ms": 1133.620262145996,
+      "avg_latency_ms": 1271.2114122178818,
+      "total_inferences": 27,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man shakes hands with person.",
+    "metrics": {
+      "last_latency_ms": 1240.738868713379,
+      "avg_latency_ms": 1270.123107092721,
+      "total_inferences": 28,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man stretches toward a desk.",
+    "metrics": {
+      "last_latency_ms": 1225.0220775604248,
+      "avg_latency_ms": 1268.5678991778145,
+      "total_inferences": 29,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Boy is dramatically singing loudly.",
+    "metrics": {
+      "last_latency_ms": 1284.4781875610352,
+      "avg_latency_ms": 1269.0982421239216,
+      "total_inferences": 30,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Child plays with another person.",
+    "metrics": {
+      "last_latency_ms": 1226.9151210784912,
+      "avg_latency_ms": 1267.7374962837464,
+      "total_inferences": 31,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is moving in foreground.",
+    "metrics": {
+      "last_latency_ms": 1262.6197338104248,
+      "avg_latency_ms": 1267.5775662064552,
+      "total_inferences": 32,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man sits at counter, looking down.",
+    "metrics": {
+      "last_latency_ms": 1560.4336261749268,
+      "avg_latency_ms": 1276.451992266106,
+      "total_inferences": 33,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People walking in a blurry setting.",
+    "metrics": {
+      "last_latency_ms": 1300.8077144622803,
+      "avg_latency_ms": 1277.1683370365815,
+      "total_inferences": 34,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People are dancing or moving.",
+    "metrics": {
+      "last_latency_ms": 1248.2609748840332,
+      "avg_latency_ms": 1276.3424124036515,
+      "total_inferences": 35,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is dancing or moving energetically.",
+    "metrics": {
+      "last_latency_ms": 1353.5618782043457,
+      "avg_latency_ms": 1278.4873975647822,
+      "total_inferences": 36,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is falling or tumbling.",
+    "metrics": {
+      "last_latency_ms": 1268.8210010528564,
+      "avg_latency_ms": 1278.2261436050003,
+      "total_inferences": 37,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People interacting in a room.",
+    "metrics": {
+      "last_latency_ms": 1218.4336185455322,
+      "avg_latency_ms": 1276.6526561034352,
+      "total_inferences": 38,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person interacts with a dog.",
+    "metrics": {
+      "last_latency_ms": 1228.529930114746,
+      "avg_latency_ms": 1275.4187400524434,
+      "total_inferences": 39,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man smiling while seated indoors.",
+    "metrics": {
+      "last_latency_ms": 1240.1225566864014,
+      "avg_latency_ms": 1274.5363354682922,
+      "total_inferences": 40,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man smiling while wearing jersey.",
+    "metrics": {
+      "last_latency_ms": 1236.6647720336914,
+      "avg_latency_ms": 1273.6126387991555,
+      "total_inferences": 41,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Young man smiling, person in foreground.",
+    "metrics": {
+      "last_latency_ms": 1459.153652191162,
+      "avg_latency_ms": 1278.030281975156,
+      "total_inferences": 42,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Young man smiling, person falls.",
+    "metrics": {
+      "last_latency_ms": 1368.356704711914,
+      "avg_latency_ms": 1280.1308964574062,
+      "total_inferences": 43,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People interacting and smiling.",
+    "metrics": {
+      "last_latency_ms": 1114.0069961547852,
+      "avg_latency_ms": 1276.35535326871,
+      "total_inferences": 44,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "People smiling and interacting happily.",
+    "metrics": {
+      "last_latency_ms": 1236.8221282958984,
+      "avg_latency_ms": 1275.4768371582031,
+      "total_inferences": 45,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Two people interacting in a room.",
+    "metrics": {
+      "last_latency_ms": 1387.068271636963,
+      "avg_latency_ms": 1277.9027379077415,
+      "total_inferences": 46,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man interacts with people.",
+    "metrics": {
+      "last_latency_ms": 1125.718593597412,
+      "avg_latency_ms": 1274.6647773905004,
+      "total_inferences": 47,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Young man smiling at people.",
+    "metrics": {
+      "last_latency_ms": 1264.9099826812744,
+      "avg_latency_ms": 1274.4615525007248,
+      "total_inferences": 48,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Young man smiling in classroom.",
+    "metrics": {
+      "last_latency_ms": 1258.7471008300781,
+      "avg_latency_ms": 1274.1408494054053,
+      "total_inferences": 49,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man smiles while looking down.",
+    "metrics": {
+      "last_latency_ms": 1247.9667663574219,
+      "avg_latency_ms": 1273.6173677444458,
+      "total_inferences": 50,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Boy smiles, girl looks down.",
+    "metrics": {
+      "last_latency_ms": 1338.3991718292236,
+      "avg_latency_ms": 1274.8875991970885,
+      "total_inferences": 51,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Young person smiling in classroom.",
+    "metrics": {
+      "last_latency_ms": 1241.2323951721191,
+      "avg_latency_ms": 1274.2403837350698,
+      "total_inferences": 52,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man in jacket is standing.",
+    "metrics": {
+      "last_latency_ms": 1236.3550662994385,
+      "avg_latency_ms": 1273.5255664249637,
+      "total_inferences": 53,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Person is dancing or moving.",
+    "metrics": {
+      "last_latency_ms": 1232.3086261749268,
+      "avg_latency_ms": 1272.7622897536667,
+      "total_inferences": 54,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man in jacket posing for camera.",
+    "metrics": {
+      "last_latency_ms": 1359.6081733703613,
+      "avg_latency_ms": 1274.3413058194246,
+      "total_inferences": 55,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man smiling in office setting.",
+    "metrics": {
+      "last_latency_ms": 1247.1730709075928,
+      "avg_latency_ms": 1273.8561587674278,
+      "total_inferences": 56,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man walks through room.",
+    "metrics": {
+      "last_latency_ms": 1144.1130638122559,
+      "avg_latency_ms": 1271.5799641190915,
+      "total_inferences": 57,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Young man smiles in kitchen.",
+    "metrics": {
+      "last_latency_ms": 1217.5219058990479,
+      "avg_latency_ms": 1270.6479286325389,
+      "total_inferences": 58,
+      "is_processing": false
+    }
+  },
+  {
+    "prompt": "Describe the main action briefly in 2~6 words.",
+    "text": "Man stands and smiles in room.",
+    "metrics": {
+      "last_latency_ms": 1409.590482711792,
+      "avg_latency_ms": 1273.0028871762552,
+      "total_inferences": 59,
+      "is_processing": false
+    }
+  }
+]

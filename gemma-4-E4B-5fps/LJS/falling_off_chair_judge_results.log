@@ -1,21 +1,8 @@
-載入模型與處理器: google/gemma-4-E4B-it ... 
-
-
-從 ./dataset/falling_off_chair 尋找，共找到 43 支影片。
-
-開始測試，隨機抽取 43 支影片進行推論...
-
-Hardware Name: Tesla V100-SXM2-32GB
-Sample FPS   : 5
-JSON Output  : gemma-4-E4B-5fps/json
-
-============================================================
-[1/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_W2237TK0wcI.mp4
-Frame [1/69], index=0
-Frame Latency: 2278.44 ms
-TTFT: 1574.14 ms
-Throughput: 3.07 tokens/sec
-模型回答: Baby sitting in a colorful chair.
+開始解析紀錄檔: gemma-4-E4B-5fps/falling_off_chair.log
+成功解析出 43 筆待評估紀錄。
+[1/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_W2237TK0wcI.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Baby sitting in a colorful chair.
 Frame [2/69], index=6
 Frame Latency: 1230.71 ms
 TTFT: 684.90 ms
@@ -362,15 +349,13 @@ Average TTFT: 713.94 ms
 Frames Per Second: 0.78
 Throughput: 5.01 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_W2237TK0wcI.json
-============================================================
-
-============================================================
-[2/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_6Bkk_IljKP4.mp4
-Frame [1/51], index=0
-Frame Latency: 1119.07 ms
-TTFT: 675.23 ms
-Throughput: 4.47 tokens/sec
-模型回答: Two men relax outdoors.
+📝 Judge 評語:
+Score: 2  
+Reason: Fails to identify the core action, lacks conciseness, contains irrelevant details, and includes non-English responses.
+--------------------------------------------------
+[2/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_6Bkk_IljKP4.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Two men relax outdoors.
 Frame [2/51], index=4
 Frame Latency: 1095.40 ms
 TTFT: 669.08 ms
@@ -627,15 +612,13 @@ Average TTFT: 679.07 ms
 Frames Per Second: 0.79
 Throughput: 4.88 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_6Bkk_IljKP4.json
-============================================================
-
-============================================================
-[3/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_uG1ZPoaMync.mp4
-Frame [1/48], index=0
-Frame Latency: 1364.57 ms
-TTFT: 681.33 ms
-Throughput: 5.13 tokens/sec
-模型回答: Man wearing horns speaks to camera.
+📝 Judge 評語:
+Score: 5  
+Reason: Partially identified action, lacks conciseness, includes unrelated details, but maintains English throughout.
+--------------------------------------------------
+[3/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_uG1ZPoaMync.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Man wearing horns speaks to camera.
 Frame [2/48], index=5
 Frame Latency: 1371.39 ms
 TTFT: 678.66 ms
@@ -877,15 +860,13 @@ Average TTFT: 683.18 ms
 Frames Per Second: 0.80
 Throughput: 4.85 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_uG1ZPoaMync.json
-============================================================
-
-============================================================
-[4/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_cGbA0ZsJ-tU.mp4
-Frame [1/50], index=0
-Frame Latency: 1269.23 ms
-TTFT: 682.39 ms
-Throughput: 4.73 tokens/sec
-模型回答: Two children hugging on pavement.
+📝 Judge 評語:
+Score: 3  
+Reason: Fails to identify core action; output is repetitive and includes unrelated details; predominantly replies in English.
+--------------------------------------------------
+[4/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_cGbA0ZsJ-tU.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Two children hugging on pavement.
 Frame [2/50], index=5
 Frame Latency: 1235.23 ms
 TTFT: 678.41 ms
@@ -1137,15 +1118,13 @@ Average TTFT: 681.17 ms
 Frames Per Second: 0.80
 Throughput: 4.87 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_cGbA0ZsJ-tU.json
-============================================================
-
-============================================================
-[5/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_WD87x58wRsE.mp4
-Frame [1/51], index=0
-Frame Latency: 1205.27 ms
-TTFT: 672.68 ms
-Throughput: 4.98 tokens/sec
-模型回答: Person in dark clothing moves.
+📝 Judge 評語:
+Score: 3  
+Reason: Misses core action, verbose with hallucinations and manages some relevance, but low accuracy, not exclusively in English.
+--------------------------------------------------
+[5/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_WD87x58wRsE.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Person in dark clothing moves.
 Frame [2/51], index=6
 Frame Latency: 1111.03 ms
 TTFT: 675.25 ms
@@ -1402,15 +1381,13 @@ Average TTFT: 684.43 ms
 Frames Per Second: 0.79
 Throughput: 4.79 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_WD87x58wRsE.json
-============================================================
-
-============================================================
-[6/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_twnAqdZkDZ8.mp4
-Frame [1/59], index=0
-Frame Latency: 1365.18 ms
-TTFT: 692.87 ms
-Throughput: 5.13 tokens/sec
-模型回答: Two people are playing a game.
+📝 Judge 評語:
+Score: 2  
+Reason: The model fails to identify falling, offers irrelevant dance descriptions, contains hallucinations, and responds in English.
+--------------------------------------------------
+[6/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_twnAqdZkDZ8.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Two people are playing a game.
 Frame [2/59], index=5
 Frame Latency: 1228.72 ms
 TTFT: 675.40 ms
@@ -1707,15 +1684,13 @@ Average TTFT: 678.69 ms
 Frames Per Second: 0.79
 Throughput: 4.89 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_twnAqdZkDZ8.json
-============================================================
-
-============================================================
-[7/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_y1OlPGzMbNA.mp4
-Frame [1/68], index=0
-Frame Latency: 1225.52 ms
-TTFT: 680.85 ms
-Throughput: 4.90 tokens/sec
-模型回答: Girl smiles happily in room.
+📝 Judge 評語:
+Score: 3  
+Reason: Fails core action recognition, mostly unrelated details, lacks conciseness and relevance, primarily non-English responses.
+--------------------------------------------------
+[7/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_y1OlPGzMbNA.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Girl smiles happily in room.
 Frame [2/68], index=6
 Frame Latency: 1393.51 ms
 TTFT: 682.32 ms
@@ -2057,15 +2032,13 @@ Average TTFT: 681.59 ms
 Frames Per Second: 0.79
 Throughput: 4.82 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_y1OlPGzMbNA.json
-============================================================
-
-============================================================
-[8/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_5xlTi_-c7NY.mp4
-Frame [1/34], index=0
-Frame Latency: 1438.76 ms
-TTFT: 707.66 ms
-Throughput: 4.87 tokens/sec
-模型回答: Girl stands in brightly lit room.
+📝 Judge 評語:
+Score: 2  
+Reason: Fails to identify action, repetitive responses, includes unrelated details, and responses are in English.
+--------------------------------------------------
+[8/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_5xlTi_-c7NY.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Girl stands in brightly lit room.
 Frame [2/34], index=3
 Frame Latency: 1238.13 ms
 TTFT: 677.04 ms
@@ -2237,15 +2210,13 @@ Average TTFT: 680.38 ms
 Frames Per Second: 0.78
 Throughput: 4.94 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_5xlTi_-c7NY.json
-============================================================
-
-============================================================
-[9/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_QQmQnfEXdOE.mp4
-Frame [1/69], index=0
-Frame Latency: 1237.45 ms
-TTFT: 677.24 ms
-Throughput: 4.85 tokens/sec
-模型回答: Person using computer at desk.
+📝 Judge 評語:
+Score: 6  
+Reason: It identifies "falling" sporadically, but contains unrelated actions and details, lacking consistent focus on the core action.
+--------------------------------------------------
+[9/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_QQmQnfEXdOE.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Person using computer at desk.
 Frame [2/69], index=5
 Frame Latency: 1198.95 ms
 TTFT: 687.52 ms
@@ -2592,15 +2563,13 @@ Average TTFT: 682.57 ms
 Frames Per Second: 0.79
 Throughput: 4.83 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_QQmQnfEXdOE.json
-============================================================
-
-============================================================
-[10/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_3Jd_MXqwIKc.mp4
-Frame [1/31], index=0
-Frame Latency: 1287.83 ms
-TTFT: 685.91 ms
-Throughput: 4.66 tokens/sec
-模型回答: People in an office setting.
+📝 Judge 評語:
+Score: 5  
+Reason: Correct action identified once; output contains unrelated details and inconsistent descriptions. Present irregular use of languages.
+--------------------------------------------------
+[10/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_3Jd_MXqwIKc.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: People in an office setting.
 Frame [2/31], index=3
 Frame Latency: 1232.43 ms
 TTFT: 677.46 ms
@@ -2757,15 +2726,13 @@ Average TTFT: 688.40 ms
 Frames Per Second: 0.81
 Throughput: 4.94 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_3Jd_MXqwIKc.json
-============================================================
-
-============================================================
-[11/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_fxKsubHkXMc.mp4
-Frame [1/14], index=0
-Frame Latency: 1234.27 ms
-TTFT: 678.01 ms
-Throughput: 4.86 tokens/sec
-模型回答: Person is kicking a chair.
+📝 Judge 評語:
+Score: 2  
+Reason: Incorrect core action identification and irrelevant details. Output contains some hallucinations and lacks English reply consistency.
+--------------------------------------------------
+[11/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_fxKsubHkXMc.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Person is kicking a chair.
 Frame [2/14], index=6
 Frame Latency: 1135.37 ms
 TTFT: 680.37 ms
@@ -2837,15 +2804,13 @@ Average TTFT: 685.93 ms
 Frames Per Second: 0.82
 Throughput: 4.77 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_fxKsubHkXMc.json
-============================================================
-
-============================================================
-[12/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_XMKm4hjLFXk.mp4
-Frame [1/21], index=0
-Frame Latency: 1213.54 ms
-TTFT: 679.36 ms
-Throughput: 4.94 tokens/sec
-模型回答: Empty classroom setting, waiting.
+📝 Judge 評語:
+Score: 3  
+Reason: The output misidentifies the core action and includes unrelated details, lacking conciseness and relevance, but uses English.
+--------------------------------------------------
+[12/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_XMKm4hjLFXk.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Empty classroom setting, waiting.
 Frame [2/21], index=3
 Frame Latency: 1106.29 ms
 TTFT: 668.46 ms
@@ -2952,15 +2917,13 @@ Average TTFT: 698.26 ms
 Frames Per Second: 0.77
 Throughput: 4.89 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_XMKm4hjLFXk.json
-============================================================
-
-============================================================
-[13/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_GotjwB_SgI0.mp4
-Frame [1/56], index=0
-Frame Latency: 1240.81 ms
-TTFT: 677.01 ms
-Throughput: 4.84 tokens/sec
-模型回答: Silhouette figure stands in darkness.
+📝 Judge 評語:
+Score: 3  
+Reason: Fails to identify action, irrelevant outputs, contains hallucinations, mixed language responses.
+--------------------------------------------------
+[13/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_GotjwB_SgI0.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Silhouette figure stands in darkness.
 Frame [2/56], index=4
 Frame Latency: 1126.00 ms
 TTFT: 676.29 ms
@@ -3242,15 +3205,13 @@ Average TTFT: 734.82 ms
 Frames Per Second: 0.76
 Throughput: 4.97 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_GotjwB_SgI0.json
-============================================================
-
-============================================================
-[14/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_YqW9B4aedKE.mp4
-Frame [1/55], index=0
-Frame Latency: 1342.74 ms
-TTFT: 677.00 ms
-Throughput: 5.21 tokens/sec
-模型回答: Man sits on stool in classroom.
+📝 Judge 評語:
+Score: 2  
+Reason: Fails to identify action "falling off chair"; mentions unrelated elements; lacks concise, clear results; some non-English text.
+--------------------------------------------------
+[14/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_YqW9B4aedKE.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Man sits on stool in classroom.
 Frame [2/55], index=6
 Frame Latency: 1414.61 ms
 TTFT: 686.73 ms
@@ -3527,15 +3488,13 @@ Average TTFT: 679.51 ms
 Frames Per Second: 0.80
 Throughput: 4.87 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_YqW9B4aedKE.json
-============================================================
-
-============================================================
-[15/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_f2nOuIPchP8.mp4
-Frame [1/73], index=0
-Frame Latency: 1260.20 ms
-TTFT: 684.06 ms
-Throughput: 4.76 tokens/sec
-模型回答: Young woman appears on screen.
+📝 Judge 評語:
+Score: 2  
+Reason: Fails to identify action correctly; outputs are unrelated and inconsistent; lacks conciseness and relevance; mixes languages.
+--------------------------------------------------
+[15/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_f2nOuIPchP8.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Young woman appears on screen.
 Frame [2/73], index=2
 Frame Latency: 1234.47 ms
 TTFT: 675.25 ms
@@ -3902,15 +3861,13 @@ Average TTFT: 680.05 ms
 Frames Per Second: 0.78
 Throughput: 4.91 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_f2nOuIPchP8.json
-============================================================
-
-============================================================
-[16/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_1RZYhr6hly4.mp4
-Frame [1/52], index=0
-Frame Latency: 1228.71 ms
-TTFT: 676.84 ms
-Throughput: 4.88 tokens/sec
-模型回答: Person lying down on couch.
+📝 Judge 評語:
+Score: 2  
+Reason: Fails to identify action, verbose and not concise, includes unrelated details, and uses a mix of languages.
+--------------------------------------------------
+[16/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_1RZYhr6hly4.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Person lying down on couch.
 Frame [2/52], index=4
 Frame Latency: 1229.52 ms
 TTFT: 673.11 ms
@@ -4172,15 +4129,13 @@ Average TTFT: 682.48 ms
 Frames Per Second: 0.83
 Throughput: 4.62 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_1RZYhr6hly4.json
-============================================================
-
-============================================================
-[17/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_gCqTxLReCus.mp4
-Frame [1/49], index=0
-Frame Latency: 1232.65 ms
-TTFT: 675.67 ms
-Throughput: 4.87 tokens/sec
-模型回答: Person raises arm in celebration.
+📝 Judge 評語:
+Score: 2  
+Reason: Fails to identify core action, lengthy and irrelevant, includes hallucinations, and inconsistent with action description.
+--------------------------------------------------
+[17/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_gCqTxLReCus.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Person raises arm in celebration.
 Frame [2/49], index=3
 Frame Latency: 1282.65 ms
 TTFT: 682.05 ms
@@ -4427,15 +4382,13 @@ Average TTFT: 697.29 ms
 Frames Per Second: 0.79
 Throughput: 4.83 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_gCqTxLReCus.json
-============================================================
-
-============================================================
-[18/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_fDNX6WW_6jc.mp4
-Frame [1/56], index=0
-Frame Latency: 1233.98 ms
-TTFT: 676.21 ms
-Throughput: 4.86 tokens/sec
-模型回答: Woman peeking over counter.
+📝 Judge 評語:
+Score: 2  
+Reason: Incorrect action identified; output lacks relevance; includes unrelated details; replies predominantly in English.
+--------------------------------------------------
+[18/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_fDNX6WW_6jc.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Woman peeking over counter.
 Frame [2/56], index=6
 Frame Latency: 1128.14 ms
 TTFT: 683.23 ms
@@ -4717,15 +4670,13 @@ Average TTFT: 687.21 ms
 Frames Per Second: 0.82
 Throughput: 4.76 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_fDNX6WW_6jc.json
-============================================================
-
-============================================================
-[19/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_xFFQRtKizJk.mp4
-Frame [1/61], index=0
-Frame Latency: 1232.87 ms
-TTFT: 675.17 ms
-Throughput: 4.87 tokens/sec
-模型回答: Small dark object on floor.
+📝 Judge 評語:
+Score: 5  
+Reason: Partially identifies falling action, lacks conciseness, includes unrelated details, inconsistent with English responses.
+--------------------------------------------------
+[19/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_xFFQRtKizJk.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Small dark object on floor.
 Frame [2/61], index=5
 Frame Latency: 1131.28 ms
 TTFT: 677.31 ms
@@ -5032,15 +4983,13 @@ Average TTFT: 687.28 ms
 Frames Per Second: 0.79
 Throughput: 4.81 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_xFFQRtKizJk.json
-============================================================
-
-============================================================
-[20/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_-5hw88bD4mE.mp4
-Frame [1/66], index=0
-Frame Latency: 1235.73 ms
-TTFT: 680.62 ms
-Throughput: 4.86 tokens/sec
-模型回答: People gathered in a room.
+📝 Judge 評語:
+Score: 6  
+Reason: Partial correct identification; includes irrelevant and incorrect outputs; primarily in English but lacks conciseness.
+--------------------------------------------------
+[20/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_-5hw88bD4mE.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: People gathered in a room.
 Frame [2/66], index=2
 Frame Latency: 1299.00 ms
 TTFT: 678.39 ms
@@ -5372,15 +5321,13 @@ Average TTFT: 683.29 ms
 Frames Per Second: 0.84
 Throughput: 4.57 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_-5hw88bD4mE.json
-============================================================
-
-============================================================
-[21/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_IuWPZJHWVYA.mp4
-Frame [1/50], index=0
-Frame Latency: 1346.65 ms
-TTFT: 681.26 ms
-Throughput: 5.20 tokens/sec
-模型回答: Person is performing a backflip.
+📝 Judge 評語:
+Score: 2  
+Reason: Fails to identify core action and lacks conciseness; provides mostly irrelevant details. Output is in English.
+--------------------------------------------------
+[21/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_IuWPZJHWVYA.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Person is performing a backflip.
 Frame [2/50], index=6
 Frame Latency: 1218.06 ms
 TTFT: 679.66 ms
@@ -5632,15 +5579,13 @@ Average TTFT: 693.85 ms
 Frames Per Second: 0.78
 Throughput: 4.79 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_IuWPZJHWVYA.json
-============================================================
-
-============================================================
-[22/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_l3U5BF9jUa4.mp4
-Frame [1/61], index=0
-Frame Latency: 1158.60 ms
-TTFT: 682.76 ms
-Throughput: 4.32 tokens/sec
-模型回答: Cat jumping onto furniture.
+📝 Judge 評語:
+Score: 2  
+Reason: Incorrect action identified, with irrelevant details and some frames include hallucinations. Majority responses are in English.
+--------------------------------------------------
+[22/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_l3U5BF9jUa4.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Cat jumping onto furniture.
 Frame [2/61], index=5
 Frame Latency: 1143.62 ms
 TTFT: 680.05 ms
@@ -5947,15 +5892,13 @@ Average TTFT: 683.80 ms
 Frames Per Second: 0.80
 Throughput: 4.78 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_l3U5BF9jUa4.json
-============================================================
-
-============================================================
-[23/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_Zi0fm17UBZE.mp4
-Frame [1/51], index=0
-Frame Latency: 1431.58 ms
-TTFT: 678.44 ms
-Throughput: 4.89 tokens/sec
-模型回答: Man on roof, possible incident.
+📝 Judge 評語:
+Score: 6  
+Reason: Identifies action correctly in some frames; lacks consistency and includes unrelated details. Uses English responses.
+--------------------------------------------------
+[23/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_Zi0fm17UBZE.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Man on roof, possible incident.
 Frame [2/51], index=5
 Frame Latency: 1228.70 ms
 TTFT: 673.72 ms
@@ -6212,15 +6155,13 @@ Average TTFT: 681.52 ms
 Frames Per Second: 0.79
 Throughput: 4.89 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_Zi0fm17UBZE.json
-============================================================
-
-============================================================
-[24/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_t3N44ZENWIQ.mp4
-Frame [1/59], index=0
-Frame Latency: 1253.72 ms
-TTFT: 683.07 ms
-Throughput: 4.79 tokens/sec
-模型回答: Office scene with people working.
+📝 Judge 評語:
+Score: 2  
+Reason: Incorrect action, verbose/repeated details, includes unrelated elements, and inconsistent English responses.
+--------------------------------------------------
+[24/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_t3N44ZENWIQ.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Office scene with people working.
 Frame [2/59], index=4
 Frame Latency: 1250.11 ms
 TTFT: 682.47 ms
@@ -6517,15 +6458,13 @@ Average TTFT: 680.23 ms
 Frames Per Second: 0.79
 Throughput: 4.85 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_t3N44ZENWIQ.json
-============================================================
-
-============================================================
-[25/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_f6ZwvW_FD7U.mp4
-Frame [1/74], index=0
-Frame Latency: 1222.59 ms
-TTFT: 675.02 ms
-Throughput: 4.91 tokens/sec
-模型回答: Person moving quickly in room.
+📝 Judge 評語:
+Score: 2  
+Reason: It fails to identify the core action, provides irrelevant office scene descriptions, and includes non-English responses.
+--------------------------------------------------
+[25/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_f6ZwvW_FD7U.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Person moving quickly in room.
 Frame [2/74], index=1
 Frame Latency: 1233.17 ms
 TTFT: 677.98 ms
@@ -6897,15 +6836,13 @@ Average TTFT: 681.47 ms
 Frames Per Second: 0.83
 Throughput: 4.72 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_f6ZwvW_FD7U.json
-============================================================
-
-============================================================
-[26/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_8LsomoWHlK0.mp4
-Frame [1/67], index=0
-Frame Latency: 1236.62 ms
-TTFT: 678.84 ms
-Throughput: 4.85 tokens/sec
-模型回答: Woman exercises on a chair.
+📝 Judge 評語:
+Score: 3  
+Reason: Fails to identify action; output is scattered; includes unrelated details; partially in Chinese.
+--------------------------------------------------
+[26/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_8LsomoWHlK0.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Woman exercises on a chair.
 Frame [2/67], index=3
 Frame Latency: 1407.72 ms
 TTFT: 708.03 ms
@@ -7242,15 +7179,13 @@ Average TTFT: 685.19 ms
 Frames Per Second: 0.77
 Throughput: 4.89 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_8LsomoWHlK0.json
-============================================================
-
-============================================================
-[27/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_wNk1F7W5LIQ.mp4
-Frame [1/16], index=0
-Frame Latency: 1233.99 ms
-TTFT: 677.21 ms
-Throughput: 4.86 tokens/sec
-模型回答: Man smiling directly at camera.
+📝 Judge 評語:
+Score: 4  
+Reason: Inconsistent recognition of action, redundant descriptions, and occasional unrelated outputs. Overall, lacks concise identification of core action.
+--------------------------------------------------
+[27/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_wNk1F7W5LIQ.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Man smiling directly at camera.
 Frame [2/16], index=2
 Frame Latency: 1208.88 ms
 TTFT: 673.03 ms
@@ -7332,15 +7267,13 @@ Average TTFT: 679.26 ms
 Frames Per Second: 0.80
 Throughput: 4.88 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_wNk1F7W5LIQ.json
-============================================================
-
-============================================================
-[28/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_N516jor-Y5I.mp4
-Frame [1/71], index=0
-Frame Latency: 1121.71 ms
-TTFT: 674.28 ms
-Throughput: 4.46 tokens/sec
-模型回答: Woman sitting on chair.
+📝 Judge 評語:
+Score: 3  
+Reason: Fails to identify core action; contains unrelated details; primarily describes instead of analyzing; partial use of English.
+--------------------------------------------------
+[28/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_N516jor-Y5I.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Woman sitting on chair.
 Frame [2/71], index=2
 Frame Latency: 1124.08 ms
 TTFT: 680.18 ms
@@ -7697,15 +7630,13 @@ Average TTFT: 678.41 ms
 Frames Per Second: 0.83
 Throughput: 4.73 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_N516jor-Y5I.json
-============================================================
-
-============================================================
-[29/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_-tTBQvmKfEs.mp4
-Frame [1/54], index=0
-Frame Latency: 1242.33 ms
-TTFT: 679.03 ms
-Throughput: 4.83 tokens/sec
-模型回答: Young man posing for picture.
+📝 Judge 評語:
+Score: 2  
+Reason: Incorrect action identified; verbose, repetitive descriptions; doesn't avoid unrelated details; output is in English.
+--------------------------------------------------
+[29/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_-tTBQvmKfEs.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Young man posing for picture.
 Frame [2/54], index=5
 Frame Latency: 1232.90 ms
 TTFT: 677.79 ms
@@ -7977,15 +7908,13 @@ Average TTFT: 685.73 ms
 Frames Per Second: 0.78
 Throughput: 4.75 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_-tTBQvmKfEs.json
-============================================================
-
-============================================================
-[30/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_qkCEuMm9vnY.mp4
-Frame [1/54], index=0
-Frame Latency: 1130.01 ms
-TTFT: 680.13 ms
-Throughput: 4.42 tokens/sec
-模型回答: Person sitting in room.
+📝 Judge 評語:
+Score: 3  
+Reason: Fails to identify action, response is inconsistent and verbose, contains hallucination, uses both English and non-English.
+--------------------------------------------------
+[30/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_qkCEuMm9vnY.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Person sitting in room.
 Frame [2/54], index=3
 Frame Latency: 1338.48 ms
 TTFT: 682.01 ms
@@ -8257,15 +8186,13 @@ Average TTFT: 681.49 ms
 Frames Per Second: 0.79
 Throughput: 4.77 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_qkCEuMm9vnY.json
-============================================================
-
-============================================================
-[31/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_q6b9VXig4e0.mp4
-Frame [1/61], index=0
-Frame Latency: 1352.82 ms
-TTFT: 790.16 ms
-Throughput: 5.17 tokens/sec
-模型回答: Performers on stage with smoke.
+📝 Judge 評語:
+Score: 4  
+Reason: Partially identifies action, inconsistent relevance, includes unrelated details, and mixes English/Chinese outputs.
+--------------------------------------------------
+[31/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_q6b9VXig4e0.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Performers on stage with smoke.
 Frame [2/61], index=6
 Frame Latency: 1452.11 ms
 TTFT: 867.83 ms
@@ -8572,15 +8499,13 @@ Average TTFT: 799.31 ms
 Frames Per Second: 0.78
 Throughput: 4.88 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_q6b9VXig4e0.json
-============================================================
-
-============================================================
-[32/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_p8o6EkXONhc.mp4
-Frame [1/73], index=0
-Frame Latency: 1238.83 ms
-TTFT: 674.63 ms
-Throughput: 4.84 tokens/sec
-模型回答: Person is interacting with something.
+📝 Judge 評語:
+Score: 2  
+Reason: Incorrect action identification, verbose, repetitive responses, unrelated details, and occasional non-English text present.
+--------------------------------------------------
+[32/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_p8o6EkXONhc.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Person is interacting with something.
 Frame [2/73], index=3
 Frame Latency: 1362.42 ms
 TTFT: 678.73 ms
@@ -8947,15 +8872,13 @@ Average TTFT: 678.15 ms
 Frames Per Second: 0.77
 Throughput: 5.02 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_p8o6EkXONhc.json
-============================================================
-
-============================================================
-[33/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_XXN3CgCyEx4.mp4
-Frame [1/51], index=0
-Frame Latency: 1199.93 ms
-TTFT: 673.74 ms
-Throughput: 5.00 tokens/sec
-模型回答: Young woman stands outdoors smiling.
+📝 Judge 評語:
+Score: 5  
+Reason: Partially identifies the action; lacks conciseness; some hallucinations; responses are in English.
+--------------------------------------------------
+[33/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_XXN3CgCyEx4.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Young woman stands outdoors smiling.
 Frame [2/51], index=2
 Frame Latency: 1231.50 ms
 TTFT: 674.03 ms
@@ -9212,15 +9135,13 @@ Average TTFT: 690.79 ms
 Frames Per Second: 0.78
 Throughput: 4.75 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_XXN3CgCyEx4.json
-============================================================
-
-============================================================
-[34/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_0xJzTTPKfXo.mp4
-Frame [1/56], index=0
-Frame Latency: 1116.27 ms
-TTFT: 675.50 ms
-Throughput: 4.48 tokens/sec
-模型回答: Woman singing into microphone.
+📝 Judge 評語:
+Score: 7  
+Reason: Eventually identifies core action, but includes unrelated details and uses both English and non-English responses.
+--------------------------------------------------
+[34/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_0xJzTTPKfXo.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Woman singing into microphone.
 Frame [2/56], index=4
 Frame Latency: 1113.27 ms
 TTFT: 674.55 ms
@@ -9502,15 +9423,13 @@ Average TTFT: 684.76 ms
 Frames Per Second: 0.78
 Throughput: 4.93 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_0xJzTTPKfXo.json
-============================================================
-
-============================================================
-[35/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_tCZvKt-dKdY.mp4
-Frame [1/30], index=0
-Frame Latency: 1241.35 ms
-TTFT: 679.08 ms
-Throughput: 4.83 tokens/sec
-模型回答: Person sitting in a room.
+📝 Judge 評語:
+Score: 6  
+Reason: Correctly identifies falling action but mentions unrelated singing and dancing; lacks conciseness and includes hallucinations.
+--------------------------------------------------
+[35/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_tCZvKt-dKdY.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Person sitting in a room.
 Frame [2/30], index=5
 Frame Latency: 1354.45 ms
 TTFT: 680.32 ms
@@ -9662,15 +9581,13 @@ Average TTFT: 678.66 ms
 Frames Per Second: 0.80
 Throughput: 4.86 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_tCZvKt-dKdY.json
-============================================================
-
-============================================================
-[36/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_zNx9s_XbkUQ.mp4
-Frame [1/74], index=0
-Frame Latency: 1216.94 ms
-TTFT: 679.00 ms
-Throughput: 4.93 tokens/sec
-模型回答: Man swings in chair outdoors.
+📝 Judge 評語:
+Score: 4  
+Reason: Correct action identified late; some irrelevant outputs; mixed English usage.
+--------------------------------------------------
+[36/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_zNx9s_XbkUQ.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Man swings in chair outdoors.
 Frame [2/74], index=5
 Frame Latency: 1211.41 ms
 TTFT: 675.81 ms
@@ -10042,15 +9959,13 @@ Average TTFT: 681.93 ms
 Frames Per Second: 0.80
 Throughput: 4.85 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_zNx9s_XbkUQ.json
-============================================================
-
-============================================================
-[37/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_3Ctreec2zrQ.mp4
-Frame [1/62], index=0
-Frame Latency: 1242.67 ms
-TTFT: 680.73 ms
-Throughput: 4.83 tokens/sec
-模型回答: Two men talking in chairs.
+📝 Judge 評語:
+Score: 2  
+Reason: The model failed to identify core action, was verbose, had irrelevant details, and included non-English content.
+--------------------------------------------------
+[37/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_3Ctreec2zrQ.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Two men talking in chairs.
 Frame [2/62], index=5
 Frame Latency: 1246.35 ms
 TTFT: 677.13 ms
@@ -10362,15 +10277,13 @@ Average TTFT: 684.16 ms
 Frames Per Second: 0.80
 Throughput: 4.80 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_3Ctreec2zrQ.json
-============================================================
-
-============================================================
-[38/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_06u5p4FNohA.mp4
-Frame [1/23], index=0
-Frame Latency: 1347.26 ms
-TTFT: 678.73 ms
-Throughput: 5.20 tokens/sec
-模型回答: Woman is doing a yoga pose.
+📝 Judge 評語:
+Score: 6  
+Reason: Initially missed action but correctly identified falling later; outputs were mostly concise and relevant, with some redundancy.
+--------------------------------------------------
+[38/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_06u5p4FNohA.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Woman is doing a yoga pose.
 Frame [2/23], index=4
 Frame Latency: 1390.41 ms
 TTFT: 687.98 ms
@@ -10487,15 +10400,13 @@ Average TTFT: 691.47 ms
 Frames Per Second: 0.80
 Throughput: 4.86 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_06u5p4FNohA.json
-============================================================
-
-============================================================
-[39/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_vSyIph8s85U.mp4
-Frame [1/65], index=0
-Frame Latency: 1340.84 ms
-TTFT: 675.24 ms
-Throughput: 5.22 tokens/sec
-模型回答: Person falling or struggling on floor.
+📝 Judge 評語:
+Score: 3  
+Reason: Partially identified falling action, lengthy responses with unrelated details, mixed language use, lacks conciseness.
+--------------------------------------------------
+[39/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_vSyIph8s85U.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Person falling or struggling on floor.
 Frame [2/65], index=3
 Frame Latency: 1237.73 ms
 TTFT: 676.12 ms
@@ -10822,15 +10733,13 @@ Average TTFT: 682.66 ms
 Frames Per Second: 0.77
 Throughput: 4.91 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_vSyIph8s85U.json
-============================================================
-
-============================================================
-[40/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_y7GOcGQqVYM.mp4
-Frame [1/19], index=0
-Frame Latency: 1247.77 ms
-TTFT: 678.33 ms
-Throughput: 4.81 tokens/sec
-模型回答: Girl smiling while seated indoors.
+📝 Judge 評語:
+Score: 4  
+Reason: Identifies falling action but includes unrelated interpretations; lacks conciseness and contains some non-English phrases.
+--------------------------------------------------
+[40/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_y7GOcGQqVYM.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Girl smiling while seated indoors.
 Frame [2/19], index=5
 Frame Latency: 1343.25 ms
 TTFT: 677.87 ms
@@ -10927,15 +10836,13 @@ Average TTFT: 679.81 ms
 Frames Per Second: 0.79
 Throughput: 4.91 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_y7GOcGQqVYM.json
-============================================================
-
-============================================================
-[41/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_kKhCkAkz1vk.mp4
-Frame [1/54], index=0
-Frame Latency: 1155.78 ms
-TTFT: 682.03 ms
-Throughput: 4.33 tokens/sec
-模型回答: Woman exercises on stool.
+📝 Judge 評語:
+Score: 2  
+Reason: Fails to identify core action, output is not concise, includes unrelated details, sporadically uses Chinese, not entirely English.
+--------------------------------------------------
+[41/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_kKhCkAkz1vk.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Woman exercises on stool.
 Frame [2/54], index=6
 Frame Latency: 1131.26 ms
 TTFT: 680.14 ms
@@ -11207,15 +11114,13 @@ Average TTFT: 678.81 ms
 Frames Per Second: 0.85
 Throughput: 4.61 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_kKhCkAkz1vk.json
-============================================================
-
-============================================================
-[42/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_kwh65tVZyik.mp4
-Frame [1/56], index=0
-Frame Latency: 1416.21 ms
-TTFT: 711.00 ms
-Throughput: 4.24 tokens/sec
-模型回答: Woman dancing on office chair.
+📝 Judge 評語:
+Score: 3  
+Reason: Fails to identify core action, outputs unrelated activities; is concise but not relevant, mostly in English.
+--------------------------------------------------
+[42/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_kwh65tVZyik.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Woman dancing on office chair.
 Frame [2/56], index=6
 Frame Latency: 1246.63 ms
 TTFT: 679.63 ms
@@ -11497,15 +11402,13 @@ Average TTFT: 685.50 ms
 Frames Per Second: 0.79
 Throughput: 4.78 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_kwh65tVZyik.json
-============================================================
-
-============================================================
-[43/43] 處理影片: ./dataset/falling_off_chair/falling_off_chair_sl_oBU2ukJ8.mp4
-Frame [1/52], index=0
-Frame Latency: 1353.73 ms
-TTFT: 907.38 ms
-Throughput: 5.17 tokens/sec
-模型回答: Blurry, indistinct movement inside.
+📝 Judge 評語:
+Score: 4  
+Reason: Missed core action; outputs varied and included unrelated details; mostly English responses.
+--------------------------------------------------
+[43/43] 正在評估影片: ./dataset/falling_off_chair/falling_off_chair_sl_oBU2ukJ8.mp4
+Ground Truth: falling off chair
+🤖 VLM 回答內容: Blurry, indistinct movement inside.
 Frame [2/52], index=2
 Frame Latency: 1416.58 ms
 TTFT: 851.62 ms
@@ -11767,26 +11670,12 @@ Average TTFT: 712.34 ms
 Frames Per Second: 0.77
 Throughput: 5.00 tokens/sec
 JSON 輸出: gemma-4-E4B-5fps/json/falling_off_chair_sl_oBU2ukJ8.json
-============================================================
+📝 Judge 評語:
+Score: 2  
+Reason: Fails to identify core action, lacks conciseness, includes unrelated details, and contains non-English text.
+--------------------------------------------------
 
-==================== Benchmark Summary ====================
-
-Input
-	Model: google/gemma-4-E4B-it
-	Hardware Name  : Tesla V100-SXM2-32GB
-	Video Dir      : ./dataset/falling_off_chair
-	Sample FPS     : 5
-
-Output
-	Average Query Latency: 66427.27 ms
-	Frames Per Second (FPS): 0.7933
-	Equivalent Real-time Latency (RT Latency): 6.3707
-	Peak VRAM Usage: 0.0000 GB
-	Throughput: 4.8362 tokens/sec
-	Power Consumption: 54.99 W
-	TTFT: 689.35 ms
-
-
-成功處理影片數: 43 / 43
-平均影片長度: 10.4270 sec
-詳細測試結果已記錄於: gemma-4-E4B-5fps/falling_off_chair.log
+📊 評估總結
+總分: 143
+有效樣本數: 43
+平均分: 3.33
