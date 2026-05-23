@@ -51,7 +51,7 @@ def judge_main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--skip_llm_judge",
         action="store_true",
-        help="Only compute BLEU/ROUGE/CIDEr automatic metrics.",
+        help="Only compute BLEU/ROUGE/CIDEr text metrics.",
     )
     args = parser.parse_args(argv)
 

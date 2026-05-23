@@ -72,6 +72,8 @@ uv run python scripts/run_judge.py \
   --judge_model gpt-4o
 ```
 
+`judge_results.jsonl` 會替每筆 prediction 寫入 `bleu`、`rouge_l`、`cider`，並同步保留在 `text_metrics`；`judge_summary.json` 會寫入平均 BLEU、corpus BLEU、ROUGE-L、CIDEr。
+
 如果只想補 BLEU/ROUGE/CIDEr，不呼叫 Judge LLM：
 
 ```shell

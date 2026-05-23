@@ -6,9 +6,9 @@ from pathlib import Path
 from typing import Any
 
 from vlm_eval.config import JudgeConfig
-from vlm_eval.judge.automatic_metrics import score_items
 from vlm_eval.judge.parser import extract_score, load_predictions_jsonl, parse_legacy_log_file
 from vlm_eval.judge.prompts import build_judge_prompt
+from vlm_eval.judge.text_metrics import score_items
 from vlm_eval.llm.factory import get_llm_instance
 from vlm_eval.logging_utils import configure_logging
 from vlm_eval.paths import find_latest_run, label_from_video_dir, model_name_from_id
@@ -115,13 +115,13 @@ def run_judge(config: JudgeConfig) -> Path | None:
         logging.warning("No judgeable predictions found.")
         return run_dir
 
-    automatic_item_scores, automatic_summary = score_items(items)
+    text_item_scores, text_summary = score_items(items)
     logging.info(
-        "Automatic metrics: BLEU %.4f, corpus BLEU %.4f, ROUGE-L %.4f, CIDEr %.4f",
-        automatic_summary["bleu"],
-        automatic_summary["corpus_bleu"],
-        automatic_summary["rouge_l"],
-        automatic_summary["cider"],
+        "Text metrics: BLEU %.4f, corpus BLEU %.4f, ROUGE-L %.4f, CIDEr %.4f",
+        text_summary["bleu"],
+        text_summary["corpus_bleu"],
+        text_summary["rouge_l"],
+        text_summary["cider"],
     )
 
     llm = None
@@ -151,16 +151,16 @@ def run_judge(config: JudgeConfig) -> Path | None:
         video = item["video"]
         answer = item.get("response") or item.get("answer", "")
         label = item.get("label") or "Unknown Action"
-        automatic_metrics = automatic_item_scores[index - 1]
+        text_metrics = text_item_scores[index - 1]
 
         logging.info("[%s/%s] Evaluating video: %s", index, len(items), video)
         logging.info("Ground Truth: %s", label)
         logging.info("VLM answer: %s", answer)
         logging.info(
-            "Automatic metrics: BLEU %.4f, ROUGE-L %.4f, CIDEr %.4f",
-            automatic_metrics["bleu"],
-            automatic_metrics["rouge_l"],
-            automatic_metrics["cider"],
+            "Text metrics: BLEU %.4f, ROUGE-L %.4f, CIDEr %.4f",
+            text_metrics["bleu"],
+            text_metrics["rouge_l"],
+            text_metrics["cider"],
         )
 
         if llm is None:
@@ -189,10 +189,10 @@ def run_judge(config: JudgeConfig) -> Path | None:
             "video": video,
             "label": label,
             "answer": answer,
-            "bleu": automatic_metrics["bleu"],
-            "rouge_l": automatic_metrics["rouge_l"],
-            "cider": automatic_metrics["cider"],
-            "automatic_metrics": automatic_metrics,
+            "bleu": text_metrics["bleu"],
+            "rouge_l": text_metrics["rouge_l"],
+            "cider": text_metrics["cider"],
+            "text_metrics": text_metrics,
             "judge_result": judge_result,
             "score": score,
             "prompt_tokens": prompt_tokens,
@@ -213,16 +213,16 @@ def run_judge(config: JudgeConfig) -> Path | None:
         "valid_count": valid_count,
         "attempted_count": len(items),
         "average_score": average_score,
-        "automatic_metrics": automatic_summary,
+        "text_metrics": text_summary,
     }
     _write_json(summary_path, summary)
 
     logging.info("")
     logging.info("Evaluation Summary")
-    logging.info("Automatic BLEU: %.4f", automatic_summary["bleu"])
-    logging.info("Automatic corpus BLEU: %.4f", automatic_summary["corpus_bleu"])
-    logging.info("Automatic ROUGE-L: %.4f", automatic_summary["rouge_l"])
-    logging.info("Automatic CIDEr: %.4f", automatic_summary["cider"])
+    logging.info("Text BLEU: %.4f", text_summary["bleu"])
+    logging.info("Text corpus BLEU: %.4f", text_summary["corpus_bleu"])
+    logging.info("Text ROUGE-L: %.4f", text_summary["rouge_l"])
+    logging.info("Text CIDEr: %.4f", text_summary["cider"])
     if average_score is not None:
         logging.info("Total score: %s", total_score)
         logging.info("Valid samples: %s", valid_count)
