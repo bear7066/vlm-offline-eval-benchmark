@@ -8,14 +8,16 @@ from typing import Any
 VIDEO_EXTENSIONS = (".mp4", ".mkv")
 
 
-def find_videos(video_dir: Path) -> list[Path]:
-    paths: list[Path] = []
-    for extension in VIDEO_EXTENSIONS:
-        paths.extend(video_dir.rglob(f"*{extension}"))
-    return sorted(paths)
-
-
 def get_video_duration(video_reader: Any) -> float | None:
+    """Compute video duration in seconds from a decord VideoReader.
+
+    Args:
+        video_reader: A decord VideoReader (or any object exposing
+            ``get_avg_fps()`` and ``__len__``).
+
+    Returns:
+        Duration in seconds, or ``None`` if FPS is unavailable or zero.
+    """
     try:
         fps = video_reader.get_avg_fps()
         total_frames = len(video_reader)
@@ -27,38 +29,67 @@ def get_video_duration(video_reader: Any) -> float | None:
 
 
 def sample_frames(video_path: Path, num_frames: int = 8):
-    import decord  # 用 decord 讀取影片 frame。
-    import numpy as np  # 用 numpy 計算平均分布的 frame index。
-    from PIL import Image  # 將 numpy frame 轉成 PIL Image，供模型 processor 使用。
+    """Sample frames evenly from a video file.
 
-    try:  # 嘗試建立影片 reader。
-        video_reader = decord.VideoReader(str(video_path), ctx=decord.cpu(0))  # 用 CPU backend 開啟影片。
-    except Exception as exc:  # 如果影片無法讀取，記錄錯誤並回傳失敗。
-        logging.error("Could not read video %s: %s", video_path, exc)  # 寫入影片讀取失敗的原因。
-        return None, None, None, None  # 回傳空結果，讓呼叫端跳過這支影片。
+    Uses decord for I/O and numpy to compute uniformly spaced indices
+    across the full duration of the video.
 
-    total_frames = len(video_reader)  # 取得影片總 frame 數。
-    if total_frames == 0:  # 如果影片沒有任何 frame，無法抽樣。
-        return None, None, None, None  # 回傳空結果，讓呼叫端跳過這支影片。
+    Args:
+        video_path: Path to the video file.
+        num_frames: Number of frames to sample. Must be > 0.
 
-    try:  # 嘗試讀取原始影片 FPS。
-        original_fps = video_reader.get_avg_fps()  # 取得影片平均 FPS。
-    except Exception:  # 如果讀取 FPS 失敗，先設為 None。
-        original_fps = None  # 固定張數抽樣不依賴 FPS，所以仍可繼續抽 frame。
+    Returns:
+        A 4-tuple of ``(pil_frames, video_duration_sec, total_frames,
+        original_fps)``.  All elements are ``None`` when the video
+        cannot be opened, contains no frames, or *num_frames* is invalid.
 
-    video_duration_sec = get_video_duration(video_reader)  # 計算影片長度，讀不到 FPS 時會是 None。
+        - **pil_frames** (list[PIL.Image.Image] | None): Sampled frames
+          as PIL images.
+        - **video_duration_sec** (float | None): Total duration in seconds.
+        - **total_frames** (int | None): Frame count reported by decord.
+        - **original_fps** (float | None): Average FPS reported by decord.
+    """
+    import decord
+    import numpy as np
+    from PIL import Image
 
-    if num_frames <= 0:  # 固定抽樣張數必須大於 0。
-        logging.error("num_frames must be > 0, got %s", num_frames)  # 記錄錯誤的抽樣設定。
-        return None, None, None, None  # 回傳空結果，避免產生無效 frame index。
+    try:
+        video_reader = decord.VideoReader(str(video_path), ctx=decord.cpu(0))
+    except Exception as exc:
+        logging.error("Could not read video %s: %s", video_path, exc)
+        return None, None, None, None
 
-    indices = np.linspace(0, total_frames - 1, num_frames, dtype=int)  # 從頭到尾平均切出固定數量的 frame index。
-    indices = np.clip(indices, 0, total_frames - 1)  # 確保所有 index 都落在有效 frame 範圍內。
-    indices = np.unique(indices)  # 移除重複 index，避免同一張 frame 被抽多次。
+    total_frames = len(video_reader)
+    if total_frames == 0:
+        return None, None, None, None
 
-    if len(indices) == 0:  # 如果沒有產生任何 index，至少保留第一張 frame。
-        indices = np.array([0], dtype=int)  # fallback 成只取第 0 張 frame。
+    try:
+        original_fps = video_reader.get_avg_fps()
+    except Exception:
+        original_fps = None
 
-    frames = video_reader.get_batch(indices).asnumpy()  # 一次讀出所有選中的 frames，並轉成 numpy array。
-    pil_frames = [Image.fromarray(frame) for frame in frames]  # 將每張 numpy frame 轉成 PIL Image。
-    return pil_frames, video_duration_sec, total_frames, original_fps  # 回傳抽出的 frames 與影片 metadata。
+    video_duration_sec = get_video_duration(video_reader)
+
+    if num_frames <= 0:
+        logging.error("num_frames must be > 0, got %s", num_frames)
+        return None, None, None, None
+
+    # Pick num_frames positions spread evenly from frame 0 to the last frame.
+    # e.g. a 100-frame video with num_frames=4 → [0, 33, 66, 99]
+    indices = np.linspace(0, total_frames - 1, num_frames, dtype=int)
+    # Guard against floating-point rounding pushing an index out of bounds.
+    indices = np.clip(indices, 0, total_frames - 1)
+    # When num_frames > total_frames, linspace produces duplicates; drop them
+    # so we never decode the same frame twice.
+    indices = np.unique(indices)
+
+    # Shouldn't happen with valid inputs, but fall back to the first frame
+    # rather than crashing.
+    if len(indices) == 0:
+        indices = np.array([0], dtype=int)
+
+    # Decode all selected frames in one batched read (more efficient than
+    # calling get_batch per frame), then convert to PIL for model processors.
+    frames = video_reader.get_batch(indices).asnumpy()
+    pil_frames = [Image.fromarray(frame) for frame in frames]
+    return pil_frames, video_duration_sec, total_frames, original_fps
