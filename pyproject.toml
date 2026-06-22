@@ -27,6 +27,8 @@ vlm-judge = "vlm_eval.cli:judge_main"
 vlm-batch = "vlm_eval.cli:batch_main"
 vlm-gpu-test = "vlm_eval.cli:gpu_test_main"
 
+realtime-bench = "realtime_eval.__main__:main"
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
