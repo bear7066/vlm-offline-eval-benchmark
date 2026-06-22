@@ -9,3 +9,4 @@ runs/
 uv.lock
 *.jsonl
 *.egg-info/
+sweep-conf.json

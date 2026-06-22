@@ -68,7 +68,7 @@ def _build_parser() -> argparse.ArgumentParser:
     init = config_sub.add_parser(
         "init", help="Write a default sweep config to a target JSON file."
     )
-    init.add_argument("target", type=Path, help="Path to write the JSON config to.")
+    init.add_argument("target", type=Path, nargs="?", default="sweep-conf.json", help="Path to write the JSON config to.")
     init.add_argument(
         "--force", action="store_true", help="Overwrite the target if it already exists."
     )
