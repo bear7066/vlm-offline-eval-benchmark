@@ -29,6 +29,9 @@ vlm-gpu-test = "vlm_eval.cli:gpu_test_main"
 
 realtime-bench = "realtime_eval.__main__:main"
 
+intelli-bench = "intelligence_eval.__main__:main"
+intelligence-bench = "intelligence_eval.__main__:main"
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
