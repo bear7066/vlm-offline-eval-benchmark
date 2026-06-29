@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "vlm-eval-benchmark"
 version = "0.1.0"
 description = "Video VLM benchmark and LLM-as-a-judge tooling"
-requires-python = ">=3.10"
+requires-python = ">=3.12,<3.13"
 dependencies = [
   "transformers>=4.41",
   "accelerate>=0.30",

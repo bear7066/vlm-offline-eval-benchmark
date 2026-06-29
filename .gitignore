@@ -6,7 +6,6 @@ __pycache__
 .DS_Store
 runs/
 *.log
-uv.lock
 *.jsonl
 *.egg-info/
 sweep-conf.json
