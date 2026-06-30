@@ -16,7 +16,13 @@ from vlm_eval.video import sample_frames
 from intelligence_eval.config import IntelligenceConfig
 from intelligence_eval.dataset import DatasetItem, DatasetSource, MetadataRow
 from intelligence_eval.results import EvalResult, append_jsonl, summarize, write_json
-from intelligence_eval.similarity import SemanticSimilarity
+from intelligence_eval.scoring import (
+    BERTScore,
+    LLMJudge,
+    NLIEntailment,
+    Scorer,
+    SemanticSimilarity,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -29,6 +35,35 @@ def _select_rows(rows: list[MetadataRow], config: IntelligenceConfig) -> list[Me
     if config.sample_size is not None:
         rows = rows[: config.sample_size]
     return rows
+
+
+def _build_scorers(config: IntelligenceConfig, hf_token: str | None) -> list[Scorer]:
+    """Load every scorer, skipping any that fails to initialize.
+
+    A scorer can legitimately be unavailable (e.g. the LLM judge with no API
+    key), so a load failure is logged and that scorer is dropped rather than
+    aborting the whole run.
+
+    Args:
+        config: The evaluation configuration.
+        hf_token: HuggingFace token for gated model downloads.
+
+    Returns:
+        The successfully loaded scorers, in report order.
+    """
+    factories = [
+        lambda: SemanticSimilarity(config.embedding_model, hf_token=hf_token),
+        lambda: NLIEntailment(config.nli_model, hf_token=hf_token),
+        lambda: BERTScore(config.bert_model, hf_token=hf_token),
+        lambda: LLMJudge(config.judge_model, backend=config.judge_backend),
+    ]
+    scorers: list[Scorer] = []
+    for factory in factories:
+        try:
+            scorers.append(factory())
+        except Exception as exc:
+            logger.error("Skipping scorer (failed to load): %s", exc)
+    return scorers
 
 
 def run_intelligence_eval(config: IntelligenceConfig) -> Path | None:
@@ -77,9 +112,13 @@ def run_intelligence_eval(config: IntelligenceConfig) -> Path | None:
 
     try:
         model = HuggingFaceVLM(config.model_id, hf_token=hf_token)
-        similarity = SemanticSimilarity(config.embedding_model, hf_token=hf_token)
     except Exception as exc:
-        logger.error("Failed to load model or embedder: %s", exc)
+        logger.error("Failed to load VLM: %s", exc)
+        return None
+
+    scorers = _build_scorers(config, hf_token)
+    if not scorers:
+        logger.error("No scorers could be loaded.")
         return None
 
     predictions_path = run_dir / "predictions.jsonl"
@@ -97,21 +136,23 @@ def run_intelligence_eval(config: IntelligenceConfig) -> Path | None:
             append_jsonl(predictions_path, results[-1].to_dict())
             continue
 
-        result = _evaluate_item(item, model, similarity, config)
+        result = _evaluate_item(item, model, scorers, config)
         results.append(result)
         append_jsonl(predictions_path, result.to_dict())
         if result.status == "success":
-            logger.info("  similarity=%.4f response=%s", result.similarity, result.response)
+            logger.info("  scores=%s response=%s", result.scores, result.response)
         else:
             logger.error("  %s", result.error)
 
-    summary = summarize(results)
+    scorer_names = [s.name for s in scorers]
+    summary = summarize(results, scorer_names)
     summary.update(model_id=config.model_id, dataset=config.dataset,
                    embedding_model=config.embedding_model)
     write_json(run_dir / "summary.json", summary)
 
-    logger.info("Mean similarity: %s over %d videos",
-                summary["mean_similarity"], summary["scored_videos"])
+    for name in scorer_names:
+        logger.info("Mean %s: %s over %d videos",
+                    name, summary[f"mean_{name}"], summary[f"scored_{name}"])
     logger.info("Predictions: %s", predictions_path)
     return run_dir
 
@@ -119,10 +160,14 @@ def run_intelligence_eval(config: IntelligenceConfig) -> Path | None:
 def _evaluate_item(
     item: DatasetItem,
     model: HuggingFaceVLM,
-    similarity: SemanticSimilarity,
+    scorers: list[Scorer],
     config: IntelligenceConfig,
 ) -> EvalResult:
-    """Run inference and scoring for one item, capturing any failure."""
+    """Run inference and every scorer for one item, capturing any failure.
+
+    A failure in one scorer records ``None`` for that scorer rather than
+    failing the whole video; only a VLM/sampling failure marks the item errored.
+    """
     frames, _duration, _total, _fps = sample_frames(item.video_path, num_frames=config.num_frames)
     if frames is None:
         return EvalResult(
@@ -133,15 +178,22 @@ def _evaluate_item(
         generated = model.generate_from_frames(
             frames=frames, prompt_text=config.prompt, max_new_tokens=config.max_new_tokens,
         )
-        response = generated["response"]
-        score = similarity.score(response, item.ground_truth_prompt)
-        return EvalResult(
-            video=str(item.video_path), label=item.label, status="success",
-            ground_truth_prompt=item.ground_truth_prompt, response=response,
-            similarity=score, query_latency_ms=generated["elapsed_ms"],
-        )
     except Exception as exc:
         return EvalResult(
             video=str(item.video_path), label=item.label, status="error",
             ground_truth_prompt=item.ground_truth_prompt, error=str(exc),
         )
+
+    response = generated["response"]
+    scores: dict[str, float | None] = {}
+    for scorer in scorers:
+        try:
+            scores[scorer.name] = scorer.score(response, item.ground_truth_prompt)
+        except Exception as exc:
+            logger.warning("  scorer %s failed: %s", scorer.name, exc)
+            scores[scorer.name] = None
+    return EvalResult(
+        video=str(item.video_path), label=item.label, status="success",
+        ground_truth_prompt=item.ground_truth_prompt, response=response,
+        scores=scores, query_latency_ms=generated["elapsed_ms"],
+    )

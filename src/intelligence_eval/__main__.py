@@ -9,7 +9,10 @@ import argparse
 from pathlib import Path
 
 from intelligence_eval.config import (
+    DEFAULT_BERT_MODEL,
     DEFAULT_EMBEDDING_MODEL,
+    DEFAULT_JUDGE_MODEL,
+    DEFAULT_NLI_MODEL,
     DEFAULT_PROMPT,
     IntelligenceConfig,
 )
@@ -35,6 +38,10 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--sample_size", type=int, default=None, help="Cap on videos (default: all).")
     parser.add_argument("--seed", type=int, default=None, help="Shuffle seed before capping.")
     parser.add_argument("--embedding_model", default=DEFAULT_EMBEDDING_MODEL)
+    parser.add_argument("--nli_model", default=DEFAULT_NLI_MODEL, help=f"default to {DEFAULT_NLI_MODEL}")
+    parser.add_argument("--bert_model", default=DEFAULT_BERT_MODEL, help=f"default to {DEFAULT_BERT_MODEL}")
+    parser.add_argument("--judge_model", default=DEFAULT_JUDGE_MODEL, help=f"default to {DEFAULT_JUDGE_MODEL}")
+    parser.add_argument("--judge_backend", default=None, help="LLM judge backend (default: auto).")
     parser.add_argument("--output_root", type=Path, default=Path("intelligence_runs"))
     parser.add_argument("--run_id", default=None)
     args = parser.parse_args(argv)
@@ -48,6 +55,10 @@ def main(argv: list[str] | None = None) -> int:
         sample_size=args.sample_size,
         seed=args.seed,
         embedding_model=args.embedding_model,
+        nli_model=args.nli_model,
+        bert_model=args.bert_model,
+        judge_model=args.judge_model,
+        judge_backend=args.judge_backend,
         output_root=args.output_root,
         run_id=args.run_id,
     )

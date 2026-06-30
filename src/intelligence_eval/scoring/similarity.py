@@ -3,9 +3,10 @@ from __future__ import annotations
 from typing import Any
 
 from intelligence_eval.config import DEFAULT_EMBEDDING_MODEL
+from intelligence_eval.scoring.base import Scorer
 
 
-class SemanticSimilarity:
+class SemanticSimilarity(Scorer):
     """Cosine similarity between sentence embeddings.
 
     Wraps a HuggingFace transformer encoder with mean pooling, the standard
@@ -14,6 +15,8 @@ class SemanticSimilarity:
     surface words; embeddings compare meaning, which is what's wanted when a
     short model description is matched against a paragraph-length prompt.
     """
+
+    name = "similarity"
 
     def __init__(self, model_id: str = DEFAULT_EMBEDDING_MODEL, hf_token: str | None = None):
         import torch

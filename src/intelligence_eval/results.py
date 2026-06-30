@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import json
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, field
 from pathlib import Path
 
 
@@ -15,7 +15,8 @@ class EvalResult:
         status: ``"success"`` or ``"error"``.
         ground_truth_prompt: The Sora prompt scored against.
         response: The VLM's description.
-        similarity: Cosine similarity in ``[-1, 1]``.
+        scores: Per-scorer score keyed by scorer name; a value is ``None`` when
+            that scorer failed for this video.
         query_latency_ms: VLM generation latency.
         error: Error message when ``status == "error"``.
     """
@@ -25,7 +26,7 @@ class EvalResult:
     status: str
     ground_truth_prompt: str | None = None
     response: str | None = None
-    similarity: float | None = None
+    scores: dict[str, float | None] = field(default_factory=dict)
     query_latency_ms: float | None = None
     error: str | None = None
 
@@ -33,22 +34,30 @@ class EvalResult:
         return asdict(self)
 
 
-def summarize(results: list[EvalResult]) -> dict:
+def summarize(results: list[EvalResult], scorer_names: list[str]) -> dict:
     """Aggregate per-video results into run-level metrics.
 
     Args:
         results: Per-video :class:`EvalResult` records.
+        scorer_names: Names of the scorers that ran, in report order.
 
     Returns:
-        A dict with counts and the mean similarity over successful videos.
+        A dict with counts plus ``mean_<name>`` and ``scored_<name>`` entries
+        for each scorer, averaged over the videos that scorer succeeded on.
     """
-    scored = [r.similarity for r in results if r.status == "success" and r.similarity is not None]
-    return {
+    summary: dict = {
         "total_videos": len(results),
         "successful_videos": sum(1 for r in results if r.status == "success"),
-        "scored_videos": len(scored),
-        "mean_similarity": sum(scored) / len(scored) if scored else None,
     }
+    for name in scorer_names:
+        values = [
+            r.scores.get(name)
+            for r in results
+            if r.status == "success" and r.scores.get(name) is not None
+        ]
+        summary[f"scored_{name}"] = len(values)
+        summary[f"mean_{name}"] = sum(values) / len(values) if values else None
+    return summary
 
 
 def write_json(path: Path, data: dict) -> None:

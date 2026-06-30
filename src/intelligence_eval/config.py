@@ -17,6 +17,16 @@ DEFAULT_PROMPT = (
 # transformers (already a dependency) so no new package is needed.
 DEFAULT_EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
+# NLI cross-encoder for entailment scoring. roberta-large-mnli uses a BPE
+# tokenizer (no sentencepiece) and ships standard MNLI labels.
+DEFAULT_NLI_MODEL = "roberta-large-mnli"
+
+# Encoder backing BERTScore token-matching F1.
+DEFAULT_BERT_MODEL = "bert-base-uncased"
+
+# Chat model used by the rubric LLM judge (routed through vlm_eval.llm).
+DEFAULT_JUDGE_MODEL = "gpt-4o-mini"
+
 
 @dataclass(frozen=True)
 class IntelligenceConfig:
@@ -33,6 +43,10 @@ class IntelligenceConfig:
         sample_size: Cap on evaluated videos (``None`` = all).
         seed: RNG seed for sampling; ``None`` keeps metadata order.
         embedding_model: Sentence-embedding model used to score similarity.
+        nli_model: NLI cross-encoder used for entailment scoring.
+        bert_model: Encoder backing BERTScore.
+        judge_model: Chat model used by the rubric LLM judge.
+        judge_backend: Backend for the judge model (``None`` = auto-detect).
         output_root: Parent directory for run outputs.
         run_id: Explicit run id; ``None`` builds one from model/dataset/time.
     """
@@ -45,5 +59,9 @@ class IntelligenceConfig:
     sample_size: int | None = None
     seed: int | None = None
     embedding_model: str = DEFAULT_EMBEDDING_MODEL
+    nli_model: str = DEFAULT_NLI_MODEL
+    bert_model: str = DEFAULT_BERT_MODEL
+    judge_model: str = DEFAULT_JUDGE_MODEL
+    judge_backend: str | None = None
     output_root: Path = Path("intelligence_runs")
     run_id: str | None = None
