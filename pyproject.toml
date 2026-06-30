@@ -15,9 +15,12 @@ dependencies = [
   "openai>=1.0.0",
   "datasets>=2.14",
   "python-dotenv>=1.0.0",
-  "torch==2.5.1",
-  "torchvision==0.20.1",
-  "torchaudio==2.5.1",
+  "torch==2.5.1; platform_machine == 'x86_64'",
+  "torchvision==0.20.1; platform_machine == 'x86_64'",
+  "torchaudio==2.5.1; platform_machine == 'x86_64'",
+  "torch>=2.7; platform_machine == 'aarch64'",
+  "torchvision>=0.22; platform_machine == 'aarch64'",
+  "torchaudio>=2.7; platform_machine == 'aarch64'",
   "opencv-python-headless>=4.13.0.92",
 ]
 
@@ -40,7 +43,22 @@ name = "pytorch-cu121"
 url = "https://download.pytorch.org/whl/cu121"
 explicit = true
 
+# Grace-Blackwell (Spark, aarch64) needs cu128 sbsa wheels; cu121 has no aarch64 build.
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
 [tool.uv.sources]
-torch = { index = "pytorch-cu121" }
-torchvision = { index = "pytorch-cu121" }
-torchaudio = { index = "pytorch-cu121" }
+torch = [
+  { index = "pytorch-cu121", marker = "platform_machine == 'x86_64'" },
+  { index = "pytorch-cu128", marker = "platform_machine == 'aarch64'" },
+]
+torchvision = [
+  { index = "pytorch-cu121", marker = "platform_machine == 'x86_64'" },
+  { index = "pytorch-cu128", marker = "platform_machine == 'aarch64'" },
+]
+torchaudio = [
+  { index = "pytorch-cu121", marker = "platform_machine == 'x86_64'" },
+  { index = "pytorch-cu128", marker = "platform_machine == 'aarch64'" },
+]
