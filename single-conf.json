@@ -1,0 +1,19 @@
+{
+  "videos": "video.mp4",
+  "limit": null,
+  "model_ids": [
+    "google/gemma-4-E2B-it"
+  ],
+  "num_frames_grid": [
+    8
+  ],
+  "max_new_tokens_grid": [
+    40
+  ],
+  "repeats": 2,
+  "warmup": 2,
+  "output_root": "realtime_runs_tensorrt_test",
+  "prompt": "Detect if any accident happens, if yes, describe the main accident in one concise sentence with 3 to 5 words, otherwise, say everything is normal.",
+  "realtime_threshold": 0.8,
+  "power_sample_interval_sec": 0.1
+}

@@ -37,6 +37,18 @@ def _build_parser() -> argparse.ArgumentParser:
     )
     sweep.add_argument("config", type=Path, help="Path to a JSON sweep config file.")
 
+    sweep_rt = sub.add_parser(
+        "sweep-rt",
+        help="Run the benchmark sweep using the TensorRT-LLM backend.",
+        description=(
+            "Same as 'sweep' but runs generation through TensorRT-LLM and tags "
+            "config.json with backend='tensorrt'. Must run inside NVIDIA's "
+            "TensorRT-LLM container (launch via scripts/run_trt_container.sh); "
+            "the config file format is identical to 'sweep'."
+        ),
+    )
+    sweep_rt.add_argument("config", type=Path, help="Path to a JSON sweep config file.")
+
     single = sub.add_parser(
         "single", help="Run one model on one video to verify the pipeline."
     )
@@ -165,6 +177,23 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "sweep":
         videos, config, limit = _load_sweep_config(args.config)
         run_dir = run_sweep(videos, config, video_limit=limit)
+        print(analyze(run_dir, threshold=config.realtime_threshold))
+        return 0
+
+    if args.command == "sweep-rt":
+        # Lazy import: tensorrt-llm is an optional dep, only needed for this path.
+        try:
+            from realtime_eval.pipeline.sweep_rt import run_sweep_rt
+        except ImportError as exc:
+            print(
+                f"sweep-rt needs the TensorRT-LLM backend: {exc}\n"
+                "It runs inside NVIDIA's TensorRT-LLM container; launch it with "
+                "`scripts/run_trt_container.sh <config>`.",
+                file=sys.stderr,
+            )
+            return 1
+        videos, config, limit = _load_sweep_config(args.config)
+        run_dir = run_sweep_rt(videos, config, video_limit=limit)
         print(analyze(run_dir, threshold=config.realtime_threshold))
         return 0
 

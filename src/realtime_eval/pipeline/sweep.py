@@ -5,6 +5,7 @@ import logging
 import os
 from datetime import datetime
 from pathlib import Path
+from typing import Any, Callable
 
 from dotenv import load_dotenv
 
@@ -98,6 +99,9 @@ def run_sweep(
     videos_root: Path,
     config: SweepConfig,
     video_limit: int | None = None,
+    *,
+    backend: str = "python-transformers",
+    load_model_fn: Callable[..., Any] = load_model,
 ) -> Path:
     """Run the full real-time sweep and write results to a timestamped run dir.
 
@@ -109,6 +113,12 @@ def run_sweep(
         videos_root: Directory of labeled videos (or a single video file).
         config: Sweep grid and timing parameters.
         video_limit: Optional cap on number of videos used.
+        backend: Inference backend label recorded in ``config.json``
+            (``"python-transformers"`` here; the TensorRT-LLM path passes
+            ``"tensorrt"``).
+        load_model_fn: Callable ``(model_id, hf_token=...) -> model`` that
+            returns an object exposing ``generate_from_frames``. Defaults to the
+            HuggingFace loader; the TensorRT-LLM path injects its own.
 
     Returns:
         Path to the created run directory.
@@ -126,6 +136,7 @@ def run_sweep(
     _write_json(
         run_dir / "config.json",
         {
+            "backend": backend,
             "videos_root": str(videos_root),
             "num_videos": len(videos),
             "hardware_name": hardware_name,
@@ -148,7 +159,7 @@ def run_sweep(
     for model_id in config.model_ids:
         logger.info("Loading model: %s", model_id)
         try:
-            model = load_model(model_id, hf_token=hf_token)
+            model = load_model_fn(model_id, hf_token=hf_token)
         except Exception as exc:
             logger.error("Failed to load %s, skipping: %s", model_id, exc)
             continue

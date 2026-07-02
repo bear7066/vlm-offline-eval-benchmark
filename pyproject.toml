@@ -24,6 +24,17 @@ dependencies = [
   "opencv-python-headless>=4.13.0.92",
 ]
 
+[project.optional-dependencies]
+# TensorRT-LLM backend for `realtime-bench sweep-rt`. Declared here to mark it an
+# optional dependency, but it is NOT pip-installable alongside this project: its
+# prebuilt wheels are ABI-locked to NVIDIA's private NGC PyTorch build (no public
+# torch wheel matches). Run sweep-rt inside NVIDIA's TensorRT-LLM container
+# instead -- see `scripts/run_trt_container.sh`. The dependency-metadata stub
+# below keeps `uv lock`/`uv run` solvable despite this entry.
+tensorrt = [
+  "tensorrt-llm==1.2.1; platform_machine == 'aarch64'",
+]
+
 [project.scripts]
 vlm-benchmark = "vlm_eval.cli:benchmark_main"
 vlm-judge = "vlm_eval.cli:judge_main"
@@ -48,6 +59,15 @@ explicit = true
 name = "pytorch-cu128"
 url = "https://download.pytorch.org/whl/cu128"
 explicit = true
+
+# The `tensorrt` extra is never pip-installed here (runs in the NGC container),
+# but it still appears in the universal lock. Declaring empty metadata keeps
+# `uv lock`/`uv run` solvable without uv trying to build tensorrt-llm's PyPI
+# placeholder wheel to read its deps.
+[[tool.uv.dependency-metadata]]
+name = "tensorrt-llm"
+version = "1.2.1"
+requires-dist = []
 
 [tool.uv.sources]
 torch = [

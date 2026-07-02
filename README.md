@@ -57,6 +57,23 @@ uv run realtime-bench analyze runs/<run_id> --threshold 0.8
 
 The sweep config (`sweep-conf.json`) sets `videos`, `model_ids`, `num_frames_grid`, `max_new_tokens_grid`, `repeats`, etc. Omitted fields use defaults.
 
+### TensorRT-LLM backend (`sweep-rt`)
+
+`sweep-rt` runs the same sweep through TensorRT-LLM and tags `config.json` with `backend: "tensorrt"` (the default `sweep` tags `backend: "python-transformers"`); output is otherwise identical. TensorRT-LLM's prebuilt wheels are ABI-locked to NVIDIA's private NGC PyTorch build, so it can't be pip-installed alongside the base project — it runs inside NVIDIA's TensorRT-LLM container:
+
+```bash
+# On GB10 (DGX Spark) use a Spark-specific image; generic release tags lack the
+# sm_121 attention cubins and fail with "Unsupported architecture".
+export TRT_IMAGE=nvcr.io/nvidia/tensorrt-llm/release:spark-single-gpu-dev
+scripts/run_trt_container.sh sweep-conf.json
+```
+
+The script mounts the repo, installs this project (`--no-deps`), and runs `realtime-bench sweep-rt`; input processing (chat template + image preprocessing) is delegated to TensorRT-LLM's own multimodal loader, so it doesn't depend on the container's transformers version. Browse image tags at <https://catalog.ngc.nvidia.com/orgs/nvidia/containers/tensorrt-llm>.
+
+Attention backend defaults to `TRT_ATTN_BACKEND=TRTLLM` (the fused fast path; works on the Spark image). Fall back to `FLASHINFER`, or `VANILLA` (pure-torch, slower, arch-independent) on a container that lacks trtllm-gen kernels for your GPU. If the input loader can't infer the model type, set `TRT_MODEL_TYPE` (e.g. `gemma3`).
+
+The image must be new enough for your model on three axes at once: **GB10 attention kernels** (Spark image), the model's architecture in **TensorRT-LLM's modeling**, and the model's architecture in the container's **transformers** (e.g. `google/gemma-4-*` needs `transformers>=5.5.0` — the checkpoint was saved with 5.5.0.dev0). If only the transformers version is behind, patch it in-container without editing the image: `TRT_PIP_INSTALL="transformers>=5.5" scripts/run_trt_container.sh ...`.
+
 ## `intelligence_eval` — semantic similarity vs. Sora prompts
 
 Scores a model's video description against the prompt that generated the clip on the [Sora accidents dataset](sora-accidents-dataset.md). Defaults to the HuggingFace dataset `gnitoahc/sora-accidents-copy`.
